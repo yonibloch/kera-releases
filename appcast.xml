@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.10.4.2 — Settings polish + language-detection default-on</title>
+            <pubDate>Sun, 26 Apr 2026 15:35:00 +0000</pubDate>
+            <sparkle:version>0.10.4.2</sparkle:version>
+            <sparkle:shortVersionString>0.10.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Settings UI consistency + language-detection default-on</h3>
+                <p>v0.10.4 introduced the chrome system but left four <code>.pickerStyle(.segmented)</code> controls inside Settings still painting in system blue. This patch migrates all four to the canonical <code>KeraSegmented</code> component (matching the Library and Speakers Library filter pills): Engine (Local / Soniox), Speaker separation (Local / Cloud), AI Naming Provider (OpenAI / Anthropic), Theme (System / Light / Dark).</p>
+                <p>SwiftUI <code>.tint(Color.kerInk)</code> propagates from the Settings root, flipping every Toggle's on-state from system blue to ink. Belt-and-suspenders alongside the explicit segmented migrations.</p>
+                <p><strong>Language detection now defaults to ON for new installs.</strong> Previously read via <code>UserDefaults.standard.bool(forKey:)</code> which conflates "off" with "unset" — Hebrew transcripts on a default-English model were noticeably worse. Existing users who explicitly turned it off keep that choice.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.10.4.2/Kera-v0.10.4.2.dmg"
+                length="8177761"
+                type="application/octet-stream"
+                sparkle:edSignature="V1HZcBTvf6O0JbCojgBdehR6lFr+0Iee6jeNDauSWRlJBYJ5o/mwGJfGTMT2087nhmJgQaw6g8dqZqsd7+GnDg==" />
+        </item>
+        <item>
             <title>Version 0.10.4.1 — Transcript window hotfix</title>
             <pubDate>Sun, 26 Apr 2026 14:48:00 +0000</pubDate>
             <sparkle:version>0.10.4.1</sparkle:version>
