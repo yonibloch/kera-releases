@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.10.4.1 — Transcript window hotfix</title>
+            <pubDate>Sun, 26 Apr 2026 14:48:00 +0000</pubDate>
+            <sparkle:version>0.10.4.1</sparkle:version>
+            <sparkle:shortVersionString>0.10.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Hotfix: transcript window opens at the right size</h3>
+                <p>v0.10.4 shipped with a regression: opening any non-trivial transcript produced a window much taller than the screen, hiding the resize handle. The clamp from the prior fix wasn't actually doing anything — <code>NSHostingView</code>'s default <code>sizingOptions</code> propagated SwiftUI's full preferred height up to the window after the explicit <code>setContentSize</code> call had already run.</p>
+                <p>Two-line fix: clear <code>sizingOptions</code> on the hosting view so SwiftUI's preferred size never propagates back; set <code>contentMaxSize</code> as an upper auto-resize bound the user can still drag past via the resize handle.</p>
+                <p>Verified: a transcript that previously reported 880×3725 on a 1512×982 display now opens at exactly 880×720.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.10.4.1/Kera-v0.10.4.1.dmg"
+                length="8185100"
+                type="application/octet-stream"
+                sparkle:edSignature="gAd/nddL/OPwOzX3hxWwy0qHTd5HDoOqcFhLjdF26fMqp4XwvyCaWZBkOx84TG0dtXF9WYTJCM5+OucoL/OiDA==" />
+        </item>
+        <item>
             <title>Version 0.10.4 — Window chrome system</title>
             <pubDate>Sun, 26 Apr 2026 13:43:41 +0000</pubDate>
             <sparkle:version>0.10.4</sparkle:version>
