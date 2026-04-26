@@ -6,6 +6,40 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.10.5 — Local Me/Them + BleedFilter word-overlap fix</title>
+            <pubDate>Sun, 26 Apr 2026 21:17:24 +0000</pubDate>
+            <sparkle:version>0.10.5</sparkle:version>
+            <sparkle:shortVersionString>0.10.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Local Me/Them — WhisperKit-backed, no Soniox required</h3>
+                <p>Me/Them mode (the Me-vs-everyone-else two-bucket transcript) used to require a Soniox API key. v0.10.5 ships a local Me/Them pipeline that runs natively on WhisperKit — pick <strong>Local + Me / Them</strong> in the re-process popover and the worker dispatches to the new dual-stream local pipeline.</p>
+                <ul>
+                  <li>Two sequential WhisperKit transcribes on mic + system, plus per-stream language detection with a 10s duration gate (a noisy short mic stream can't override the meeting language).</li>
+                  <li>Heartbeat status during transcribe — <code>"Transcribing microphone (1:30)…"</code> ticks every 15s instead of a frozen string.</li>
+                  <li>Calendar attendees drive the "Me + N others" header; degrades cleanly to "Me + others" when no calendar match.</li>
+                  <li>Watchdog raised to 6× audio duration for the local Me/Them path (was 3× for full-diar local).</li>
+                </ul>
+                <h3>BleedFilter: word-overlap replaces temporal overlap</h3>
+                <p>The previous bleed detection (Detection B) discarded mic activity with &gt;50% temporal overlap with system speech, regardless of text. On Whisper's coarse 10–30s segments, that meant any user interjection during continuous remote speech got dropped as "bleed" — even when the user said something completely different.</p>
+                <p>The new rule asks the semantically correct question: <em>did the mic capture the same words the system was playing?</em> — by computing a lowercased token-set overlap. True echo (high word overlap) still discards. Distinct parallel speech now survives.</p>
+                <ul>
+                  <li><strong>Real-audio validation:</strong> on a 13-minute Hebrew call, ~26% of "Me" segments survive that would have been silently discarded under the old rule.</li>
+                  <li>Affects both backends — Soniox path got the same fix incidentally. The blindspot existed before but was usually masked by Soniox's &gt;0.8s silence-gap cut rule.</li>
+                  <li>Detection A (text-equality within ±5s) is unchanged — true echo still caught.</li>
+                </ul>
+                <h3>Other fixes</h3>
+                <ul>
+                  <li><strong>Settings sidebar</strong> — "AI Naming &amp; Summaries" no longer wraps to a 3-line widow; ampersand glued to "Naming" via non-breaking space.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.10.5/Kera-v0.10.5.dmg"
+                length="8188975"
+                type="application/octet-stream"
+                sparkle:edSignature="KLbQqhi9il/A9x5YiP8oB+hppMujhR/VsGKmD/K+h5YlHshq56gPL1+sM6l3aeG52RfMLQifLk+/j/hwD5RRBA==" />
+        </item>
+        <item>
             <title>Version 0.10.4.2 — Settings polish + language-detection default-on</title>
             <pubDate>Sun, 26 Apr 2026 15:35:00 +0000</pubDate>
             <sparkle:version>0.10.4.2</sparkle:version>
