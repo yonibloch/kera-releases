@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Kera</title>
+        <link>https://github.com/yonibloch/kera-releases/raw/main/appcast.xml</link>
+        <description>Most recent updates to Kera.</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.10.4 — Window chrome system</title>
+            <pubDate>Sun, 26 Apr 2026 13:43:41 +0000</pubDate>
+            <sparkle:version>0.10.4</sparkle:version>
+            <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Kera Identity v3 — window chrome system</h3>
+                <p>Every Kera window now reads as a single document: paper ground everywhere, centered floating titles, hairline structure, 8% ink wash for selection. Light and dark both supported.</p>
+                <ul>
+                    <li><strong>All 6 windows unified</strong> — Settings, Activity Log, Permissions Setup, Library, Speakers Library, Speaker Editor, Transcript Reader. Transparent titlebar, paper bleeds up, centered title floats on the new chrome band.</li>
+                    <li><strong>"Library"</strong> — Meeting Library renamed to "Library" per the design handoff. The "Import audio" button now lives in the SwiftUI title row instead of a separate AppKit titlebar accessory.</li>
+                    <li><strong>Filter chips, unified</strong> — Library and Speakers Library filter pills now share the same KeraSegmented control. Selected pills paint with kerInk; counts visible with monospaced digits.</li>
+                    <li><strong>Selection wash</strong> — list-row selection uses kerInk @ 8% across Settings, Speakers Library, and Speaker Editor.</li>
+                    <li><strong>Hairlines, not borders</strong> — every structural rule normalized to 0.5pt kerHair.</li>
+                </ul>
+                <h3>Other fixes</h3>
+                <ul>
+                    <li><strong>"Auto-name with AI" → "AI Naming & Summaries"</strong> — toggle label now reflects that the setting also gates v0.10.3's library AI summaries, not just auto-naming.</li>
+                    <li><strong>Transcript window sizing</strong> — clamped initial frame to screen so transcripts no longer open larger than the display; cascade offset preserved.</li>
+                </ul>
+                <p><em>Plan rivaled across 20 rounds (converged at 2 consecutive clean rounds); code rivaled across 1 round, catching 4 layout/contract bugs the plan-level review hadn't seen.</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.10.4/Kera-v0.10.4.dmg"
+                length="8185014"
+                type="application/octet-stream"
+                sparkle:edSignature="MQ8TR/v8F8Qm4AawxI39ruPrG0L1lKWmR+sGqd8bIbcJlfZibj6FNIStFCowJLlVpef2R0nkGxm3kYC2QOW2DQ==" />
+        </item>
+    </channel>
+</rss>
