@@ -6,6 +6,34 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12 — Backfill flow + word-level highlighting on local + Hebrew detect fix</title>
+            <pubDate>Mon, 27 Apr 2026 21:53:59 +0000</pubDate>
+            <sparkle:version>0.12</sparkle:version>
+            <sparkle:shortVersionString>0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Backfill Flow — bulk-summarize past meetings</h3>
+                <p>Enable AI Naming with a backlog of un-summarized meetings? You'll see a banner in Settings → AI Naming offering to "Summarize all" past meetings. The flow:</p>
+                <ul>
+                  <li><strong>Banner</strong> in Settings → AI Naming when un-summarized count &gt; 0. "Not now" dismisses; resurfaces when count grows by 10+ past dismissal.</li>
+                  <li><strong>Confirm modal</strong> with a live cost estimate (tokens × your provider's pricing). Disabled until the estimate loads.</li>
+                  <li><strong>Ambient progress</strong> — chip in Settings + footer strip in Library while the bulk runner walks the un-summarized set, 4-wide concurrent.</li>
+                  <li><strong>End-of-batch toast</strong>: "All caught up." (clean, auto-dismiss 6s) or "Retry failed / Show failed" (partial, manual dismiss). "Show failed" activates a Library filter.</li>
+                </ul>
+                <h3>Word-level highlighting on the local engine</h3>
+                <p>WhisperKit-transcribed sessions now carry per-word timing data through to the Transcript Reader, so the active word highlights as audio plays — no more linear interpolation across whole segments. Click anywhere in the transcript to seek to that exact word. The "Word-level sync available" banner stops firing on new local recordings (it only appears now on older sessions that predate this fix).</p>
+                <p>Diarization on the local engine also benefits: <code>BleedFilter</code>'s per-token speaker-assignment path activates, so when two speakers share a Whisper segment, each word goes to whichever speaker the diarizer says is active at that word's start time — replacing the previous winner-take-all overlap voting.</p>
+                <h3>Hebrew language detection: now returns the right default</h3>
+                <p><code>detectLanguage</code> was returning <code>("en", 0)</code> on all-Hebrew audio — a meaningless default that runtime had been quietly papering over via the <code>fraction &gt; 0.5</code> gate. Now correctly returns <code>("he", 0)</code> on every short-circuit path (model load failure, audio &lt; 10s, no voiced windows above the RMS threshold, any thrown error).</p>
+                <p>Bundles all of v0.10.5 (Local Me/Them + BleedFilter word-overlap rewrite) and v0.11 (AI Naming sidebar truncation) for users on auto-update jumping straight from v0.10.4.x → v0.12. 445 tests passing.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12/Kera-v0.12.dmg"
+                length="7631252"
+                type="application/octet-stream"
+                sparkle:edSignature="Yz9AABPVUUI1+lnzvbhUNZAsxwSlEAsX6gDc6WeU5jH40DcjOBCyOFT/V2UHtozM9U91BDJphrLHoV3lyljLAg==" />
+        </item>
+        <item>
             <title>Version 0.11 — Local Me/Them + BleedFilter word-overlap + sidebar fix</title>
             <pubDate>Sun, 26 Apr 2026 21:30:00 +0000</pubDate>
             <sparkle:version>0.11</sparkle:version>
