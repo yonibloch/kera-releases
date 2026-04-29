@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.1 — Speaker Editor rename now names the meeting</title>
+            <pubDate>Wed, 29 Apr 2026 12:22:58 +0000</pubDate>
+            <sparkle:version>0.12.1</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <p>If a recording finalized without a meeting name (calendar lookup missed, AI title generator failed, all remote speakers collapsed to the fallback), the Speaker Editor previously couldn't repair it. Labeling SPEAKER_01 as "Uri Vardi" updated the transcript but left the meeting nameless and the folder slug raw.</p>
+                <p>This release closes that gap. When you label an unknown speaker:</p>
+                <ul>
+                  <li><strong>Empty meeting_name → composed from scratch.</strong> "Call with Uri Vardi", or "Call with Uri Vardi (Sprint Planning)" if a calendar title exists, or "Call with Uri Vardi (My AI Title)" when the LLM-generated title was stored in <code>ai_title</code>.</li>
+                  <li><strong>Distinct second rename extends the name.</strong> Label SPEAKER_01 → Alice, then SPEAKER_02 → Bob → "Call with Alice, Bob". The second label was silently no-op'ing before.</li>
+                  <li><strong>Stale auto-names are cleared.</strong> Mark the last remote speaker as non-speech with no calendar/AI title → meeting goes back to nameless rather than freezing on the now-incorrect "Call with Alice".</li>
+                  <li><strong>AI-generated parentheticals survive renames.</strong> Previously a rename silently dropped the <code>(My AI Title)</code> suffix.</li>
+                  <li><strong>Manual free-text titles are protected.</strong> "Call with my dentist" is preserved by the strict pre-edit canonical match — only auto-composed names get rewritten.</li>
+                </ul>
+                <p>Folder slug on disk still doesn't auto-update — that needs a system-wide URL invalidation notification (deferred to a future release). 14 new tests, 465 total.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.1/Kera-v0.12.1.dmg"
+                length="7622457"
+                type="application/octet-stream"
+                sparkle:edSignature="UMyvRgch8bVQ5prGZgzA85hGHvfkNlNin4L5WbeKj7hXfzLMwYANqkBdxKEW1Q6aKErIQzECpNaP1R1I859yAg==" />
+        </item>
+        <item>
             <title>Version 0.12 — Backfill flow + word-level highlighting on local + Hebrew detect fix</title>
             <pubDate>Mon, 27 Apr 2026 21:53:59 +0000</pubDate>
             <sparkle:version>0.12</sparkle:version>
