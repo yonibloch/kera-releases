@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.3 — Stop the orphan-salvage scanner from deleting crashed recordings</title>
+            <pubDate>Thu, 30 Apr 2026 18:21:12 +0000</pubDate>
+            <sparkle:version>0.12.3</sparkle:version>
+            <sparkle:shortVersionString>0.12.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Critical data-loss hotfix on top of 0.12.2</h3>
+                <p>The orphan-session scanner that runs at every launch — the mechanism designed to recover recordings from crashes — was itself <em>deleting</em> crashed recordings. The trigger is exact: a <code>SIGABRT</code> crash leaves <code>mic.wav</code> with an unfinalized RIFF/data-chunk-size header (Swift's <code>dealloc</code> never runs to patch them). On next launch, <code>OrphanSessionSalvage</code> called <code>AVAudioFile(forReading:)</code>, got <code>length=0</code> back, the <code>if dur &lt; 5</code> auto-remove guard fired, and the entire session dir was silently <code>removeItem</code>'d.</p>
+                <p>If 0.12.2 fixed the crash you were seeing on Zoom disconnect — but you launched 0.12.2 with a crashed recording from 0.12.1 still on disk — that recording was destroyed by 0.12.2's launch sequence. <strong>This release fixes that.</strong></p>
+                <p>Two independent guards now sit between the scanner and your data:</p>
+                <ul>
+                    <li><strong>Duration estimate falls back to file size.</strong> All Kera mic recordings are 16 kHz mono Int16 = 32,000 bytes/sec. When <code>AVAudioFile</code> can't read the unfinalized header, the byte-count estimate kicks in and yields a real duration. A 56-min recording reports as ~3358s instead of 0s.</li>
+                    <li><strong>Hard size guard on the auto-remove path.</strong> The scanner refuses to delete any file larger than ~200 KB regardless of computed duration. If the duration math ever regresses again, the size gate alone keeps the data on disk so the orphan banner can surface it.</li>
+                </ul>
+                <p>Two regression tests pin the new behavior — one with the exact SIGABRT-truncated WAV shape (RIFF size 0, data chunk size 0), one with a malformed-header large file as belt-and-braces.</p>
+                <p><em>If you've already lost a recording to this bug, this release does not bring it back. The file was unlinked, not Trashed, and won't survive without an external backup. Sorry.</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.3/Kera-v0.12.3.dmg"
+                length="7642956"
+                type="application/octet-stream"
+                sparkle:edSignature="2ny4dMvzaScj0RXfEYvxMESTZKmGTGLY6p1Mae6peWARAXh0fMT/Z0Quci6S8OcrnqfqelNqcnWNLbn5sd3qDA==" />
+        </item>
+        <item>
             <title>Version 0.12.2 — Mic capture crash hotfix (Zoom disconnect)</title>
             <pubDate>Thu, 30 Apr 2026 16:15:10 +0000</pubDate>
             <sparkle:version>0.12.2</sparkle:version>
