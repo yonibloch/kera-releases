@@ -6,6 +6,31 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.2 — Mic capture crash hotfix (Zoom disconnect)</title>
+            <pubDate>Thu, 30 Apr 2026 16:15:10 +0000</pubDate>
+            <sparkle:version>0.12.2</sparkle:version>
+            <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Hotfix: app no longer aborts when an audio session ends mid-recording</h3>
+                <p>If you were recording while a Zoom call (or any process holding the audio device — Meet, FaceTime, AirPods reconnect, USB mic unplug) released its grip, Kera could die with <code>SIGABRT</code> and lose the in-flight recording. <code>AVAudioEngine</code> was throwing an Objective-C <code>NSException</code> from <code>installTap</code> during the route-flux rebuild, and Swift can't catch ObjC exceptions — so the throw became a hard process abort.</p>
+                <p>The rebuild path now passes <code>format: nil</code> to <code>installTap</code>, which lets <code>AVAudioEngine</code> introspect the bus state itself at install time and pick a self-consistent format. By construction, the format-mismatch race that caused the crash can't fire on this path. Apple-documented safe form for the API.</p>
+                <p>If you have a recording that was lost to this crash on 0.12.1, the existing v0.9.49 orphan-session banner picks it up automatically on next launch — click <strong>Process</strong> to recover the audio that survived (mic.wav writes incrementally to disk; SIGABRT doesn't roll those writes back).</p>
+                <h3>Behind the scenes</h3>
+                <ul>
+                    <li><strong>Test isolation for the keychain.</strong> <code>swift test</code> can no longer write to your real login keychain — a structural seam (in-memory provider auto-selected when XCTest is loaded) plus a fail-closed guard on every keychain-touching test. Closes the historical bug where the backfill test suite was overwriting the user's real Anthropic API key on every test run.</li>
+                    <li><strong>Defensive empty-write guard.</strong> <code>KeychainHelper.set</code> with an empty value now logs a notice and refuses to write — protects against any future code path that could silently blank an API key. Use <code>delete(service:)</code> to intentionally clear.</li>
+                    <li><strong>CI on every push.</strong> A GitHub Actions workflow now runs <code>swift test</code> on every push to main and every PR. 476 tests, ~30-60s per run with cache.</li>
+                </ul>
+                <p>The deeper hardening of the audio path — small ObjC <code>@try</code>/<code>@catch</code> bridge so any residual <code>AVFoundation</code> exception funnels into the existing <code>markBroken()</code> path instead of aborting, plus tighter format pre-validation — is planned for a follow-up release. This hotfix addresses the known crash trigger; the bridge is belt-and-braces against unknown future variants.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.2/Kera-v0.12.2.dmg"
+                length="7640121"
+                type="application/octet-stream"
+                sparkle:edSignature="5ssKkfhj6hrPOBJIFe6LtpXxPRGLq0wrEEHVlEbIlAV38tyMif2Tn06QPyDUJdVkDHTN+KanNxcwFyzcKaW8Dg==" />
+        </item>
+        <item>
             <title>Version 0.12.1 — Speaker Editor rename now names the meeting</title>
             <pubDate>Wed, 29 Apr 2026 12:22:58 +0000</pubDate>
             <sparkle:version>0.12.1</sparkle:version>
