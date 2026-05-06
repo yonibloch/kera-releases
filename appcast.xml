@@ -6,6 +6,254 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.4</title>
+            <pubDate>Wed, 06 May 2026 17:39:41 +0000</pubDate>
+            <sparkle:version>0.12.4</sparkle:version>
+            <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>cut.sh: 1 fix from /ultra round 6 (notes cleanup on resume)</li>
+<li>cut.sh: 4 fixes from /ultra round 5 (OpenAI's late catches)</li>
+<li>cut.sh + runbook: 5 fixes from /ultra round 4</li>
+<li>cut.sh + runbook: 6 fixes from /ultra round 3</li>
+<li>cut.sh + runbook: 7 fixes from /ultra round 2</li>
+<li>cut.sh + runbook: 11 fixes from /ultra round 1</li>
+<li>cut.sh: 6 fixes from rival review</li>
+<li>Add scripts/cut.sh + Mac mini build host runbook</li>
+<li>fix(hook+clipboard): accurate log messages + scope sleep-safe stale-lock</li>
+<li>fix(hook): guard pgrep check after wait loop before launching new Kera</li>
+<li>fix(hook+clipboard): fix lock-steal race regression, add 30-min stale timeout, trim whitespace</li>
+<li>fix(hook): fix 0-byte pid race, add pgrep wait loop before relaunch</li>
+<li>fix(hook+clipboard): fix POSIX $$ PID bug, harden mkdir failure, return setString result</li>
+<li>fix(hook): fix mktemp suffix bug, add mkdir-p and stale-lock recovery; guard empty transcript</li>
+<li>docs(hook): update README to match mktemp log naming and lockdir behavior</li>
+<li>fix(hook+clipboard): harden post-merge hook and extract shared transcript clipboard helper</li>
+<li>feat(menu-bar): add Copy Transcript to right-click context menu</li>
+<li>hooks: track post-merge in .githooks/ + fully detach background build</li>
+<li>fix(cancel): update meta.backend when retranscription cancel arrives post-commit</li>
+<li>fix(cancel): three more from ultra round 4</li>
+<li>fix(cancel): three more edge cases from ultra round 3</li>
+<li>fix(cancel): harden four edge cases found in rival ultra review</li>
+<li>fix(cancel): remove eager cancelAll cleanup race + guard retranscribing cancel path</li>
+<li>fix(cancel): restore watchdog-benign CancellationError path; track currentJob</li>
+<li>fix(cancel): set isProcessing=true synchronously; guard completed sessions</li>
+<li>fix(cancel): prevent zombie resume + harden cancellation error handling</li>
+<li>test(cancel): add TranscriptionCancellationTests (9 tests A–I)</li>
+<li>feat(cancel): wire Cancel button through MenuBar UI + AppDelegate</li>
+<li>feat(cancel): add cancelAll() to TranscriptionWorker + Soniox cleanup</li>
+<li>fix(reprocess-popover): Mode picker no longer dismisses the panel</li>
+<li>fix(orphan-salvage): refuse to silently delete crash-truncated WAVs</li>
+<li>fix(mic-capture): pass format: nil to rebuild installTap (stop SIGABRT)</li>
+<li>fix(detector): explicit Optional<Bool> patterns for older-Swift CI compat</li>
+<li>ci(tests): add SwiftPM build+test workflow on push/PR</li>
+<li>fix(keychain): refuse empty writes + log every set/delete; ROADMAP note</li>
+<li>feat(library): surface failed AI summaries in row (⚠ indicator)</li>
+<li>polish(display): tighten humanFallbackTitle parser + format</li>
+<li>fix(display): show human-readable date title for untitled sessions</li>
+<li>fix(ui): make Reprocess… trigger button hit area cover full chrome</li>
+<li>fix(ui): make Run button hit area cover full chrome in Reprocess popover</li>
+<li>fix(about): rival round-1 — waveform fallback + accessibilityHidden</li>
+<li>feat(about): show real app icon instead of SF Symbol placeholder</li>
+<li>chore(handoff-dmg): track package manifests; gitignore node_modules</li>
+<li>docs(architecture): note planned SQLite cache layer beside flat files</li>
+<li>fix(keychain): test-isolation seam — tests can't touch real keychain anymore</li>
+<li>chore: bump version to 0.12.1</li>
+<li>fix(speaker-editor): preserve ai_title, drop stale names, harden auto-detect</li>
+<li>fix(speaker-editor): auto-composed name extends with distinct second rename</li>
+<li>test(speaker-editor): cover meeting_name compose-from-scratch (A–H)</li>
+<li>fix(speaker-editor): compose meeting_name on edit when previously empty</li>
+<li>docs(readme): centered hero with logo, point downloads to kera-releases</li>
+<li>docs(ux-audit): fix probe.md path ref → __WORKSPACE/yonios-tools/docs/probe.md</li>
+<li>fix(summary): guard ai_summary rewrite against sentinel labels from remove/markAsNonSpeech</li>
+<li>fix(summary): propagate speaker renames into ai_summary on rewriteTranscriptAndMeta</li>
+<li>docs: ROADMAP — v0.12 entry + park source-separation idea</li>
+<li>chore: bump version to 0.12</li>
+<li>feat(whisperkit): plumb word-level timings through to BleedFilter</li>
+<li>docs(backfill): sync spec to landed implementation (rev 8)</li>
+<li>fix(backfill): /ultra round 7 — exhaustive provider switch + clear filter before View</li>
+<li>fix(backfill): /ultra round 6 — clarify .clean(count:0) edge case in doc</li>
+<li>fix(backfill): /ultra round 5 — sync stale doc comments to .partial behavior</li>
+<li>fix(backfill): /ultra round 4 — correct footer button copy</li>
+<li>fix(backfill): /ultra round 3 — cancel pre-.generating, partial for all-empty, inFlight seeding</li>
+<li>fix(backfill): /ultra round 2 — cancellation guards + consistent progress totals + retry disable</li>
+<li>fix(backfill): /ultra round 1 — 6 correctness fixes</li>
+<li>fix(backfill): polish copy gaps — banner/modal/chip/toast/footer text</li>
+<li>feat(backfill): Commit 4 — Library footer/toast + failed filter + docs</li>
+<li>feat(backfill): Commit 3 — KeraConfirmModal + Settings banner/chip + injection</li>
+<li>feat(backfill): Commit 2 — BulkSummaryRunner + coordinator wiring + quit handling</li>
+<li>feat(backfill): Commit 1 — model layer: types + cost estimator + coordinator skeleton + settings</li>
+<li>fix(popover): animate footer strip in/out when modelStatus or pendingTranscriptions changes</li>
+<li>fix(transcription): clear heartbeat modelStatus after Me/Them local pipeline</li>
+<li>fix(handoff-dmg): clearer errors for version fallback and icon positioning</li>
+<li>fix(handoff-dmg): assert CDN link was actually patched out</li>
+<li>fix(handoff-dmg): await document.fonts.ready before screenshot</li>
+<li>fix(handoff-dmg): embed IBM Plex fonts locally, remove CDN dependency</li>
+<li>fix(handoff-dmg): decouple @2x requirement, remove dead README icon ref</li>
+<li>fix(handoff-dmg): harden SSH check, document CDN font risk, clean README</li>
+<li>fix(handoff-dmg): use puppeteer-core correctly in export.sh</li>
+<li>feat: wire handoff-dmg background into DMG build pipeline</li>
+<li>docs: backfill flow stub plan + designer handoff</li>
+<li>docs: ROADMAP — detectLanguage fix on main, pending next release</li>
+<li>fix(whisperkit): detectLanguage returns ("he", 0) on all-Hebrew audio</li>
+<li>docs: ROADMAP — v0.11 entry (AI Naming sidebar fix on top of v0.10.5)</li>
+<li>chore: bump version to 0.11</li>
+<li>docs: ROADMAP — queue 8b93db8 as v0.10.5.1 hotfix candidate</li>
+<li>docs: ROADMAP — v0.10.5 entry (Local Me/Them + BleedFilter rewrite)</li>
+<li>fix(settings): fix sidebar label truncation by replacing Spacer with frame(maxWidth:.infinity)</li>
+<li>chore: bump version to 0.10.5</li>
+<li>tests: standalone replay of local Me/Them on real recordings</li>
+<li>Local Me/Them: dispatch helper extraction + uniqueness tests</li>
+<li>TranscriptionWorker: WhisperKit-backed Me/Them pipeline</li>
+<li>ReprocessRegistry: add (.local, .meAndThem) as a supported variant</li>
+<li>BleedFilter: word-overlap bleed detection (replaces temporal overlap)</li>
+<li>docs: local-me-them plan (rev 4, rival-reviewed)</li>
+<li>fix(settings): top-align icon+badge and cap sidebar label at 2 lines</li>
+<li>fix(settings): prevent ampersand widow in sidebar labels</li>
+<li>chore: retire yonibloch/mini-granola-releases — drop from authorization list</li>
+<li>chore: update repo URL after GitHub rename mini-granola-swift → kera</li>
+<li>chore: post-rebrand cleanup — remove residual Mini-Granola references</li>
+<li>docs: archive v0.10.4 window-chrome-system plan + rival history</li>
+<li>feat(settings): KeraSegmented for all 4 pickers + kerInk tint propagation; bump 0.10.4.2</li>
+<li>fix(settings): language detection defaults to ON for new installs</li>
+<li>chore: bump version to 0.10.4.1 (transcript-window hotfix)</li>
+<li>fix(reader): actually clamp transcript window — disable NSHostingView size propagation</li>
+<li>docs: ROADMAP + README — v0.10.4 window chrome system</li>
+<li>init bug log</li>
+<li>chore: bump version to 0.10.4</li>
+<li>fix(window-chrome): commit 5 — /rival review fixes (4 bugs + 1 polish)</li>
+<li>feat(window-chrome): commit 4 — hairline normalization (Divider audit + Bucket B)</li>
+<li>feat(window-chrome): commit 3 — KeraSegmented + system-color sweep</li>
+<li>feat(window-chrome): commit 2 — KeraRowSelectionStyle + selection wash audit</li>
+<li>feat(window-chrome): commit 1 — applyKeraChrome + KeraTitle + KeraDivider + flip 6 windows</li>
+<li>fix(settings): rename "Auto-name with AI" to reflect summary gating</li>
+<li>fix(reader): clamp transcript window to screen + fix cascade offset</li>
+<li>feat(library-ai-summaries): commit 4 — UI: SummaryLine + SummarySection + search + docs</li>
+<li>feat(library-ai-summaries): commit 3 — worker hook + in-flight tracking</li>
+<li>feat(library-ai-summaries): commit 2 — LLMSummaryGenerator + transcript loader</li>
+<li>feat(library-ai-summaries): commit 1 — model layer (additive Codable)</li>
+<li>fix(menubar): right-click menu uses the new structured Reprocess flow</li>
+<li>chore: post-rebrand sweep — drop Mini-Granola leftovers, ready for sharing</li>
+<li>chore(theme): sweep raw SwiftUI colors → Kera tokens</li>
+<li>fix(reprocess): make cache state visible per-mode in the popover</li>
+<li>feat(reprocess): step 6 — ReprocessPopover UI behind KeraReprocessPopoverEnabled</li>
+<li>feat(reprocess): step 5 — worker.activateArtifact (11-step Switch lifecycle)</li>
+<li>feat(reprocess): step 4 — worker.cacheCurrentVariant + ReprocessArtifact</li>
+<li>feat(reprocess): step 3 — ReprocessRegistry (pure types + per-session gating)</li>
+<li>fix(kera): migration loop + reprocess-cache prep (Codable + failSession restore)</li>
+<li>feat(kera): drop in designer's hand-traced spiral assets (K-003 receipt)</li>
+<li>feat(kera): dark mode — Editorial Night palette + appearance resolver</li>
+<li>chore(kera): migrate inverted-token foregrounds to ker tokens</li>
+<li>feat(kera): icons — spiral menubar glyph + Kera AppIcon.icns</li>
+<li>feat(kera): commit 8/8 — point Sparkle at yonibloch/kera-releases</li>
+<li>feat(kera): commit 7/8 — rename Mini-Granola → Kera (bundle, executable, paths, data migration)</li>
+<li>feat(kera): commit 6/8 — drop dead mg* tokens and dynamic() helper</li>
+<li>feat(kera): commit 5/8 — sweep every UI surface onto Kera tokens</li>
+<li>feat(kera): commit 4/8 — menubar popover redesigned to Plate 06</li>
+<li>feat(kera): commit 3/8 — Kera color tokens (paper, ink, ink-red)</li>
+<li>feat(kera): commit 2/8 — bundle IBM Plex fonts + Kera font helpers</li>
+<li>feat(kera): commit 1/8 — force light appearance, remove dark mode</li>
+<li>fix(ux): UX cleanup round 2 — polish + discoverability</li>
+<li>fix(ux): v0.9.52 — UX cleanup round 1 (probe-audit findings)</li>
+<li>feat(dev): v0.9.51 — Dev mode toggle for UI automation</li>
+<li>chore(release): v0.9.50 — custom vocabulary</li>
+<li>feat(vocab): custom vocabulary field threaded to Soniox, WhisperKit, LLM</li>
+<li>docs: architecture map (module graph + runtime flow diagrams)</li>
+<li>docs: project CLAUDE.md with release workflow + main-push authorization</li>
+<li>docs(roadmap): v0.9.47 → v0.9.49 shipped</li>
+<li>feat(storage): auto-salvage orphan sessions with Process/Ignore/Remove</li>
+<li>fix(notifications): mode-aware HUD + notification body copy</li>
+<li>fix(library): restore pill chrome on Re-process menu button</li>
+<li>feat(ui): No diarization chrome + checkmark re-process menu</li>
+<li>feat(transcription): no-diar early-exit in full-diar branch</li>
+<li>feat(transcription): add .noDiarization mode + settings radio</li>
+<li>fix(storage): surface decode errors + systemAudioActive optional</li>
+<li>fix(reader): suppress Me/Them offer on mic-only sessions</li>
+<li>feat(reader): word-sync upgrade banner for local sessions via Soniox</li>
+<li>fix(me-them): gate Re-process as Me/Them on dual-stream sessions only</li>
+<li>docs(roadmap): v0.9.34 → v0.9.46 shipped + Me/Them banner TODO</li>
+<li>fix(me-them): actually flip re-process button into pending state on click</li>
+<li>fix(me-them): in-flight button state + idempotent retranscribe + no-unknowns in Me/Them</li>
+<li>feat(me-them): auto-upgrade local→Soniox when re-processing as Me/Them</li>
+<li>fix(me-them): refuse Me/Them on local sessions instead of breaking them</li>
+<li>feat(library): mode-flip button + right-click menu on Meeting Library rows</li>
+<li>chore: bump version to 0.9.46</li>
+<li>feat(transcription): Me/Them pipeline + 1:1 guard + finalize notification</li>
+<li>feat(ui): Me+N header + [Me/Them] pill + offer banner + retranscribe skeleton + 1:1 footer + recording chrome</li>
+<li>feat(ui-guards): block Speaker Editor entry points for Me/Them sessions</li>
+<li>feat(meta): SessionMetadata Me/Them fields + error persistence + job mode fields</li>
+<li>feat(settings): TranscriptionMode enum + outcome-led radio + don't-ask-again</li>
+<li>fix(calendar): filter declined/tentative + displayName fallback for dial-ins</li>
+<li>fix(bleed-filter): preserve words + shift system WordTiming by syncOffsetMs</li>
+<li>refactor(session-store): SessionMetaUpdate struct + explicit-clear semantics</li>
+<li>fix(speaker-editor): play sample from best turn, not firstAtSec (v0.9.45)</li>
+<li>fix(transcript): align timestamps with audio end-to-end (v0.9.44)</li>
+<li>fix(retranscribe): preserve original diarization backend on re-process</li>
+<li>feat(matcher): Stage A' + Stage A from speaker-id handoff</li>
+<li>fix(library): collapse durable-isMe profile name into "Me" in participant lists</li>
+<li>feat(voice-store): enroll Me (Stages 0+1a+1b)</li>
+<li>docs: open project "cracking diarization at scale"</li>
+<li>feat(library): per-session confirm-and-dismiss for attribution warnings</li>
+<li>feat(library): tier 2 (per-session) + tier 3 (cross-session) bulk retag</li>
+<li>feat(library): per-row reassignment context menu (Path B tier 1)</li>
+<li>feat(library): attribution-confidence badging per sample row (Path A)</li>
+<li>fix(library): full-row tap target in speaker list</li>
+<li>feat(library): filter sub-1.5s utterances + cap at top-50 newest</li>
+<li>chore(release): v0.9.34</li>
+<li>feat(speakers-library): multi-utterance samples + real waveforms + lazy hydration</li>
+<li>feat(theme): stableAvatarColor honors colorSeed + cross-surface threading</li>
+<li>feat(voice-profile-store): colorSeed + durable isMe + threading</li>
+<li>feat(audio): AudioUtils.computePeaks + bestAudio helper</li>
+<li>docs(roadmap): v0.9.30 → v0.9.33 shipped</li>
+<li>fix(sparkle): implement gentle-reminders so LSUIElement users see updates</li>
+<li>feat(reader): banner to upgrade pre-v0.9.31 Soniox sessions to word-sync</li>
+<li>chore(release): v0.9.31 + session retranscribe utility</li>
+<li>feat(transcript): preserve per-token timestamps for exact word-level sync</li>
+<li>feat(settings): make diagnostics-export privacy story explicit</li>
+<li>feat(settings): export anonymized match diagnostics</li>
+<li>feat(speaker-editor): Me/user-real-name consolidation banner for existing sessions</li>
+<li>feat(speakers-library): ghost rows for orphan transcript names</li>
+<li>feat(voice-profile-store): log top-3 similarity candidates per cluster for tuning data</li>
+<li>fix(speaker-editor): v0.9.28 — sample-trust + icon re-render</li>
+<li>feat(speaker-editor): v0.9.27 — inline tag row + recency-sorted chips + session skip state + new dock icon</li>
+<li>docs(roadmap): park folder-slug rename; promote B + C to Parked with full specs</li>
+<li>docs(roadmap): v0.9.26 shipped — A2 cross-session mutations + version bump</li>
+<li>feat(speakers-library): v0.9.25-A2 sub 2c — cross-session merge UI</li>
+<li>feat(speakers-library): v0.9.25-A2 sub 2b — bulk mutation UI + 7s undo toast + always-confirm alert</li>
+<li>feat(speaker-service): v0.9.25-A2 sub 2a — decouple phase 2/3 + cross-session orchestrator + APFS-backed undo store</li>
+<li>docs(roadmap): move v0.9.25-A1 to Shipped + trim in-progress section</li>
+<li>feat(speakers-library): v0.9.25-A1 — standalone Speakers Library window</li>
+<li>fix(speaker-editor): sync window title + header on rename (v0.9.24.2)</li>
+<li>fix(reader): update NSWindow titlebar when meta.meeting_name changes (v0.9.24.1)</li>
+<li>docs: v0.9.24 ship — Info.plist bump + ROADMAP Shipped + README Speaker Editor</li>
+<li>fix(speaker-editor): propagate renames into meta.json meeting_name</li>
+<li>feat(speaker-editor): phase 4 — non-speech visibility in reader + footer undo hint</li>
+<li>feat(app): window activation coordinator — Dock icon + Cmd-Tab on demand</li>
+<li>fix(speaker-editor): three bugs caught during phase 3 QA</li>
+<li>feat(speaker-editor): phase 3 — focus mode + standalone editor window</li>
+<li>docs(roadmap): move Speaker Editor from Parked → In progress (v0.9.24 WIP)</li>
+<li>feat(speaker-editor): phase 2 UI — editor sheet, rename/merge popovers, toast/undo</li>
+<li>feat(speaker-editor): phase 1 backend + v0.9.23 avatar pass</li>
+<li>feat(meeting-library): new Meeting Library window + warm palette unification (v0.9.22)</li>
+<li>docs: refresh README for v0.9.21 + add ROADMAP.md</li>
+<li>feat(transcript-reader): Copy button + Summarize placeholder (v0.9.21)</li>
+<li>fix(transcript-reader): ⌘W closes the window (v0.9.20)</li>
+<li>feat(detector): auto-detect Google Meet and Microsoft Teams web (v0.9.19)</li>
+<li>fix(settings): clarify the auto-record toggle</li>
+<li>docs: refresh README for v0.9.16</li>
+<li>feat: Mini Granola UI redesign — HUD, Settings, Tagging, Transcript reader, light mode (v0.9.16)</li>
+<li>fix(AppDelegate): async-safe scan-trigger locking</li>
+<li>chore: remove dead NSMenu helpers and ignore .claude/</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.4/Kera-v0.12.4.dmg"
+                length="7729846"
+                type="application/octet-stream"
+                sparkle:edSignature="LbToqoDG2HREA5m/hbmF/jDIDuvWjts3edTTOVl2gptID484YWHc51cZQmT7GeAuiBcVnx86vIqPddYHMs77Ag==" />
+        </item>
+        <item>
             <title>Version 0.12.3 — Stop the orphan-salvage scanner from deleting crashed recordings</title>
             <pubDate>Thu, 30 Apr 2026 18:21:12 +0000</pubDate>
             <sparkle:version>0.12.3</sparkle:version>
