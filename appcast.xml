@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.5</title>
+            <pubDate>Wed, 06 May 2026 22:56:04 +0000</pubDate>
+            <sparkle:version>0.12.5</sparkle:version>
+            <sparkle:shortVersionString>0.12.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>package-dmg + runbook: KERA_HEADLESS_DMG=1 unlocks SSH-driven cuts</li>
+<li>cut.sh + runbook: catch missing-Xcode at prereqs, drop OAuth-test fiction</li>
+<li>docs(release): capture lessons from first real cut on the mini</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.5/Kera-v0.12.5.dmg"
+                length="7701393"
+                type="application/octet-stream"
+                sparkle:edSignature="0BvFpFfBGA/Q8oSHZpWsappYUMd1kEI2XmMVtNarjc2lLLJ7bscl8fUxOhI4V06miQKXQFeRWYhTLclszWRiCg==" />
+        </item>
+        <item>
             <title>Version 0.12.4</title>
             <pubDate>Wed, 06 May 2026 17:39:41 +0000</pubDate>
             <sparkle:version>0.12.4</sparkle:version>
