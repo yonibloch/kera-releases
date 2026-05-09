@@ -6,6 +6,41 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.7</title>
+            <pubDate>Sat, 09 May 2026 21:08:56 +0000</pubDate>
+            <sparkle:version>0.12.7</sparkle:version>
+            <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Configurable bullet threshold</h4>
+<p>The 30-min hardcoded cutoff for bulleted summaries is now a setting. Settings → AI naming + summaries → "Bullet points for meetings longer than" — slider with 7 stops: Never · 15+ · 30+ · 45+ · 60+ · 90+ · Every meeting. Default stays at 30 min, so existing behavior is preserved unless you move the slider.</p>
+<h4>Menubar popover redesign</h4>
+<p>Both the idle and live-recording cells now use the same calmer type system as the rest of the app — no more 32pt "Ready" / 26pt "Microphone" hero shouting over the recent rows.</p>
+<ul>
+<li>Status word renders at 15pt/600 (same as a recent-row title)</li>
+<li>Eyebrow line uses the standard <code>keraSectionEyebrow</code> modifier</li>
+<li>Primary CTA is a pill button (ink-fill idle, red-fill live, paper text) instead of a bold-underline link</li>
+<li>Live cell: pause/stop are stacked pill CTAs in the right column; audio meter loses its black border and renders as a borderless inline waveform</li>
+</ul>
+<p>Idle ↔ live now feel like the same hero with only color changing — eyebrow flips to red, primary fill flips to red.</p>
+<h4>Backfill modal honest about what'll run</h4>
+<p>The "Summarize past meetings" modal used to say "Summarize 5 past meetings" while the button below said "Summarize 0 meetings (~$0.00)" when none of the candidates had transcript content. Header now matches the actionable count throughout. Empty-transcript meetings are filtered out before they reach the runner, so they no longer get marked <code>.failed</code> after a backfill — the modal's "skipped" promise is now honest.</p>
+<p>When nothing is actionable, the modal flips to "Nothing to summarize" with explanatory copy and a single Close button.</p>
+<h4>Other fixes</h4>
+<ul>
+<li><strong>Return no longer stops a recording.</strong> The Stop button on the live popover used to bind to ⏎, same as the idle Start button — meaning a user reopening the popover during a meeting and hitting Return out of muscle memory would silently kill the session. Click-only now for the destructive primary.</li>
+<li><strong>Detail-pane summary</strong> wraps to its full height instead of clipping mid-sentence with empty space below (SwiftUI layout fix).</li>
+<li><strong>Detail pane</strong> anchors the meeting title + Open transcript / Reprocess / Copy / Summarize buttons; only the Summary section scrolls.</li>
+<li><strong>Policy decoder</strong> clamps corrupted UserDefaults values so a stray <code>defaults write</code> can't poison tier dispatch.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.7/Kera-v0.12.7.dmg"
+                length="7819305"
+                type="application/octet-stream"
+                sparkle:edSignature="pfAXZ8hiT8/Pr5uhZuj+a4gCp4t9NARvxf2qVnDIzJKyFdd1WXfoga9VRzBtujrcHUJYyyigpqwOG11gWJE7Bg==" />
+        </item>
+        <item>
             <title>Version 0.12.6</title>
             <pubDate>Sat, 09 May 2026 17:27:53 +0000</pubDate>
             <sparkle:version>0.12.6</sparkle:version>
