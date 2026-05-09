@@ -6,6 +6,40 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.6</title>
+            <pubDate>Sat, 09 May 2026 17:27:53 +0000</pubDate>
+            <sparkle:version>0.12.6</sparkle:version>
+            <sparkle:shortVersionString>0.12.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Length-aware AI summaries</h4>
+<p>The big change: long meetings now get richer summaries automatically.</p>
+<ul>
+<li><strong>Meetings ≤30 min</strong> keep the existing 2-3 sentence narrative — same shape as before.</li>
+<li><strong>Meetings >30 min</strong> add a 3-6 bullet list under the narrative. Specific decisions, action items with owners, key context — laid out so a long meeting summary actually reads like a briefing.</li>
+<li>Library list-row + menubar previews are unchanged on long meetings (still show the narrative); bullets only appear in the detail pane.</li>
+</ul>
+<p>The 220-char hard cap that was clipping 71% of summaries is gone — replaced by a 1200-char ceiling for narratives that acts as a runaway-output guard rather than a normal limit.</p>
+<p>Reprocess any meeting to regenerate against the new format.</p>
+<h4>Detail pane polish</h4>
+<ul>
+<li><strong>Header + actions stay anchored on scroll.</strong> The title, Open transcript, Reprocess, Copy, and Summarize buttons no longer scroll out of view on long summaries.</li>
+<li><strong>Summary text wraps to its full height</strong> instead of being cut off mid-sentence with empty space below it (a SwiftUI layout fix).</li>
+</ul>
+<h4>Other fixes</h4>
+<ul>
+<li>Meeting-detect no longer relaunches Safari / Chrome / Arc after you quit them.</li>
+<li>37 small UI consistency fixes across the action menu, badges, modals, and selection chrome.</li>
+<li>Modal scrim is now actually blurred (was rendering as a flat tint).</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.6/Kera-v0.12.6.dmg"
+                length="7792669"
+                type="application/octet-stream"
+                sparkle:edSignature="H2p/DoD//no66xjA3e/xShIt1dSMCAQeVK4MynLmcbMvblniFBxhmk8y4o/prAGpI66n2TOuv63sJ4A7dmJaCw==" />
+        </item>
+        <item>
             <title>Version 0.12.5</title>
             <pubDate>Wed, 06 May 2026 22:56:04 +0000</pubDate>
             <sparkle:version>0.12.5</sparkle:version>
