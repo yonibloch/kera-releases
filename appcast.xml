@@ -6,6 +6,38 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.8</title>
+            <pubDate>Tue, 12 May 2026 18:35:01 +0000</pubDate>
+            <sparkle:version>0.12.8</sparkle:version>
+            <sparkle:shortVersionString>0.12.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Storage folder is now configurable</h4>
+<p>Settings → Recording → <strong>Storage</strong> lets you pick where Kera saves new transcripts and recordings. The default is unchanged (<code>~/Library/Application Support/Kera/recordings</code>); pick any folder you have write access to (Documents, an external SSD, anywhere) and new sessions land there.</p>
+<ul>
+<li>The picker validates the folder is writable before it sticks — if it's</li>
+</ul>
+<p>  read-only or unreachable, you get a clear error instead of a confusing   recording failure later.</p>
+<ul>
+<li>Folder is locked while a recording is in progress — change it from a</li>
+</ul>
+<p>  clean idle state.</p>
+<ul>
+<li>Existing recordings don't move. Switching folders just changes where</li>
+</ul>
+<p>  <em>new</em> sessions land; old ones stay where they were until you move   them in Finder.</p>
+<ul>
+<li>The menubar popover and Speakers Library refresh themselves</li>
+</ul>
+<p>  automatically when you change folders — no app restart needed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.8/Kera-v0.12.8.dmg"
+                length="7839596"
+                type="application/octet-stream"
+                sparkle:edSignature="dKiK2fTtQ+QBDfyQJxdOlLw4PPuphsy0WyQKPkEXrqE8epFwQ98LwqZZlj44CIqPXAa/xU4aU8MiplTBeh91CQ==" />
+        </item>
+        <item>
             <title>Version 0.12.7</title>
             <pubDate>Sat, 09 May 2026 21:08:56 +0000</pubDate>
             <sparkle:version>0.12.7</sparkle:version>
