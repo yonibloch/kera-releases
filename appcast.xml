@@ -6,6 +6,61 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.9</title>
+            <pubDate>Wed, 13 May 2026 13:32:00 +0000</pubDate>
+            <sparkle:version>0.12.9</sparkle:version>
+            <sparkle:shortVersionString>0.12.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>NEW — Transcript export folder</h4>
+<p>Settings → Recording → <strong>Storage</strong> has a new top row: **Transcript export folder**. When you set it, Kera writes a Markdown copy of every transcript there, with YAML frontmatter and a stable filename:</p>
+<p>``` 2026-05-13 — Sprint Planning [a1b2c3].md ```</p>
+<p>Use it to feed Obsidian, Notion, Drive, a <code>grep</code>-able archive, or anything else that wants plain Markdown. The setting is optional — leave it as "Off" and nothing changes from prior versions.</p>
+<p>Details:</p>
+<ul>
+<li>Re-exports automatically whenever the transcript changes</li>
+</ul>
+<p>  (finalize, speaker edits, reprocess, bulk speaker rename) — your   Markdown copy stays in sync with what Kera shows in the Reader.</p>
+<ul>
+<li>Filenames are deterministic: same session re-exports always</li>
+</ul>
+<p>  overwrite the same file. Cross-session collisions on date+title   use the <code>[hex6]</code> suffix from the session ID to stay unique.</p>
+<ul>
+<li>Don't hand-edit the exported <code>.md</code> — Kera may overwrite it on the</li>
+</ul>
+<p>  next speaker/title change. If you want stable annotations, copy   the file out of the export folder first.</p>
+<ul>
+<li>Renaming a meeting title leaves the old filename behind as an</li>
+</ul>
+<p>  orphan; the new title gets a new file. Delete the orphan by hand   if it bugs you.</p>
+<ul>
+<li>YAML titles are sanitized for safety (interior newlines, line</li>
+</ul>
+<p>  separators, illegal filename chars are stripped) — pasted titles   with weird characters don't break the frontmatter.</p>
+<h4>Recordings folder picker — renamed, demoted</h4>
+<p>The picker that v0.12.7/0.12.8 added under "Transcripts folder" controlled <strong>both</strong> recordings AND transcripts (it's actually the library root). That naming was misleading — moved this version:</p>
+<ul>
+<li>Renamed to <strong>"Recordings folder"</strong> and tucked under a new</li>
+</ul>
+<p>  <strong>"Advanced"</strong> disclosure in Settings → Recording → Storage.</p>
+<ul>
+<li>Most people should never touch it; it stays on the default</li>
+</ul>
+<p>  <code>~/Library/Application Support/Kera/recordings</code>.</p>
+<ul>
+<li>Existing custom values still work — your recordings stay where</li>
+</ul>
+<p>  you put them. If you picked a custom folder previously thinking   it was for transcripts only, expand "Advanced" to see/change it.</p>
+<h4>Under the hood</h4>
+<p>This shipped after 7 rounds of rival-panel plan hardening and 4 rounds of rival-panel review hardening. 543 tests now pass (was 516 before the export-folder work).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.9/Kera-v0.12.9.dmg"
+                length="7847443"
+                type="application/octet-stream"
+                sparkle:edSignature="b8iXr8phX1DXuXbXzOafvEQJ+IaTa5scWIf8dzvMYaETLYSxuxOyNIbPDWSz+ui/09SbcIaxqfiASW8ZJPdpDQ==" />
+        </item>
+        <item>
             <title>Version 0.12.8</title>
             <pubDate>Tue, 12 May 2026 18:35:01 +0000</pubDate>
             <sparkle:version>0.12.8</sparkle:version>
