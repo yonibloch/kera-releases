@@ -6,6 +6,35 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.10</title>
+            <pubDate>Wed, 13 May 2026 14:16:03 +0000</pubDate>
+            <sparkle:version>0.12.10</sparkle:version>
+            <sparkle:shortVersionString>0.12.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Fixed — "Meeting detected" prompt no longer re-fires after you skip it</h4>
+<p>If you dismissed the floating "Meeting detected · Zoom" prompt and your meeting kept going, the prompt would re-appear within seconds — sometimes over and over until you quit the app to escape. That bug is now fixed.</p>
+<p>Root cause: a single transient detection flicker (Zoom going fullscreen, browser tab title refresh, helper-process restart) unconditionally cleared the "user already said no" state. Kera now requires 5 consecutive no-meeting ticks (~15 seconds) before considering a dismissal stale — so flickers don't undo your Skip.</p>
+<h4>New — Send Diagnostics</h4>
+<p>Settings → About → Diagnostics → <strong>Send Diagnostics</strong>: produces a <code>.zip</code> you can attach to a bug report. Inside:</p>
+<ul>
+<li>Kera + macOS + hardware version info</li>
+<li>Last 30 minutes of Kera's OSLog</li>
+<li>Your Settings (UserDefaults)</li>
+<li>Sparkle auto-updater state</li>
+<li>The last 5 sessions' <code>meta.json</code> manifests</li>
+</ul>
+<p>Each zip includes a <code>README.txt</code> explaining what's in it and what's deliberately omitted. <strong>No transcripts, no audio, no API keys.</strong> Nothing auto-uploads — you write it to disk and choose where to send it.</p>
+<h4>Under the hood</h4>
+<p>553 tests now pass (was 543 in v0.12.9 — 11 new tests for the diagnostics bundle, including an end-to-end smoke test that drives the real <code>/usr/bin/log</code> and <code>/usr/bin/zip</code>).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.10/Kera-v0.12.10.dmg"
+                length="7862241"
+                type="application/octet-stream"
+                sparkle:edSignature="nQVOcTG8zY2JEJli3NdRi9OQqMInsNgSARgDTREnYD7n61p4CAV8LeQACcNKp88Sc3oLD2U6S9e2T31K9e0cDg==" />
+        </item>
+        <item>
             <title>Version 0.12.9</title>
             <pubDate>Wed, 13 May 2026 13:32:00 +0000</pubDate>
             <sparkle:version>0.12.9</sparkle:version>
