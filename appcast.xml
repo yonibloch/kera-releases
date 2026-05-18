@@ -6,6 +6,42 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.11</title>
+            <pubDate>Mon, 18 May 2026 07:32:49 +0000</pubDate>
+            <sparkle:version>0.12.11</sparkle:version>
+            <sparkle:shortVersionString>0.12.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>NEW — Silent system-audio warning</h4>
+<p>If a recording's <code>system.wav</code> comes back effectively silent (the file is the right size, but audiotee captured zeros — a real macOS routing edge case that hits a handful of users), the session row now shows a small orange warning triangle. The tooltip points you at **Settings → Send Diagnostics** and mentions that virtual audio drivers (Loopback / BlackHole / Audio Hijack) are an expected cause — those intercept audio before Kera's per-process tap can capture it.</p>
+<h4>CHANGED — Zoom detection rework</h4>
+<p>The Zoom in-call detector no longer relies on window-title scraping alone. The primary signal is now CoreAudio's per-process audio activity flags (macOS 14.4+). That fixes:</p>
+<ul>
+<li>The "Meeting Detected … Meeting Ended" flap a few seconds into real</li>
+</ul>
+<p>  Zoom calls, which was firing the "Save / Discard" prompt mid-call.</p>
+<ul>
+<li>False-positive sticky "Meeting Detected" state after the call ended</li>
+</ul>
+<p>  (Zoom leaves a Personal Meeting Room preview window open whose   title doesn't match the in-call pattern).</p>
+<p>Settings → Advanced has a <code>zoomDetectAudioState</code> kill-switch that falls back to title-only detection if needed.</p>
+<h4>CHANGED — Send Diagnostics now bundles audio-environment context</h4>
+<p>The diagnostics zip now also contains a point-in-time snapshot of the machine's audio environment — devices, HAL-registered audio processes, installed third-party HAL plugins (BlackHole etc.), TCC status for mic and screen recording, coreaudiod's own log, and a few related signals. Privacy-safe scalar audio-health stats (RMS, peak, silence fraction) are also stored per session.</p>
+<p>The bundle stays opt-in: nothing auto-uploads, no audio content, no transcript content. Send Diagnostics also shows "Generating…" on the button while the bundle is being built so you can tell it's working.</p>
+<h4>FIXED — Safari/Chrome/Arc tab scanner survives huge tab sets</h4>
+<p>The browser-tab scanner used by the meeting detector now wraps each window's tab enumeration in its own <code>try</code> block, so a tab closing between the "list windows" and "list tabs" steps no longer aborts the whole scan. Stress-tested against 234 open tabs in Arc.</p>
+<h4>FIXED — Audio file picker no longer launches with the menubar host inactive</h4>
+<p><code>NSApp.activate(ignoringOtherApps: true)</code> is now called before <code>NSOpenPanel.runModal()</code> in the menubar host, so the import-audio picker shows up in the foreground instead of behind whatever app was active.</p>
+<h4>FIXED — <code>cut.sh</code> drops root cleanly when triggered remotely</h4>
+<p>The orchestrator path was leaving the inner shell at EUID=0, which poisoned <code>.git/objects/</code> on every git operation. The wrapper now uses <code>sudo launchctl asuser 501 su -m yonibloch -c '…'</code> so git/Xcode ops run as the real user.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.11/Kera-v0.12.11.dmg"
+                length="7920609"
+                type="application/octet-stream"
+                sparkle:edSignature="dzRMn12s6Uzy3M0mS0oi/YH65xrkvs0ky+yMI96JIosCmG7DueNHNaByCtDNZAk7yJo3AnpJcQ2NgYNs0vqKAQ==" />
+        </item>
+        <item>
             <title>Version 0.12.10</title>
             <pubDate>Wed, 13 May 2026 14:16:03 +0000</pubDate>
             <sparkle:version>0.12.10</sparkle:version>
