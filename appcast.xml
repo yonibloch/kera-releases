@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.12</title>
+            <pubDate>Tue, 19 May 2026 08:09:15 +0000</pubDate>
+            <sparkle:version>0.12.12</sparkle:version>
+            <sparkle:shortVersionString>0.12.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>NEW — Waveform reflects both mic and system audio</h4>
+<p>The live waveform in the recording popover now responds to both microphone input AND system audio (when a call app like Zoom is being tapped), not just to the mic. During a call where the other side is doing the talking, the waveform now moves with them — useful as a real-time signal that audio is actually being captured.</p>
+<p>If you record a call and the waveform only moves when you talk while the other side is clearly audible in your headphones, that's a sign the per-process system-audio tap is silently capturing zeros — open <strong>Settings → Send Diagnostics</strong> and share the zip with support.</p>
+<h4>FIXED — Bars no longer poke above the row on loud audio</h4>
+<p>The waveform bars are clamped to the row height. Loud system audio (music share, shared YouTube playback) used to occasionally clip above the container; that's resolved.</p>
+<h4>FIXED — "Microphone + app" label is honest on tap failure</h4>
+<p>If system-audio capture fails to start (e.g. Screen Recording permission denied), the label in the recording popover now falls back to just "Microphone" instead of misleadingly showing the call app's name while no system audio is actually being recorded.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.12/Kera-v0.12.12.dmg"
+                length="7922320"
+                type="application/octet-stream"
+                sparkle:edSignature="S0LweLSQp/QAdl4CzOZc/Ez3+wk2B0ij7kT7tRJ5lKGs+1z8NX10XDfb1X3GLy8Lk4DcfgNeFpMI3t47vngkCQ==" />
+        </item>
+        <item>
             <title>Version 0.12.11</title>
             <pubDate>Mon, 18 May 2026 07:32:49 +0000</pubDate>
             <sparkle:version>0.12.11</sparkle:version>
