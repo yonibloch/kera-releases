@@ -6,6 +6,32 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.13</title>
+            <pubDate>Fri, 22 May 2026 13:21:40 +0000</pubDate>
+            <sparkle:version>0.12.13</sparkle:version>
+            <sparkle:shortVersionString>0.12.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What's new</h3>
+<ul>
+<li>Rename meetings directly from the Meeting Library title and from recording context menus.</li>
+<li>Manual meeting titles now persist across speaker edits, reprocessing, auto-title updates, and app refreshes.</li>
+<li>Renaming a meeting also renames its backing session folder and updates derived artifacts/index entries safely.</li>
+<li>The menubar popover now opens immediately instead of waiting on a cold full recents scan, with async recents refresh and lightweight loading feedback.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Improved cache invalidation and refresh behavior around recording metadata changes.</li>
+<li>Added safeguards for session-folder moves during background transcription/finalization paths.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.13/Kera-v0.12.13.dmg"
+                length="7917057"
+                type="application/octet-stream"
+                sparkle:edSignature="6Yt95FDEiIGEYDXZcWkhhpld4YqsVMizC2LvapcCuAH/PQnSJ00LtsJWjpA6dAJ+qdwoFhHMzB2IpBJs10WpDw==" />
+        </item>
+        <item>
             <title>Version 0.12.12</title>
             <pubDate>Tue, 19 May 2026 08:09:15 +0000</pubDate>
             <sparkle:version>0.12.12</sparkle:version>
