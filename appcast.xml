@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.14</title>
+            <pubDate>Fri, 29 May 2026 15:17:43 +0000</pubDate>
+            <sparkle:version>0.12.14</sparkle:version>
+            <sparkle:shortVersionString>0.12.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>New</h3>
+<p><strong>Import from Plaud</strong> — Bring recordings from your Plaud device straight into Kera. When a single recording actually holds several back-to-back meetings, Kera spots the breaks and offers to split it into separate meetings on import — each with its own transcript and summary.</p>
+<p><strong>Split a meeting</strong> — Turn one long meeting into several. Kera suggests where the topics change and proposes a title for each part; you can fine-tune the cuts on an editable timeline before committing. Every resulting meeting gets its own summary. Changed your mind? Restore brings the original back. Available anywhere you manage a meeting — the library list (right-click), the meeting detail view, and the transcript window.</p>
+<h3>Improved</h3>
+<ul>
+<li>New recordings now trim leading and trailing silence automatically.</li>
+<li>Preparing a split shows an "Analyzing transcript…" indicator, so it's clear Kera is working while it finds the topic boundaries.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.14/Kera-v0.12.14.dmg"
+                length="8439217"
+                type="application/octet-stream"
+                sparkle:edSignature="rqGnJcaJ/T/EEmcXr25NZbWQfafoMu+eqcwQRL/7sBv67r8roC6IIWjz0wd0Jw0gulkzHtqisK3yzrW5xViOCw==" />
+        </item>
+        <item>
             <title>Version 0.12.13</title>
             <pubDate>Fri, 22 May 2026 13:21:40 +0000</pubDate>
             <sparkle:version>0.12.13</sparkle:version>
