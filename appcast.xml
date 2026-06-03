@@ -6,6 +6,40 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.15</title>
+            <pubDate>Wed, 03 Jun 2026 02:47:54 +0000</pubDate>
+            <sparkle:version>0.12.15</sparkle:version>
+            <sparkle:shortVersionString>0.12.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Speaker photos</h3>
+<ul>
+<li>Give any speaker a photo in the Speakers window — drag an image onto their avatar, or click to choose one. Their photo then appears everywhere they show up: meeting rows, participant lists, and the transcript.</li>
+<li>Photos follow a person through renames and merges, and Undo restores a photo if you change your mind.</li>
+</ul>
+<h3>A calmer meeting library</h3>
+<ul>
+<li>The meeting list is quieter: the two-line summary preview now shows only on the selected meeting, with clear "summarizing…" and "summary failed" states on the others.</li>
+<li>The detail pane is consolidated around one primary action plus an overflow menu, with a title-led header.</li>
+<li>The filter pills (All · This week · Month · Needs tagging) now stay on a single line instead of wrapping.</li>
+</ul>
+<h3>Simpler meeting splitting</h3>
+<ul>
+<li>"Split this meeting" is now a clean list of the meetings Kera detected, with one-tap <strong>Merge</strong> to combine two and <strong>Remove</strong> to drop one. The meeting count and the button always reflect exactly what you'll get.</li>
+<li>Splitting now happens after import, where the transcript makes detection more accurate.</li>
+</ul>
+<h3>Speaker tagging</h3>
+<ul>
+<li>When a speaker's auto-picked voice sample is unclear, <strong>Try another sample</strong> lets you audition a few other clips and choose the clearest one.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.15/Kera-v0.12.15.dmg"
+                length="8421558"
+                type="application/octet-stream"
+                sparkle:edSignature="DgoqWQo1tci/B//SgE4L4EmSsOhwmnA77WZzzonQ4Mzzbqf3Y5jlbNgH9QqAArv3c5nFum+X1V887dnRD3hzCQ==" />
+        </item>
+        <item>
             <title>Version 0.12.14</title>
             <pubDate>Fri, 29 May 2026 15:17:43 +0000</pubDate>
             <sparkle:version>0.12.14</sparkle:version>
