@@ -6,6 +6,21 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.16</title>
+            <pubDate>Sat, 06 Jun 2026 23:00:03 +0000</pubDate>
+            <sparkle:version>0.12.16</sparkle:version>
+            <sparkle:shortVersionString>0.12.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Fixed: <strong>Import from Plaud</strong> was failing with an "unexpected response" error and an unhelpful Retry button. Plaud changed how its web sign-in returns your login token, and Kera was reading the old (now-empty) value — so every import attempt went out unauthenticated. Kera now reads the token from its new location, and Import from Plaud works again.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.16/Kera-v0.12.16.dmg"
+                length="8421638"
+                type="application/octet-stream"
+                sparkle:edSignature="lpGWJv5vRUPMlagbL+uiz2xFhf0+GnaAClFN/QmHay1EpUxocZ0g02insOxEHfjcoDCgyQY9j+nqy5H2BudkBQ==" />
+        </item>
+        <item>
             <title>Version 0.12.15</title>
             <pubDate>Wed, 03 Jun 2026 02:47:54 +0000</pubDate>
             <sparkle:version>0.12.15</sparkle:version>
