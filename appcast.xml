@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.17</title>
+            <pubDate>Sun, 07 Jun 2026 18:08:06 +0000</pubDate>
+            <sparkle:version>0.12.17</sparkle:version>
+            <sparkle:shortVersionString>0.12.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Long recordings no longer fail silently</h4>
+<p>Recordings longer than 5 hours exceed the cloud transcriber's limit. Kera now detects this automatically and transcribes them on your Mac instead, so a long import or meeting always ends with a transcript.</p>
+<h4>Failed transcriptions are now recoverable</h4>
+<p>If a transcription fails — a file that's too long, a dropped network, or a cloud hiccup — the recording now shows at the top of your Library with one-click <strong>Retry</strong>, <strong>Transcribe locally</strong> (on-device), <strong>Dismiss</strong>, and <strong>Delete</strong>. Previously a failed recording disappeared with no way to get it back.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.17/Kera-v0.12.17.dmg"
+                length="8466928"
+                type="application/octet-stream"
+                sparkle:edSignature="fKmOY+fb2uCU2uVeuz45bAKGXxd4G1wtQII6FvfX168xjhJHhvCeLquNcXcvNMm5wp7tMcaU9sMNtGJA+ZFOCg==" />
+        </item>
+        <item>
             <title>Version 0.12.16</title>
             <pubDate>Sat, 06 Jun 2026 23:00:03 +0000</pubDate>
             <sparkle:version>0.12.16</sparkle:version>
