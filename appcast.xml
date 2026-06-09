@@ -6,6 +6,39 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.12.18</title>
+            <pubDate>Tue, 09 Jun 2026 20:55:24 +0000</pubDate>
+            <sparkle:version>0.12.18</sparkle:version>
+            <sparkle:shortVersionString>0.12.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h4>Screenshots, pinned to your transcript</h4>
+<ul>
+<li><strong>Capture a screenshot during a recording</strong> and it’s pinned to the transcript</li>
+</ul>
+<p>  at the exact moment you took it. Press <strong>⌃⇧S</strong> (or the camera button in the   menu-bar recording controls), drag a region — or press Space to grab a window —   and it shows up inline in the transcript later. Tap it to jump to that moment,   hover to enlarge. The shortcut is configurable in Settings → Shortcuts.</p>
+<h4>Kera learns voices as you name them</h4>
+<ul>
+<li><strong>Naming an unrecognized speaker now teaches Kera that voice.</strong> Type someone’s</li>
+</ul>
+<p>  name on an unknown speaker and a voice profile is created from that meeting —   so Kera recognizes them automatically in future meetings instead of leaving   them unlabeled.</p>
+<ul>
+<li><strong>Catch up your existing people:</strong> the Speakers Library now has a</li>
+</ul>
+<p>  <strong>“Create voice profile from a meeting”</strong> button for anyone who’s only ever   been a typed label. One click builds their profile from a past meeting.</p>
+<h4>Fixes</h4>
+<ul>
+<li>The <strong>“Record this meeting?”</strong> prompt now appears immediately when you start a</li>
+</ul>
+<p>  new meeting right after stopping a previous one (it used to lag by up to a minute).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.12.18/Kera-v0.12.18.dmg"
+                length="8574036"
+                type="application/octet-stream"
+                sparkle:edSignature="zp73Z1PZUeYUVQwh25ADdAsAFiGrisJAf71bwd1km8fDp1ap/1mKJFEq+0CSnSBdiLtF0fbPB4wAFGTvBC1ZAA==" />
+        </item>
+        <item>
             <title>Version 0.12.17</title>
             <pubDate>Sun, 07 Jun 2026 18:08:06 +0000</pubDate>
             <sparkle:version>0.12.17</sparkle:version>
