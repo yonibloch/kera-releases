@@ -6,6 +6,45 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.0</title>
+            <pubDate>Wed, 10 Jun 2026 21:57:32 +0000</pubDate>
+            <sparkle:version>0.13.0</sparkle:version>
+            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Storage management</h3>
+<ul>
+<li><strong>Compress audio</strong> — re-encode meetings to compact m4a at about a tenth of the size. Everything still plays, re-processes, and splits; only lossless fidelity is lost. One click compresses your whole library, with an honest estimate up front and real numbers after.</li>
+<li><strong>New Storage section in Settings</strong> — see exactly what's on disk (audio vs transcripts), tidy up leftover working files, and remove audio from older or larger meetings while keeping their transcripts, summaries, and screenshots searchable.</li>
+<li><strong>Automatic cleanup</strong> (optional, off by default) — compress or remove meeting audio automatically after 30/60/90 days. Recently imported recordings always get the full grace period.</li>
+<li>Meetings whose audio was removed stay fully readable everywhere, with clear "transcript only" labeling instead of broken buttons.</li>
+</ul>
+<h3>Meeting detection</h3>
+<ul>
+<li><strong>Microsoft Teams calls are now detected by their actual call audio</strong>, not window titles — detection works in fullscreen, on other Spaces, and with meetings joined by phone audio. Incoming ringtones no longer trigger false detections.</li>
+<li>Detection rides out short audio-system hiccups mid-call instead of declaring the meeting over.</li>
+<li>New per-app detection toggles in Settings → Recording.</li>
+</ul>
+<h3>Reliability</h3>
+<ul>
+<li>If the disk fills up or audio can't be written mid-recording, Kera now stops safely and tells you — instead of showing a green light over a silently truncated file.</li>
+<li>Quitting Kera while recording now finalizes the recording cleanly.</li>
+</ul>
+<h3>Library</h3>
+<ul>
+<li>Double-click a meeting to open it.</li>
+<li>Right-click any meeting to regenerate its summary.</li>
+<li>Storage numbers now match what Finder reports.</li>
+<li>Many fixes across speaker retagging, voice profile recovery, and transcript processing.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.0/Kera-v0.13.0.dmg"
+                length="8917376"
+                type="application/octet-stream"
+                sparkle:edSignature="Xe8nidO8hRMgGaeLcRfN9k9FwengfF+p7U7g6ARR69rPc27CwuX6kKw7OjzlClnjswA3NDfQdunR9Eg/of/PAQ==" />
+        </item>
+        <item>
             <title>Version 0.12.18</title>
             <pubDate>Tue, 09 Jun 2026 20:55:24 +0000</pubDate>
             <sparkle:version>0.12.18</sparkle:version>
