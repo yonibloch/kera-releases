@@ -6,6 +6,42 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.2</title>
+            <pubDate>Thu, 11 Jun 2026 22:07:06 +0000</pubDate>
+            <sparkle:version>0.13.2</sparkle:version>
+            <sparkle:shortVersionString>0.13.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What's new in 0.13.2</h3>
+<h4>Recording HUD</h4>
+<ul>
+<li><strong>Change your mind mid-recording</strong> — the mode (<code>FULL DIAR</code>) and engine (<code>LOCAL</code> / <code>SONIOX</code>) labels in the recording popover are now clickable. Pick a different diarization mode or transcription engine while the call is still going; the change applies when you stop, and the live recording is never interrupted.</li>
+<li><strong>See both audio streams</strong> — the waveform now shows your mic above the line and system audio below it, each in its own color. If a stream stops delivering audio mid-call, its side flattens and a red <strong>NO SIGNAL</strong> warning appears — so a dead mic can't go unnoticed again.</li>
+<li><strong>Smoother start/stop</strong> — starting a recording now morphs the Start button into Stop in place. The popover keeps a constant size, so nothing jumps or wiggles.</li>
+</ul>
+<h4>Transcripts</h4>
+<ul>
+<li><strong>Find in transcript (⌘F)</strong> — search any transcript with match highlighting, a result counter, and Enter / ⌘G to jump between matches. Works during playback.</li>
+</ul>
+<h4>Reliability</h4>
+<ul>
+<li><strong>Recordings no longer get stuck as "failed"</strong> when the microphone stream dies mid-session — Kera now protects the captured audio and recovers using whichever stream is healthy on retry.</li>
+<li><strong>Safari meeting detection fixed</strong> — it was silently broken for Safari tabs.</li>
+<li><strong>Browser detection respects your choices</strong> — if you turned off browser meeting detection, updates can no longer quietly re-enable it for newly supported browsers. Title-based detection (Firefox and friends) now tells you in Settings when it needs Screen Recording permission.</li>
+<li>Tighter Google Meet tab matching, so ordinary pages with "Meet" in the title can't trigger a phantom meeting.</li>
+</ul>
+<h4>Settings</h4>
+<ul>
+<li>Your AI naming key is kept per provider — switching providers no longer loses what you typed, and clearing the field now actually removes the stored key.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.2/Kera-v0.13.2.dmg"
+                length="8982558"
+                type="application/octet-stream"
+                sparkle:edSignature="0IVp5r9tWLG+i/YycYNPJPeHW18Z7Q4kg4GDDpXWJk8CUKm4ZIS8FpS0DjmExOFRLcx/kz+WCYEcpXFFOs+XBQ==" />
+        </item>
+        <item>
             <title>Version 0.13.1</title>
             <pubDate>Thu, 11 Jun 2026 07:51:23 +0000</pubDate>
             <sparkle:version>0.13.1</sparkle:version>
