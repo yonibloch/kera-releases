@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.1</title>
+            <pubDate>Thu, 11 Jun 2026 07:51:23 +0000</pubDate>
+            <sparkle:version>0.13.1</sparkle:version>
+            <sparkle:shortVersionString>0.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Meeting detection in any browser</h3>
+<ul>
+<li><strong>Fixed: Google Meet and Teams calls in Arc were not being detected.</strong> Arc handles automation requests differently from Chrome, which left the tab scan silently empty — detection now reads tabs in a way every browser answers, and it's faster too.</li>
+<li><strong>Detection now works in any browser.</strong> Chrome, Arc, Dia, Edge, Brave, Vivaldi, Opera and Safari are detected through their tabs; Firefox — and any browser Kera doesn't know by name — is covered through its window title. One toggle in Settings → Recording covers them all.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.1/Kera-v0.13.1.dmg"
+                length="8922506"
+                type="application/octet-stream"
+                sparkle:edSignature="RYsNELqBs/mCUjJsnobiGo6Q72uRhZI6e+XcsW4Ff8qPykVjhI5pEvIotIf+4b+7BDPlCtV/49D2jLmytlY5Aw==" />
+        </item>
+        <item>
             <title>Version 0.13.0</title>
             <pubDate>Wed, 10 Jun 2026 21:57:32 +0000</pubDate>
             <sparkle:version>0.13.0</sparkle:version>
