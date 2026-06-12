@@ -6,6 +6,38 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.3</title>
+            <pubDate>Fri, 12 Jun 2026 15:18:18 +0000</pubDate>
+            <sparkle:version>0.13.3</sparkle:version>
+            <sparkle:shortVersionString>0.13.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What's new in 0.13.3</h3>
+<p>A hardening pass over the new recording HUD, focused on making the stream-health indicators trustworthy.</p>
+<h4>NO SIGNAL you can trust</h4>
+<ul>
+<li>The red <strong>NO SIGNAL</strong> warning now means exactly one thing: Kera stopped receiving that audio stream. Being muted, listening quietly, or pausing the recording no longer triggers it — sustained quiet just dims that side of the waveform instead.</li>
+<li>Stream health is tracked for the whole recording, even while the popover is closed — if a stream dies mid-call, the warning is already showing the moment you open it.</li>
+<li>If an audio stream stops delivering, its waveform now honestly flatlines instead of freezing on the last activity.</li>
+<li>Mic-only recordings no longer warn about missing system audio — there's none by design, and the legend shows that calmly.</li>
+</ul>
+<h4>Mid-recording engine picker, safer</h4>
+<ul>
+<li>Soniox can't be selected without an API key configured — the option is disabled with a hint instead of letting a recording finish unprocessable. If the key disappears mid-recording, Kera falls back to on-device transcription rather than failing your meeting.</li>
+</ul>
+<h4>Under the hood</h4>
+<ul>
+<li>Recordings that lose their mic stream keep accurate duration metadata.</li>
+<li>Removed repeated Keychain lookups from the popover's render loop.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.3/Kera-v0.13.3.dmg"
+                length="8990545"
+                type="application/octet-stream"
+                sparkle:edSignature="9mXzPtU1seoAfsHSy2eATqwsyoEo4jm8a7VvYkRKOh63MWY5pMLPMZNND1jauVrst7dqb2W+/Cf/NRCUVHfAAQ==" />
+        </item>
+        <item>
             <title>Version 0.13.2</title>
             <pubDate>Thu, 11 Jun 2026 22:07:06 +0000</pubDate>
             <sparkle:version>0.13.2</sparkle:version>
