@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.4</title>
+            <pubDate>Tue, 16 Jun 2026 17:46:39 +0000</pubDate>
+            <sparkle:version>0.13.4</sparkle:version>
+            <sparkle:shortVersionString>0.13.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p><strong>Browser calls now record both sides</strong></p>
+<p>Google Meet — and other browser-based calls (Chrome, Arc, Edge, Brave, and similar) — now correctly capture the other participants' audio, not just your microphone. Previously these calls recorded your mic only, leaving the far side silent.</p>
+<p>Kera also now flags a recording, both live and right after it ends, if system audio isn't being captured — so a silent recording can't slip by unnoticed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.4/Kera-v0.13.4.dmg"
+                length="8995690"
+                type="application/octet-stream"
+                sparkle:edSignature="5KjDqH+/0DEGsia5h8hwZOewEMbI+c+RbmJe4a1e21TpJ7T1TDrNUTHr2kMwbvjOyUKtr+D3IHXRh9POvab7AA==" />
+        </item>
+        <item>
             <title>Version 0.13.3</title>
             <pubDate>Fri, 12 Jun 2026 15:18:18 +0000</pubDate>
             <sparkle:version>0.13.3</sparkle:version>
