@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.13.5</title>
+            <pubDate>Fri, 19 Jun 2026 12:30:50 +0000</pubDate>
+            <sparkle:version>0.13.5</sparkle:version>
+            <sparkle:shortVersionString>0.13.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li><strong>Instant "No diarization" reprocessing</strong> — Switching an already-transcribed call to No-diarization mode is now instant. Kera reuses the existing transcript instead of re-processing the audio, so there's no cloud round-trip or wait.</li>
+<li><strong>Cleaner transcript exports</strong> — Exported transcripts for No-diarization recordings no longer show an internal speaker placeholder.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.13.5/Kera-v0.13.5.dmg"
+                length="9034847"
+                type="application/octet-stream"
+                sparkle:edSignature="Bl6qrtNR7K/xko3UXaluV4UbapmM751AXiR9nbUtGB6gxuvoPuJksefrdOCWm2yyGVY76s4iE64vLhm3gP/bBg==" />
+        </item>
+        <item>
             <title>Version 0.13.4</title>
             <pubDate>Tue, 16 Jun 2026 17:46:39 +0000</pubDate>
             <sparkle:version>0.13.4</sparkle:version>
