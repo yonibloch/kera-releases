@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.14.0</title>
+            <pubDate>Tue, 23 Jun 2026 21:22:55 +0000</pubDate>
+            <sparkle:version>0.14.0</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li><strong>Voice Memos import</strong> — import recordings straight from the macOS Voice Memos app (menu bar → Import Audio → From Voice Memos). Pick from your memo list, or choose files manually.</li>
+<li>Recording now keeps going when you connect, disconnect, or switch your microphone (e.g. AirPods) mid-recording, instead of stopping.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.14.0/Kera-v0.14.0.dmg"
+                length="9124930"
+                type="application/octet-stream"
+                sparkle:edSignature="YVoQeoQBIUVatRWJoe0elvlZtl1VZ0mqRGU4TgkFbVoGnNSwAwaK07phChZrKMbl2BKQ5bxzGzTDLL6QtYjlAg==" />
+        </item>
+        <item>
             <title>Version 0.13.5</title>
             <pubDate>Fri, 19 Jun 2026 12:30:50 +0000</pubDate>
             <sparkle:version>0.13.5</sparkle:version>
