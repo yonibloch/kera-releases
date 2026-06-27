@@ -6,6 +6,22 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.15.0</title>
+            <pubDate>Sat, 27 Jun 2026 12:06:08 +0000</pubDate>
+            <sparkle:version>0.15.0</sparkle:version>
+            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p><strong>Detect more call apps (experimental).</strong> FaceTime, the macOS Phone app, WhatsApp, Slack, and Signal can now be detected as calls — opt-in under a new <strong>Experimental</strong> section in Settings → Recording. They're <strong>off by default</strong> while detection is being verified (an unverified detector can occasionally mis-fire and start a recording when there's no call). Turn one on to try it.</p>
+<p><strong>Design polish.</strong> Badges, the first-run permissions screen, and other surfaces moved onto the IBM Plex type system for a more consistent look.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.15.0/Kera-v0.15.0.dmg"
+                length="9130477"
+                type="application/octet-stream"
+                sparkle:edSignature="p2k7C9CZvtHdtwB6sb5c4TFRSuPgCH3D+ev5hnK6yQF1fzOhjtUcBeqHh40ao4K6ILuUbc+eNA9xugHjZrySCw==" />
+        </item>
+        <item>
             <title>Version 0.14.0</title>
             <pubDate>Tue, 23 Jun 2026 21:22:55 +0000</pubDate>
             <sparkle:version>0.14.0</sparkle:version>
