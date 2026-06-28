@@ -6,6 +6,22 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.16.0</title>
+            <pubDate>Sun, 28 Jun 2026 17:45:05 +0000</pubDate>
+            <sparkle:version>0.16.0</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p><strong>Quiet audio no longer goes missing from transcripts.</strong> Recordings with quiet stretches — audio played from a phone into your mic, or a call where the mic was turned down — could lose whole sections before transcription. Kera now adapts to each recording's own levels, so quiet speech gets transcribed instead of silently disappearing. A new safety guard also makes sure a quiet recording is never mistaken for silence and trimmed down — your audio is always kept.</p>
+<p><strong>FaceTime & Phone (experimental) now capture the other side.</strong> With the experimental FaceTime / macOS Phone detection enabled, Kera records the other person's audio too — the system-audio track used to come up empty.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.16.0/Kera-v0.16.0.dmg"
+                length="9133929"
+                type="application/octet-stream"
+                sparkle:edSignature="Ala0+5Bf5rkKXNY2JeZQIBApjrZ96zuDhvTZAmrzP4MwiZQ4+NojoeO3UCgoSAphX0kRTVuPeLooJhoXNTlHBQ==" />
+        </item>
+        <item>
             <title>Version 0.15.0</title>
             <pubDate>Sat, 27 Jun 2026 12:06:08 +0000</pubDate>
             <sparkle:version>0.15.0</sparkle:version>
