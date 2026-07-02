@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.17.0</title>
+            <pubDate>Thu, 02 Jul 2026 20:46:46 +0000</pubDate>
+            <sparkle:version>0.17.0</sparkle:version>
+            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What's new</h3>
+<p><strong>Speaker tagging autocompletes names from your library.</strong> Start typing a name and Kera filters your saved people live — press Tab to fill in the top match. Works everywhere you tag: the one-at-a-time card, the inline row, and the rename popover.</p>
+<h3>Fixes</h3>
+<ul>
+<li>Playing a speaker sample right after tagging the previous one no longer cuts out after a split second.</li>
+<li>Voice Memos import now shows your most recent recordings — including ones still downloading from iCloud, which appear marked "Not downloaded" instead of going missing.</li>
+<li>Added a Refresh button to the Voice Memos import window so new recordings show up without reopening it.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.17.0/Kera-v0.17.0.dmg"
+                length="9182521"
+                type="application/octet-stream"
+                sparkle:edSignature="XqA0DDZ5cZdIZQF1I3XkCyHRQpcV0CyxmVzBpoOsqZJ3sEn8diqEqFVvvwIrRA1R2MPbzyRgSZAyfwP1j6vgBw==" />
+        </item>
+        <item>
             <title>Version 0.16.0</title>
             <pubDate>Sun, 28 Jun 2026 17:45:05 +0000</pubDate>
             <sparkle:version>0.16.0</sparkle:version>
