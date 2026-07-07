@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.17.1 — Crash fix</title>
+            <pubDate>Tue, 07 Jul 2026 13:51:44 +0000</pubDate>
+            <sparkle:version>0.17.1</sparkle:version>
+            <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed a crash that could happen right after updating when Kera resumed diarizing a queued recording whose detected speaker segments were all too short/noisy and got cleaned away. Kera now treats that as an empty diarization result instead of crashing.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.17.1/Kera-v0.17.1.dmg"
+                length="9081109"
+                type="application/octet-stream"
+                sparkle:edSignature="gjMmG2xmuv0D2xIF9JjK4EuJRpyu/PUDDBCPd8kbQoV36/Dgdwtwn3DA0vni8zg/dMTl6P/lyffnQa8M0I6tAg==" />
+        </item>
+        <item>
             <title>Version 0.17.0</title>
             <pubDate>Thu, 02 Jul 2026 20:46:46 +0000</pubDate>
             <sparkle:version>0.17.0</sparkle:version>
