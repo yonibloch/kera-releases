@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.17.2 — Faster libraries and safer transcription recovery</title>
+            <pubDate>Sat, 11 Jul 2026 21:29:52 +0000</pubDate>
+            <sparkle:version>0.17.2</sparkle:version>
+            <sparkle:shortVersionString>0.17.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li><strong>Recent Meetings and Speakers Library are substantially faster on large histories.</strong> Kera now maintains a rebuildable SQLite read cache, avoiding repeated parsing of every transcript whenever these surfaces refresh.</li>
+<li><strong>Your recordings stay as normal files.</strong> <code>meta.json</code>, transcripts, and audio remain the source of truth; there is no database migration or lock-in. If the cache is missing or damaged, Kera rebuilds it automatically and can fall back to the existing file scanner.</li>
+<li><strong>Storage cleanup remains fully supported.</strong> Size accounting, tidy, WAV-to-M4A compression, remove-audio, and automatic cleanup still operate directly on recording files. The cache follows compression and audio-removal changes, and Storage refreshes when the recordings folder changes.</li>
+<li><strong>Recoverable transcription failures now surface immediately.</strong> When the audio is still intact, Kera shows the failed recording in Library, offers retry or on-device Local transcription, and provides an Open Library notification instead of leaving the session stranded on disk.</li>
+</ul>
+<p>On a 453-folder library, an unchanged catalog refresh measured about 67 ms; loading 424 Recent rows measured about 8 ms.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.17.2/Kera-v0.17.2.dmg"
+                length="9171672"
+                type="application/octet-stream"
+                sparkle:edSignature="d+FcjQS63iCA8/SXK09SL1E7QJ8ru8lRyuxkuYYdaJkhM83jW0o5K63j1zQtCq+Vpm+P3h3H1woyfeC99SinDg==" />
+        </item>
+        <item>
             <title>Version 0.17.1 — Crash fix</title>
             <pubDate>Tue, 07 Jul 2026 13:51:44 +0000</pubDate>
             <sparkle:version>0.17.1</sparkle:version>
