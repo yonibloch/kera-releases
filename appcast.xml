@@ -6,6 +6,29 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.18.0 — Faster long meetings, smoother playback, safer recording</title>
+            <pubDate>Mon, 13 Jul 2026 14:10:38 +0000</pubDate>
+            <sparkle:version>0.18.0</sparkle:version>
+            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>This is a focused performance and reliability release. The biggest improvements show up in long recordings, large transcripts, and meeting detection running throughout the day.</p>
+<h3>What changed</h3>
+<ul>
+<li><strong>Long recordings use dramatically less memory.</strong> Preparing combined microphone and system audio used about 95% less memory in our 30-minute benchmark—dropping from roughly 727 MB to 38 MB—and remained near 50 MB for a three-hour recording.</li>
+<li><strong>Speaker separation does less repeated work.</strong> Kera now decodes local audio once, reuses it for voice checks, and avoids repeatedly scanning every transcript and speaker segment. Long, speaker-heavy recordings should finish with lower memory use and better scaling, without changing the existing speaker-assignment rules.</li>
+<li><strong>Large transcripts play more smoothly.</strong> The Transcript Reader now builds its playback timeline only when its content changes, instead of rebuilding it continuously during playback. Scrolling, highlighting, and screenshot timelines stay responsive even in very large meetings.</li>
+<li><strong>Meeting detection is quieter and more reliable.</strong> Kera wakes for relevant app events instead of polling four times per second. Browser and native-app checks now have real deadlines, and an unresponsive or permission-blocked check is treated as uncertain rather than falsely deciding that your call ended.</li>
+<li><strong>Microphone capture is more resilient.</strong> Audio conversion and file writing now happen away from the real-time microphone path, reducing the risk of glitches under load. Pause, stop, device changes, and write failures are handled more carefully, and Kera reports capture failures instead of silently dropping audio. Transcription now starts only after recording metadata is safely on disk, so a disk-full recording remains recoverable instead of disappearing from the Library.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.18.0/Kera-v0.18.0.dmg"
+                length="9489201"
+                type="application/octet-stream"
+                sparkle:edSignature="zAL3JbJYk+LCPZ+Pi1u87FjTF38iS8Ey8hJhmZomIP4qwGDi43dgR8Dwrs+1tdd9/jXplc6AYTAc7LCWOUpXDA==" />
+        </item>
+        <item>
             <title>Version 0.17.2 — Faster libraries and safer transcription recovery</title>
             <pubDate>Sat, 11 Jul 2026 21:29:52 +0000</pubDate>
             <sparkle:version>0.17.2</sparkle:version>
