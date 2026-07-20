@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.18.1 — Exact people search and a faster library</title>
+            <pubDate>Mon, 20 Jul 2026 19:26:04 +0000</pubDate>
+            <sparkle:version>0.18.1</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>Click a participant or choose a person suggestion in Library search to show only calls where that person is an actual resolved speaker—not merely mentioned in a title or transcript.</li>
+<li>Search for people from the meeting list, transcript reader, or Speakers Library, with a compact person icon that makes the active filter clear.</li>
+<li>Enjoy a more responsive Library and Speakers experience through safer catalog reuse and fewer redundant refreshes.</li>
+<li>Credential editing and background refreshes are now more resilient to temporary Keychain errors.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.18.1/Kera-v0.18.1.dmg"
+                length="9567641"
+                type="application/octet-stream"
+                sparkle:edSignature="Ad4aT73O/Z4wUzSb60GwFdugpxJQHmCIRQupQjCJbVzwJwtgZzuy7f/AkYGTbHNEoNPaffsICeZJ3I0FALcXAQ==" />
+        </item>
+        <item>
             <title>Version 0.18.0 — Faster long meetings, smoother playback, safer recording</title>
             <pubDate>Mon, 13 Jul 2026 14:10:38 +0000</pubDate>
             <sparkle:version>0.18.0</sparkle:version>
