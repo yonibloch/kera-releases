@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.18.2 — Reliable system audio recording</title>
+            <pubDate>Sun, 02 Aug 2026 09:26:12 +0000</pubDate>
+            <sparkle:version>0.18.2</sparkle:version>
+            <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>Kera now asks for macOS System Audio Recording permission. Without that grant the audio tap does not fail—it records pure silence—so meetings could complete with the other participants missing entirely from the recording.</li>
+<li>The setup checklist now checks System Audio Recording directly, and the Screen Recording row explains what it actually does: detecting which app is holding a meeting.</li>
+<li>If no sound reaches Kera from the meeting app during the first minute, you are warned while the meeting is still running rather than discovering it afterward. Recording continues, and your microphone track is kept intact.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.18.2/Kera-v0.18.2.dmg"
+                length="9602117"
+                type="application/octet-stream"
+                sparkle:edSignature="2zav1JmYcXtvfOZsFTaP/F533aR4v7RVkSHV/mBJsM16+5toWsn/O1ETq1WC8v+FMLzZBRLVkSyPkSTO3dhqDQ==" />
+        </item>
+        <item>
             <title>Version 0.18.1 — Exact people search and a faster library</title>
             <pubDate>Mon, 20 Jul 2026 19:26:04 +0000</pubDate>
             <sparkle:version>0.18.1</sparkle:version>
