@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.18.3 — Choose how a meeting is re-processed</title>
+            <pubDate>Sun, 02 Aug 2026 15:28:06 +0000</pubDate>
+            <sparkle:version>0.18.3</sparkle:version>
+            <sparkle:shortVersionString>0.18.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>New <strong>Reprocess options</strong> setting under Settings → About → Developer. Turn it on and re-processing a meeting asks which transcription service and diarization method to use, instead of silently reusing whichever one the meeting was originally made with.</li>
+<li>That picker already existed, but could only be switched on by typing a hidden command into Terminal—so it quietly vanished the moment you moved to a new Mac. It is now a normal setting that follows you.</li>
+<li>If you had already enabled it by hand, nothing changes: the setting shows as on and keeps working.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.18.3/Kera-v0.18.3.dmg"
+                length="9602455"
+                type="application/octet-stream"
+                sparkle:edSignature="l06LualyPecXkTjx+te8LK4AWBAdaKsS1bZhjBBkiXS8I0PRCvJRP67IO6ADjZtQ1ImXuYKjbH2J78Tut6h9Bw==" />
+        </item>
+        <item>
             <title>Version 0.18.2 — Reliable system audio recording</title>
             <pubDate>Sun, 02 Aug 2026 09:26:12 +0000</pubDate>
             <sparkle:version>0.18.2</sparkle:version>
