@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.19.0</title>
+            <pubDate>Tue, 18 Aug 2026 01:44:28 +0000</pubDate>
+            <sparkle:version>0.19.0</sparkle:version>
+            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>You can now add system audio to a recording that is already running. If a call starts in the middle of a mic-only recording, click SYSTEM in the popover — or accept the prompt Kera shows when it notices the call. The other side is captured from that moment on, and everything stays on one transcript timeline.</li>
+<li>Fixed a bug where a recording with both mic and system audio could lose most of the system side from the transcript when the two tracks needed alignment.</li>
+<li>The "system audio was recorded silent" warning now judges the system track itself, not the length of the whole recording, so it can no longer flag a track that simply started late.</li>
+<li>Kera no longer warns about blocked system audio before a call has started.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.19.0/Kera-v0.19.0.dmg"
+                length="9475969"
+                type="application/octet-stream"
+                sparkle:edSignature="JlJhs9M3+tG88//XcLUj25ASpMduotrCW5pDZ5vKFBAEiXcpzv1bJCq7VsIhaHnRWkLP0ifSoExzhdCetmQdBA==" />
+        </item>
+        <item>
             <title>Version 0.18.3 — Choose how a meeting is re-processed</title>
             <pubDate>Sun, 02 Aug 2026 15:28:06 +0000</pubDate>
             <sparkle:version>0.18.3</sparkle:version>
