@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.19.1</title>
+            <pubDate>Thu, 20 Aug 2026 19:54:21 +0000</pubDate>
+            <sparkle:version>0.19.1</sparkle:version>
+            <sparkle:shortVersionString>0.19.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: re-processing a meeting while its transcript window is open now updates the window in place. Previously the window could show internal placeholder labels (like <code>__speaker</code>) or keep the old speaker layout until you closed and reopened it. This affected every mode switch — Me/Them, No diarization, and full diarization.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.19.1/Kera-v0.19.1.dmg"
+                length="9476019"
+                type="application/octet-stream"
+                sparkle:edSignature="971+ZyVjtzXhTGCjDpJG9FCYNr6L5/h03bbHR6oc4/rBjNfCjHaXYWr14Im9NbG5O69gKe0GeabZzge2beY6Dg==" />
+        </item>
+        <item>
             <title>Version 0.19.0</title>
             <pubDate>Tue, 18 Aug 2026 01:44:28 +0000</pubDate>
             <sparkle:version>0.19.0</sparkle:version>
