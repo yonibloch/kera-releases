@@ -6,6 +6,29 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.0</title>
+            <pubDate>Thu, 03 Sep 2026 16:50:30 +0000</pubDate>
+            <sparkle:version>0.20.0</sparkle:version>
+            <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>Introducing Kera Sync: opt-in, end-to-end encrypted syncing for meetings and the shared Speakers Library across Macs signed into the same Apple Account.</li>
+<li>Add another Mac with your recovery code. If it already has meetings, Keep all & join safely combines both libraries and preserves a recovery backup.</li>
+<li>Titles, transcripts, summaries, screenshots, speaker labels, voice samples, photos, splits, and deletions sync. Full meeting recordings remain on the Mac that captured them.</li>
+<li>Clear setup and status screens show progress, queued changes, retry states, and recovery actions.</li>
+<li>Sync survives offline periods, relaunches, sleep, and a temporarily locked login Keychain, then resumes automatically.</li>
+<li>Sync remains off by default and uses your iCloud storage quota.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.0/Kera-v0.20.0.dmg"
+                length="12973503"
+                type="application/octet-stream"
+                sparkle:edSignature="IFVsnyJhWpjVPaotSt2SnzlxiZkD6HnrUhM2tdgnLALJADq47ZKSQDc3+Dh2rSgOjyxqK2J1juVD5Y9asG1KCw==" />
+        </item>
+        <item>
             <title>Version 0.19.1</title>
             <pubDate>Thu, 20 Aug 2026 19:54:21 +0000</pubDate>
             <sparkle:version>0.19.1</sparkle:version>
