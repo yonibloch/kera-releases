@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.1</title>
+            <pubDate>Fri, 04 Sep 2026 13:20:28 +0000</pubDate>
+            <sparkle:version>0.20.1</sparkle:version>
+            <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>What changed</h3>
+<ul>
+<li>Reprocess always asks which transcription service and diarization method to use. Every Reprocess button now opens the options menu, in the menubar list, the Meetings Library, and the transcript window.</li>
+<li>The "Reprocess options" switch in Settings is gone, since the options menu is now the only way Reprocess works.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.1/Kera-v0.20.1.dmg"
+                length="12972155"
+                type="application/octet-stream"
+                sparkle:edSignature="bB99IcO4Z5vcFERsR0QDEJT5rZHGVjH1IElTF/xHXtTG1/C5W6x1072C7N/W9YOFQdclx5hqPzwPJ9IGqhd2BQ==" />
+        </item>
+        <item>
             <title>Version 0.20.0</title>
             <pubDate>Thu, 03 Sep 2026 16:50:30 +0000</pubDate>
             <sparkle:version>0.20.0</sparkle:version>
