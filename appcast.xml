@@ -6,6 +6,29 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.2</title>
+            <pubDate>Sun, 06 Sep 2026 22:12:34 +0000</pubDate>
+            <sparkle:version>0.20.2</sparkle:version>
+            <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.2</p>
+<p>Reliability fixes from the September 4 code review.</p>
+<ul>
+<li>Meeting files are protected fail-closed. When Kera cannot take a meeting's lock, it leaves that meeting alone instead of changing files unprotected. A transcript, AI summary, or reprocess switch is announced only after it is safely on disk. If a status write fails, the transcript is kept and repaired on the next launch.</li>
+<li>Soniox uploads are cleaned up even after a crash or quit. Kera keeps a small record of each upload until the delete is confirmed, and retries on launch, when the app becomes active, or when you save your Soniox key. Settings > Diagnostics shows what is still pending, with a Retry now button.</li>
+<li>The Google Calendar login is bound to the login you started, times out after five minutes, and can be cancelled from Settings. Pressing Cancel on Google's page returns you to a Connect button.</li>
+<li>AI summaries are saved only for the transcript they were built from. If two requests overlap, only the newest one is kept. The old summary stays visible while a new one is generated, and is kept if the new one fails.</li>
+<li>A build without the iCloud entitlement now shows Kera Sync as unavailable instead of crashing at launch.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.2/Kera-v0.20.2.dmg"
+                length="13129218"
+                type="application/octet-stream"
+                sparkle:edSignature="bV2+NZqGh6DaVq8MYUNSvRaiu0IXhgQ5XX1ERSAMQ/7Z74r/if+2SYT4BxcMCdCZksk3FCvP1kATjhEk21Z1CA==" />
+        </item>
+        <item>
             <title>Version 0.20.1</title>
             <pubDate>Fri, 04 Sep 2026 13:20:28 +0000</pubDate>
             <sparkle:version>0.20.1</sparkle:version>
