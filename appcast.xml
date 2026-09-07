@@ -6,6 +6,31 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.3</title>
+            <pubDate>Mon, 07 Sep 2026 17:27:39 +0000</pubDate>
+            <sparkle:version>0.20.3</sparkle:version>
+            <sparkle:shortVersionString>0.20.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.3</p>
+<p>Fixes</p>
+<ul>
+<li>Sync no longer gets stuck in a loop that kept the CPU busy (fans up) after an iCloud sync retry. Two sync steps could hand a turn back and forth to each other forever; each now waits only for the work ahead of it.</li>
+<li>Waiting for an in-flight sync pass no longer keeps the main thread busy.</li>
+</ul>
+<p>Speaker tagging</p>
+<ul>
+<li>Save now shows a spinner and "Saving…" while a name is being written.</li>
+<li>If a save takes more than two seconds, the card explains that Kera is waiting for another library task, usually sync, to finish. Saves can wait behind sync while it republishes the library, and that wait is now visible instead of a dimmed button.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.3/Kera-v0.20.3.dmg"
+                length="13145924"
+                type="application/octet-stream"
+                sparkle:edSignature="FvEbcx6A2FkwS4wXzdTI2N73c1zAEEHEuZWjFydNxvEjW1dDCbGEJZWJSOngZlYAln6B3ucR/8WtAfINbuXNAg==" />
+        </item>
+        <item>
             <title>Version 0.20.2</title>
             <pubDate>Sun, 06 Sep 2026 22:12:34 +0000</pubDate>
             <sparkle:version>0.20.2</sparkle:version>
