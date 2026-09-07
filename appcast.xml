@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.4</title>
+            <pubDate>Mon, 07 Sep 2026 17:39:51 +0000</pubDate>
+            <sparkle:version>0.20.4</sparkle:version>
+            <sparkle:shortVersionString>0.20.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.4</p>
+<p>Follow-up to the sync fix in v0.20.3.</p>
+<ul>
+<li>When sync restarts after a retry, it now waits for a sync update that lined up right behind it before starting, so a freshly joined library can't be reported as waiting for idle. Two restarts lining up at once still finish right away instead of spinning the CPU.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.4/Kera-v0.20.4.dmg"
+                length="13147825"
+                type="application/octet-stream"
+                sparkle:edSignature="cjOdxZidKLrFFxPxcbxaNpmru/ymqH0Oj67ge6IkSb/2OVZrlLvgLz2swbL4zT5SfpB80jlrw4bHXzeB0HMnCA==" />
+        </item>
+        <item>
             <title>Version 0.20.3</title>
             <pubDate>Mon, 07 Sep 2026 17:27:39 +0000</pubDate>
             <sparkle:version>0.20.3</sparkle:version>
