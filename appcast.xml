@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.6</title>
+            <pubDate>Tue, 08 Sep 2026 23:19:35 +0000</pubDate>
+            <sparkle:version>0.20.6</sparkle:version>
+            <sparkle:shortVersionString>0.20.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.6</p>
+<p>Sync status fixes.</p>
+<ul>
+<li>A one-off sync failure no longer leaves "Action required" showing for good. The status clears itself after the next successful round trip with iCloud, including when iCloud retries the failed send on its own.</li>
+<li>The status does not clear while something still needs attention: a blocked sync checkpoint, a pending cloud recovery, or a stuck cloud audio upload that needs your iCloud account or storage fixed.</li>
+<li>A red status now says what went wrong instead of a generic sentence.</li>
+<li>Sync error details are no longer written in plain text to the Mac's system log.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.6/Kera-v0.20.6.dmg"
+                length="13149629"
+                type="application/octet-stream"
+                sparkle:edSignature="GAJJRugb0uqBJOvJ5rIqdBMCR6H3gFgoaVtUNhK9JfVddTUso/cHZLMqwMXHu5UvpK+NOWyhFvhaWurhyyksBg==" />
+        </item>
+        <item>
             <title>Version 0.20.5</title>
             <pubDate>Tue, 08 Sep 2026 02:02:12 +0000</pubDate>
             <sparkle:version>0.20.5</sparkle:version>
