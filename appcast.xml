@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.5</title>
+            <pubDate>Tue, 08 Sep 2026 02:02:12 +0000</pubDate>
+            <sparkle:version>0.20.5</sparkle:version>
+            <sparkle:shortVersionString>0.20.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.5</p>
+<p>Fixes the sync loop in v0.20.3 and v0.20.4 that kept Settings on "Checking for changes…" with two spinners, re-scanned the library every 40 seconds, and held the CPU near 200%.</p>
+<ul>
+<li>Two iCloud fetches can now run on the same connection at once (iCloud's own scheduled fetch next to Kera's). Kera used to treat that overlap as a broken checkpoint and restart sync, and the restart set off the next overlap. Overlapping fetches now finish together, and the checkpoint moves once, after every record from both has been applied.</li>
+<li>A fetch that finds nothing new no longer counts as a failed checkpoint.</li>
+<li>The Kera Sync settings page shows one progress spinner while syncing, not two.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.5/Kera-v0.20.5.dmg"
+                length="13146972"
+                type="application/octet-stream"
+                sparkle:edSignature="2PIe3DZOeoYVv5gkikYyplgYd8yUvOWrsT+8pB7OGjIAj5yv1axZfMkg2HH2lr+246awFIa+lLcMg7wzAGu9BA==" />
+        </item>
+        <item>
             <title>Version 0.20.4</title>
             <pubDate>Mon, 07 Sep 2026 17:39:51 +0000</pubDate>
             <sparkle:version>0.20.4</sparkle:version>
