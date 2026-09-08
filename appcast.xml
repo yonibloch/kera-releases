@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.7</title>
+            <pubDate>Tue, 08 Sep 2026 23:41:46 +0000</pubDate>
+            <sparkle:version>0.20.7</sparkle:version>
+            <sparkle:shortVersionString>0.20.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.7</p>
+<p>Two sync safety fixes that follow the v0.20.5 loop fix.</p>
+<ul>
+<li>When Kera's own sync check overlaps one that iCloud started, Kera now waits for both to finish before acting on the result. Before, it could read stale data and, in one case, trip the same checkpoint block it had just recovered from.</li>
+<li>If sync recovery succeeds and then blocks again three times within ten minutes, Kera stops retrying on its own and asks you to choose Try again. This caps the kind of loop that ran for an hour in v0.20.4.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.7/Kera-v0.20.7.dmg"
+                length="13157693"
+                type="application/octet-stream"
+                sparkle:edSignature="Ly2COQYniqro4akNvf+x79vR3GY0dK0jcH7LW2mYMlxwzJT5Bf3UHZeDiJx3BY6OJLGa5O41p0kRz1cKNmHRBQ==" />
+        </item>
+        <item>
             <title>Version 0.20.6</title>
             <pubDate>Tue, 08 Sep 2026 23:19:35 +0000</pubDate>
             <sparkle:version>0.20.6</sparkle:version>
