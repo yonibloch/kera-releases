@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.8</title>
+            <pubDate>Wed, 09 Sep 2026 19:11:09 +0000</pubDate>
+            <sparkle:version>0.20.8</sparkle:version>
+            <sparkle:shortVersionString>0.20.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.8</p>
+<p>Google Meet in the Dia browser now records the other side of the call.</p>
+<ul>
+<li>Dia runs its call audio in helper processes that carry Arc's bundle ID, not Dia's. Kera only looked for Dia's own ID, so it tapped Dia's silent main process and saved your mic alone with the "System Audio Not Captured" warning. Kera now taps the right helpers, matched to the Dia window it detected.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.8/Kera-v0.20.8.dmg"
+                length="13157771"
+                type="application/octet-stream"
+                sparkle:edSignature="DzWEj0ec8WUhMqbZ0tYruTW83IYhM5gplYms4mgsRyLY5j08f7XV35AhXeLi1pNR8Lofe+CaiVrsDXqrETqcAQ==" />
+        </item>
+        <item>
             <title>Version 0.20.7</title>
             <pubDate>Tue, 08 Sep 2026 23:41:46 +0000</pubDate>
             <sparkle:version>0.20.7</sparkle:version>
