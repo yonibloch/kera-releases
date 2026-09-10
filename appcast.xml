@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.9</title>
+            <pubDate>Thu, 10 Sep 2026 21:52:03 +0000</pubDate>
+            <sparkle:version>0.20.9</sparkle:version>
+            <sparkle:shortVersionString>0.20.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.9</p>
+<p>Sync no longer restarts itself after every local change, and the library stays responsive while it works.</p>
+<ul>
+<li>After each upload (a finished transcript, a split, speaker tags) iCloud runs a quick bookkeeping check that carries no meeting data. Kera treated that check as a failed update, restarted its sync engine, and replayed the whole library up to three times before giving up. It now accepts the check for what it is. Those bursts held the library lock, which is why "The recordings library is busy" appeared when splitting a meeting and why saving a speaker tag could take a minute.</li>
+<li>When Kera does decline an iCloud update, the log now names the reason, so the next sync problem can be read without any extra setup.</li>
+<li>Splitting a meeting waits its turn for the library instead of failing, shows a "Splitting meeting" card while it waits, and a meeting can no longer be split twice.</li>
+<li>While a speaker tag is saving, sample playback stops and the play buttons stay off until the save finishes.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.9/Kera-v0.20.9.dmg"
+                length="13166863"
+                type="application/octet-stream"
+                sparkle:edSignature="qimNdvvV4a5Af/p8pbANlRSeD8puF42lI8yvCwgDcVxB/wpGXWHRkXPOqdJZMDae6+1lsVjMxwNf9XBsBinVCA==" />
+        </item>
+        <item>
             <title>Version 0.20.8</title>
             <pubDate>Wed, 09 Sep 2026 19:11:09 +0000</pubDate>
             <sparkle:version>0.20.8</sparkle:version>
