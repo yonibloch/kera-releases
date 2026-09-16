@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.10</title>
+            <pubDate>Wed, 16 Sep 2026 20:48:02 +0000</pubDate>
+            <sparkle:version>0.20.10</sparkle:version>
+            <sparkle:shortVersionString>0.20.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.10</p>
+<p>Speaker tagging on synced meetings</p>
+<ul>
+<li>Meetings that were recorded on another Mac now show a greyed-out Play sample button in the speaker editor, with a tooltip explaining that the audio is on the Mac that recorded the meeting. Before, the button looked live but clicking it did nothing.</li>
+<li>"Try another sample" is hidden for those meetings, since none of the clips could play either.</li>
+<li>The transcript quotes stay, so you can still tag speakers by reading.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.10/Kera-v0.20.10.dmg"
+                length="13168739"
+                type="application/octet-stream"
+                sparkle:edSignature="mICZjf6L0yB5lWTo9NTZ80C6nCRoEdRC1vhknckYr+xQUXlCBfU4z+sxuo7saDAJ5xK2pB7cDxR/tyraphIVDw==" />
+        </item>
+        <item>
             <title>Version 0.20.9</title>
             <pubDate>Thu, 10 Sep 2026 21:52:03 +0000</pubDate>
             <sparkle:version>0.20.9</sparkle:version>
