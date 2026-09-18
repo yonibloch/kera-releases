@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.11</title>
+            <pubDate>Fri, 18 Sep 2026 15:43:00 +0000</pubDate>
+            <sparkle:version>0.20.11</sparkle:version>
+            <sparkle:shortVersionString>0.20.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.11</p>
+<p>Meeting detection in Dia</p>
+<ul>
+<li>Kera now detects Google Meet and Teams calls in Dia even when a blank New Tab is open. Before, a single blank tab stopped all meeting detection in Dia.</li>
+<li>Joining a Teams meeting as a guest (without signing in) is now detected in every supported browser. When you leave the call, Kera notices that the browser has let go of the mic, so the recording ends even if the tab stays open.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.11/Kera-v0.20.11.dmg"
+                length="13170685"
+                type="application/octet-stream"
+                sparkle:edSignature="l/wgdT9f31OfEJQc/sGm2ZMbvritSYVUmQYghKN86rlNzDEi5UJL2R3xoBLSQplEuYZDHHS7m90bq1Zcg3OcAw==" />
+        </item>
+        <item>
             <title>Version 0.20.10</title>
             <pubDate>Wed, 16 Sep 2026 20:48:02 +0000</pubDate>
             <sparkle:version>0.20.10</sparkle:version>
