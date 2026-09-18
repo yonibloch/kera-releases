@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.13</title>
+            <pubDate>Fri, 18 Sep 2026 17:19:19 +0000</pubDate>
+            <sparkle:version>0.20.13</sparkle:version>
+            <sparkle:shortVersionString>0.20.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.13</p>
+<p>Reprocessing</p>
+<ul>
+<li>"Reprocess as Me/Them" now does what you ask. Before, if the meeting's calendar event listed only one other attendee, Kera quietly ran full speaker separation instead, every time.</li>
+</ul>
+<p>Speaker editor</p>
+<ul>
+<li>Undo now shows "Undoing…" with a spinner while it runs, explains when it is waiting for other work to finish, and confirms with "Undone: …" when it's done.</li>
+<li>Clicking Undo again while an undo is running no longer starts a second one.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.13/Kera-v0.20.13.dmg"
+                length="13177541"
+                type="application/octet-stream"
+                sparkle:edSignature="6F0j/TRO8AsLIfKssUEb35fqoAjKhtEKsI7ZkP3suFYTv692ScDV965skOa1q6NFzoNfF1acyjebdoOsfIwXCA==" />
+        </item>
+        <item>
             <title>Version 0.20.12</title>
             <pubDate>Fri, 18 Sep 2026 17:00:21 +0000</pubDate>
             <sparkle:version>0.20.12</sparkle:version>
