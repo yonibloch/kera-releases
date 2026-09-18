@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.12</title>
+            <pubDate>Fri, 18 Sep 2026 17:00:21 +0000</pubDate>
+            <sparkle:version>0.20.12</sparkle:version>
+            <sparkle:shortVersionString>0.20.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.12</p>
+<p>Teams guest meetings</p>
+<ul>
+<li>A Teams tab left open after a guest call ends no longer shows up as a live meeting when another call (Zoom, for example) is using the mic. Kera now counts a Teams guest page as a meeting only while that browser itself is using the mic.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.12/Kera-v0.20.12.dmg"
+                length="13170507"
+                type="application/octet-stream"
+                sparkle:edSignature="pO+707n04S0qyz1Umi+19xswkdf7XQAR8N0gb/D2e+yiU1VHFVXtNVG+PRBM2B2RgHpUGhhAqVnU7pL0LVepDA==" />
+        </item>
+        <item>
             <title>Version 0.20.11</title>
             <pubDate>Fri, 18 Sep 2026 15:43:00 +0000</pubDate>
             <sparkle:version>0.20.11</sparkle:version>
