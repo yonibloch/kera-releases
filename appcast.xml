@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.14</title>
+            <pubDate>Sun, 20 Sep 2026 00:39:13 +0000</pubDate>
+            <sparkle:version>0.20.14</sparkle:version>
+            <sparkle:shortVersionString>0.20.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera v0.20.14</p>
+<p>Smaller app</p>
+<ul>
+<li>Kera is about half the size on disk: roughly 23 MB instead of 43 MB. Updates download a little faster too.</li>
+</ul>
+<p>Under the hood</p>
+<ul>
+<li>Removed about 6,000 lines of unused and repeated code. Nothing changes in how Kera looks or works.</li>
+<li>Sync no longer carries the converter for a pre-release sync format. If Kera ever finds a file in that old format, it pauses sync and says so instead of converting it.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.14/Kera-v0.20.14.dmg"
+                length="10157694"
+                type="application/octet-stream"
+                sparkle:edSignature="g0LGWsOlXAFMbKVw0juhBrinmcLbb8LXCNbu3QwiqvfvqMuMd9KDNbKRWpEb2pshLRJAv2qrn5ScC5gI9/lmDw==" />
+        </item>
+        <item>
             <title>Version 0.20.13</title>
             <pubDate>Fri, 18 Sep 2026 17:19:19 +0000</pubDate>
             <sparkle:version>0.20.13</sparkle:version>
