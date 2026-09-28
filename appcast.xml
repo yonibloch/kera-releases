@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.15 — Library refresh after speaker tagging</title>
+            <pubDate>Mon, 28 Sep 2026 16:16:51 +0000</pubDate>
+            <sparkle:version>0.20.15</sparkle:version>
+            <sparkle:shortVersionString>0.20.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>The Library now refreshes when you close the speaker editor, clearing stale “NEW” badges and updating speaker names and meeting titles, including calls synced from another Mac without local audio.</li>
+<li>Fixed the command-line meeting list missing recordings that are no longer present in the legacy index.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.15/Kera-v0.20.15.dmg"
+                length="10158598"
+                type="application/octet-stream"
+                sparkle:edSignature="S/kwXfskgLaAolzzhtkdavELW8WeTLd40105wlDhvDeahQTssvot6n8bha4Kslsh3w8wK4VE4yNNkOLh9OkSAw==" />
+        </item>
+        <item>
             <title>Version 0.20.14</title>
             <pubDate>Sun, 20 Sep 2026 00:39:13 +0000</pubDate>
             <sparkle:version>0.20.14</sparkle:version>
