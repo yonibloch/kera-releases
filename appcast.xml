@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.16 — iCloud sync recovers from a stuck retry</title>
+            <pubDate>Fri, 02 Oct 2026 13:31:16 +0000</pubDate>
+            <sparkle:version>0.20.16</sparkle:version>
+            <sparkle:shortVersionString>0.20.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed Kera Sync getting stuck on "waiting after a temporary iCloud problem" when an earlier iCloud download had been saved but not yet applied. The retry now applies that download first and then syncs normally.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.16/Kera-v0.20.16.dmg"
+                length="10161559"
+                type="application/octet-stream"
+                sparkle:edSignature="fVC9FfGAmSw/YIQ8tXxjLoq+MQUOx9otrvEJZx/PUaBipisFprm1LwQVle3D+ffsanJF/3Twdin80NlymRHRAg==" />
+        </item>
+        <item>
             <title>Version 0.20.15 — Library refresh after speaker tagging</title>
             <pubDate>Mon, 28 Sep 2026 16:16:51 +0000</pubDate>
             <sparkle:version>0.20.15</sparkle:version>
