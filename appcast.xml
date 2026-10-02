@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.17 — Custom vocabulary works on look-alike words</title>
+            <pubDate>Fri, 02 Oct 2026 13:55:13 +0000</pubDate>
+            <sparkle:version>0.20.17</sparkle:version>
+            <sparkle:shortVersionString>0.20.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Custom vocabulary words now win over common words that sound the same. For example, "Eko" is no longer transcribed as "Echo" when it's in your list. Applies to new Soniox transcriptions.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.17/Kera-v0.20.17.dmg"
+                length="10161964"
+                type="application/octet-stream"
+                sparkle:edSignature="93lBAwOD8rBHxaj+VLW98NSk5Sjo9qwBRiKiG74k42Ugklpa42fj//dqErj334jrUYSLvgeyP2y0FFq7VGp/Ag==" />
+        </item>
+        <item>
             <title>Version 0.20.16 — iCloud sync recovers from a stuck retry</title>
             <pubDate>Fri, 02 Oct 2026 13:31:16 +0000</pubDate>
             <sparkle:version>0.20.16</sparkle:version>
