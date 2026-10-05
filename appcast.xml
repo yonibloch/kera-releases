@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.18 — Tagging speakers is fast again</title>
+            <pubDate>Mon, 05 Oct 2026 17:39:29 +0000</pubDate>
+            <sparkle:version>0.20.18</sparkle:version>
+            <sparkle:shortVersionString>0.20.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Saving a speaker tag no longer gets slower with every meeting you record. With about 760 meetings it took around 40 seconds; now it takes a few seconds.</li>
+<li>The window no longer freezes for a moment after you tag someone while iCloud sync is busy.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.18/Kera-v0.20.18.dmg"
+                length="10178122"
+                type="application/octet-stream"
+                sparkle:edSignature="/v6vzBDYcY4Rv1L/04TogDVC+FvR8+vQI6GzVwHjJOe6cUsWxIWigtl5yLH+nyufutxWGBCaCXLCAzCdhbRiDw==" />
+        </item>
+        <item>
             <title>Version 0.20.17 — Custom vocabulary works on look-alike words</title>
             <pubDate>Fri, 02 Oct 2026 13:55:13 +0000</pubDate>
             <sparkle:version>0.20.17</sparkle:version>
