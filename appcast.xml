@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.19 — Sync only touches what changed</title>
+            <pubDate>Mon, 05 Oct 2026 17:59:19 +0000</pubDate>
+            <sparkle:version>0.20.19</sparkle:version>
+            <sparkle:shortVersionString>0.20.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>After you tag or rename a speaker, iCloud sync no longer rewrites every meeting and every voice sample on this Mac. It now skips anything that hasn't changed, so tagging several speakers in a row no longer waits behind sync.</li>
+<li>The meeting list and Speakers Library stop refreshing over and over after each sync.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.19/Kera-v0.20.19.dmg"
+                length="10190288"
+                type="application/octet-stream"
+                sparkle:edSignature="h/FJaLNwDODgkZr904iwvgBBmdFA8Y0cTs/0V7idFQ0XcJB9ODxIIzS/4Ak1RUhJi0cny5ry7zW9TRTVN3jbAw==" />
+        </item>
+        <item>
             <title>Version 0.20.18 — Tagging speakers is fast again</title>
             <pubDate>Mon, 05 Oct 2026 17:39:29 +0000</pubDate>
             <sparkle:version>0.20.18</sparkle:version>
