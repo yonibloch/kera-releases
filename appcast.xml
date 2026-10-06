@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.21 — Keep the recording panel focused on current meetings</title>
+            <pubDate>Tue, 06 Oct 2026 20:32:44 +0000</pubDate>
+            <sparkle:version>0.20.21</sparkle:version>
+            <sparkle:shortVersionString>0.20.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Historical cancelled and failed recordings no longer crowd the recording panel above Recents.</li>
+<li>Meetings currently finishing or transcribing remain available to rename. Recovery items remain in the Meeting Library.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.21/Kera-v0.20.21.dmg"
+                length="10290301"
+                type="application/octet-stream"
+                sparkle:edSignature="zTMoYXnZ+6rlgCa+6ChBf9+djHEgbwYvY/JpAdj3KgtRQ7w8etS1hsAjh/dAYUWsUr6VebDoswo/DDM/zWQCCA==" />
+        </item>
+        <item>
             <title>Version 0.20.20 — Easier meeting names</title>
             <pubDate>Tue, 06 Oct 2026 19:51:55 +0000</pubDate>
             <sparkle:version>0.20.20</sparkle:version>
