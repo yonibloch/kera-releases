@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.20 — Easier meeting names</title>
+            <pubDate>Tue, 06 Oct 2026 19:51:55 +0000</pubDate>
+            <sparkle:version>0.20.20</sparkle:version>
+            <sparkle:shortVersionString>0.20.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Rename a meeting while recording or paused, directly in the recording panel.</li>
+<li>Rename it right after recording, before the transcript is ready, from Recents or the Meeting Library.</li>
+<li>Renaming a completed meeting keeps its transcript open and preserves your playback position, scroll position, and search.</li>
+<li>Saved names survive recording recovery and reprocessing. Editing also handles Escape, switching meetings, and failed saves more reliably.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.20/Kera-v0.20.20.dmg"
+                length="10289789"
+                type="application/octet-stream"
+                sparkle:edSignature="2qYffB7Ti8C6IfrKP9wktospYxTODUyLwgu17pLMaCqCyhd+sO/bUCG5IUEZdIGu9ZaN6ONPDP/nlS75pwEAAA==" />
+        </item>
+        <item>
             <title>Version 0.20.19 — Sync only touches what changed</title>
             <pubDate>Mon, 05 Oct 2026 17:59:19 +0000</pubDate>
             <sparkle:version>0.20.19</sparkle:version>
