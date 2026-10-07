@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.22 — Restore the Meeting Library layout</title>
+            <pubDate>Tue, 06 Oct 2026 23:58:46 +0000</pubDate>
+            <sparkle:version>0.20.22</sparkle:version>
+            <sparkle:shortVersionString>0.20.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Historical cancelled and failed recordings no longer appear above your meetings in the Library.</li>
+<li>Meetings currently finishing or transcribing remain available to rename.</li>
+<li>Older meetings stay compact and unselected when opening the Library.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.22/Kera-v0.20.22.dmg"
+                length="10290256"
+                type="application/octet-stream"
+                sparkle:edSignature="VNKuMrg1FsDh/+KecRVmSVZV4oou+YRbK/PlUpJxfMXDymRmRSpI0qxv9hwZgVduYiL4hDK/PHbaCpksueZpDg==" />
+        </item>
+        <item>
             <title>Version 0.20.21 — Keep the recording panel focused on current meetings</title>
             <pubDate>Tue, 06 Oct 2026 20:32:44 +0000</pubDate>
             <sparkle:version>0.20.21</sparkle:version>
