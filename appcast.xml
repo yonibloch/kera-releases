@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.24 — Previews and clearer re-processing</title>
+            <pubDate>Thu, 08 Oct 2026 22:57:34 +0000</pubDate>
+            <sparkle:version>0.20.24</sparkle:version>
+            <sparkle:shortVersionString>0.20.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Meetings transcribed without speaker labels now show their first line in the Library and menu bar, instead of "No transcript content yet."</li>
+<li>An open transcript window shows "Re-processing…" as soon as a re-process starts. If it fails, the window says why, keeps the previous transcript, and offers Try again.</li>
+<li>The first on-device transcription on a Mac no longer times out while the model is being prepared, which can take several minutes the first time.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.24/Kera-v0.20.24.dmg"
+                length="10301554"
+                type="application/octet-stream"
+                sparkle:edSignature="EgP7qadd6eWcA5XiCoqMi4FfK8qEuKBMdMLiBiDtOCAP0kkKoPict9q58nM187hvXIrv0WDXv3802UcPMn4vDw==" />
+        </item>
+        <item>
             <title>Version 0.20.23 — Transcript windows follow a reprocess</title>
             <pubDate>Thu, 08 Oct 2026 17:33:05 +0000</pubDate>
             <sparkle:version>0.20.23</sparkle:version>
