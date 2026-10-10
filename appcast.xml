@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.25 — AI title suggestions</title>
+            <pubDate>Sat, 10 Oct 2026 18:06:45 +0000</pubDate>
+            <sparkle:version>0.20.25</sparkle:version>
+            <sparkle:shortVersionString>0.20.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera can suggest a title for any finished meeting. Click the ✨ next to the meeting's name in the Library, or Suggest in the Rename dialog. It reads the transcript and proposes the topic, followed by the people in the meeting.</li>
+<li>Nothing changes until you click Use in the Library or Rename in the dialog. Another asks for a different suggestion.</li>
+<li>It uses your AI Naming & Summaries provider and key, and shows only when that setting is on.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.25/Kera-v0.20.25.dmg"
+                length="10332866"
+                type="application/octet-stream"
+                sparkle:edSignature="HjLD4felYUS+LpJPfrfvQOLfFfdN+cgM4ltVcA1W/aUZiQ8wXAA00zwifxHCFN0YpvgslEWGqNY0A+YIALqJCA==" />
+        </item>
+        <item>
             <title>Version 0.20.24 — Previews and clearer re-processing</title>
             <pubDate>Thu, 08 Oct 2026 22:57:34 +0000</pubDate>
             <sparkle:version>0.20.24</sparkle:version>
