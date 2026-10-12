@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.26 — Sync Trash cleanup</title>
+            <pubDate>Mon, 12 Oct 2026 12:51:47 +0000</pubDate>
+            <sparkle:version>0.20.26</sparkle:version>
+            <sparkle:shortVersionString>0.20.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>When you delete a meeting on one Mac, your other Macs kept a hidden copy of it, audio included, forever. Those copies are now removed 30 days after the deletion reaches each Mac.</li>
+<li>Groundwork for syncing meeting audio between your Macs. Nothing changes yet: audio sync stays off.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.26/Kera-v0.20.26.dmg"
+                length="10439067"
+                type="application/octet-stream"
+                sparkle:edSignature="SNViYMdCFGLRd/uPjgdqy2wxt+nFfcvFM5PcGpPya3XcnHDXl3QA1CSAjQtz75/BIq45dOHeOTUUKiuAEab5Dg==" />
+        </item>
+        <item>
             <title>Version 0.20.25 — AI title suggestions</title>
             <pubDate>Sat, 10 Oct 2026 18:06:45 +0000</pubDate>
             <sparkle:version>0.20.25</sparkle:version>
