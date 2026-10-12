@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.20.27 — Floating recording indicator</title>
+            <pubDate>Mon, 12 Oct 2026 22:26:14 +0000</pubDate>
+            <sparkle:version>0.20.27</sparkle:version>
+            <sparkle:shortVersionString>0.20.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>While Kera records, a small pill on screen shows the recording time, even over full-screen calls and when the menu bar icon is hidden. Rest the mouse on it, or click it, to pause, take a screenshot or stop. Stop asks for a second click. Drag it anywhere. People you share your screen with don't see it. Turn it off in Settings, Recording, under While Recording.</li>
+<li>Joining a library on a second Mac could finish and still show "Kera Sync will continue when recording and transcription are idle", leaving Sync off. That no longer happens.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.20.27/Kera-v0.20.27.dmg"
+                length="10469027"
+                type="application/octet-stream"
+                sparkle:edSignature="xme2J59VMh63ZnGBcTCHi51tvYI7OQ3gcdyMaO6HgvT/RYcZpP7ubyVq70bSqP8PmSd2JRNgoPAUWjYqY8xRDw==" />
+        </item>
+        <item>
             <title>Version 0.20.26 — Sync Trash cleanup</title>
             <pubDate>Mon, 12 Oct 2026 12:51:47 +0000</pubDate>
             <sparkle:version>0.20.26</sparkle:version>
