@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.3 — Library audio note and sync measurements</title>
+            <pubDate>Tue, 13 Oct 2026 19:43:21 +0000</pubDate>
+            <sparkle:version>0.21.3</sparkle:version>
+            <sparkle:shortVersionString>0.21.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>In the Library, a meeting whose audio is in iCloud now says so, instead of "Audio removed to save space". Open the transcript to download and play it.</li>
+<li>Kera Sync now records how much work each sync pass does, ahead of an update that makes sync much lighter on battery and disk.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.3/Kera-v0.21.3.dmg"
+                length="10576446"
+                type="application/octet-stream"
+                sparkle:edSignature="fFX/N7s2/94okXJPKZIgleVi4B8dSFApKN9yER1e38VCXhTUIEuGdyaKu/SyWmzJM0NwEK5hJckhsVI6gnpCBA==" />
+        </item>
+        <item>
             <title>Version 0.21.2 — Sync fixes and a steadier indicator</title>
             <pubDate>Tue, 13 Oct 2026 17:03:15 +0000</pubDate>
             <sparkle:version>0.21.2</sparkle:version>
