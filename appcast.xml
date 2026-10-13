@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.0 — Smoother recording indicator</title>
+            <pubDate>Tue, 13 Oct 2026 00:47:09 +0000</pubDate>
+            <sparkle:version>0.21.0</sparkle:version>
+            <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>The floating recording indicator now grows open when you rest the mouse on it and folds back into the time when you move away, with its buttons arriving one after another. Stop still asks for a second click.</li>
+<li>More groundwork for syncing meeting audio between your Macs. Nothing changes yet: audio sync stays off.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.0/Kera-v0.21.0.dmg"
+                length="10562466"
+                type="application/octet-stream"
+                sparkle:edSignature="xnjF2j4aXgxF3BBIwfu4ecmWUKbugPIquk6dmdHdjqkOB7Mql0vjHC07kLr7IG1fah7Fdq9GL8nQlRNDT7vrAw==" />
+        </item>
+        <item>
             <title>Version 0.20.27 — Floating recording indicator</title>
             <pubDate>Mon, 12 Oct 2026 22:26:14 +0000</pubDate>
             <sparkle:version>0.20.27</sparkle:version>
