@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.1 — Fix for the meeting audio preview</title>
+            <pubDate>Tue, 13 Oct 2026 10:45:24 +0000</pubDate>
+            <sparkle:version>0.21.1</sparkle:version>
+            <sparkle:shortVersionString>0.21.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixes a freeze on Macs trying out meeting audio sync: turning it on while Kera Sync was checking the library could stop sync, and keep a new recording from starting. If you aren't trying audio sync, nothing changes for you.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.1/Kera-v0.21.1.dmg"
+                length="10565630"
+                type="application/octet-stream"
+                sparkle:edSignature="X1f9upFZeZsaqJimuthIiCiylAJujn2xBfqi4pKpWJOxn19nlo+IALuNSRcDCf5ODMp2nUA4ULfPm3oMPgtTCw==" />
+        </item>
+        <item>
             <title>Version 0.21.0 — Smoother recording indicator</title>
             <pubDate>Tue, 13 Oct 2026 00:47:09 +0000</pubDate>
             <sparkle:version>0.21.0</sparkle:version>
