@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.2 — Sync fixes and a steadier indicator</title>
+            <pubDate>Tue, 13 Oct 2026 17:03:15 +0000</pubDate>
+            <sparkle:version>0.21.2</sparkle:version>
+            <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixes a sync stall after another Mac joins your library: Kera Sync could refuse a large update from iCloud and stop receiving changes. Nothing was lost; affected Macs catch up after updating.</li>
+<li>The floating recording indicator no longer opens empty after you drag it to the other side of the screen.</li>
+<li>A mistyped recovery code now says the code doesn't match, instead of showing a general error.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.2/Kera-v0.21.2.dmg"
+                length="10566337"
+                type="application/octet-stream"
+                sparkle:edSignature="jJ0o7ecsNYKI6pnfp+oE8LKTF7np3wBKn5nGirBjpWeMj8di55yAj6t6eJoPsTyKGIYonbwngyFvknOxD/JuBw==" />
+        </item>
+        <item>
             <title>Version 0.21.1 — Fix for the meeting audio preview</title>
             <pubDate>Tue, 13 Oct 2026 10:45:24 +0000</pubDate>
             <sparkle:version>0.21.1</sparkle:version>
