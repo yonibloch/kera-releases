@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.5 — Much lighter sync</title>
+            <pubDate>Wed, 14 Oct 2026 13:21:00 +0000</pubDate>
+            <sparkle:version>0.21.5</sparkle:version>
+            <sparkle:shortVersionString>0.21.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera Sync now remembers which meetings it already checked and skips them until something in them changes. On a library of about 800 meetings, a quiet sync no longer reads, compresses and rebuilds every meeting, which saves about a gigabyte of disk writes and many seconds of processor time each time it syncs. Edits are still picked up, including ones made outside Kera.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.5/Kera-v0.21.5.dmg"
+                length="10613691"
+                type="application/octet-stream"
+                sparkle:edSignature="8ppEU/55jL3d4u0HR20LSLnBTOfyT4HELvfuc1uO1Fsp4H7bS18bxcxyLzXz5aHSqD6ERPyhi9L2pSfGMp06Bw==" />
+        </item>
+        <item>
             <title>Version 0.21.4 — Lighter sync</title>
             <pubDate>Wed, 14 Oct 2026 01:40:37 +0000</pubDate>
             <sparkle:version>0.21.4</sparkle:version>
