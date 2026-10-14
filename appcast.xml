@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.6 — Lighter launch</title>
+            <pubDate>Wed, 14 Oct 2026 16:23:51 +0000</pubDate>
+            <sparkle:version>0.21.6</sparkle:version>
+            <sparkle:shortVersionString>0.21.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera no longer rewrites about 2 GB every time it starts. At launch it checks its sync database and every synced meeting, and it used to write a full copy of each to do that, enough to trip macOS's daily disk-write report on its own. Files that haven't changed are now shared on disk instead of copied.</li>
+<li>Custom vocabulary typed in lowercase, like "eko", now reaches transcription capitalized, so it is recognized. Before, "Eko" kept coming out as "echo".</li>
+<li>Meeting audio no longer waits for free disk space when macOS reports none available by mistake.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.6/Kera-v0.21.6.dmg"
+                length="10617606"
+                type="application/octet-stream"
+                sparkle:edSignature="3TerwS+Igfw2vldMJf4u13MRCkAcjnkMSVP8OumszB89hhQxePEjjRMqSoDZ+ZfeddZWfEKENLWyCRxFkYQjBA==" />
+        </item>
+        <item>
             <title>Version 0.21.5 — Much lighter sync</title>
             <pubDate>Wed, 14 Oct 2026 13:21:00 +0000</pubDate>
             <sparkle:version>0.21.5</sparkle:version>
