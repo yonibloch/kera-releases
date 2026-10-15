@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.7 — One-click Stop</title>
+            <pubDate>Thu, 15 Oct 2026 15:30:55 +0000</pubDate>
+            <sparkle:version>0.21.7</sparkle:version>
+            <sparkle:shortVersionString>0.21.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Stop on the floating recording pill now ends the recording on the first click. The second "Stop" click is gone.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.7/Kera-v0.21.7.dmg"
+                length="10613769"
+                type="application/octet-stream"
+                sparkle:edSignature="iZP8k504BhLqK+4ay/yoB1AOxBj6bh/L83Aj772slT5g6ZQ21iwyuIf2pGt9XxbBxnovBRSzIIpUztUZ8ZQuDA==" />
+        </item>
+        <item>
             <title>Version 0.21.6 — Lighter launch</title>
             <pubDate>Wed, 14 Oct 2026 16:23:51 +0000</pubDate>
             <sparkle:version>0.21.6</sparkle:version>
