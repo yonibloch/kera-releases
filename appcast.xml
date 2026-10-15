@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.9 — Overlapping meetings named right</title>
+            <pubDate>Thu, 15 Oct 2026 19:34:05 +0000</pubDate>
+            <sparkle:version>0.21.9</sparkle:version>
+            <sparkle:shortVersionString>0.21.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>When calendar events overlap, a recording now takes the title of the meeting that started last. A meeting inside a longer block on your calendar (an hour-long hold, a "Blocked" afternoon) gets its own name instead of the block's.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.9/Kera-v0.21.9.dmg"
+                length="10656062"
+                type="application/octet-stream"
+                sparkle:edSignature="4VynqFY4dZ7wHRhimviqxxainzfuOYVdXGHRaABhpiO6qXcmMsCAI9fefjWlK6saIL+VrS145AG6lpcQOrpzDQ==" />
+        </item>
+        <item>
             <title>Version 0.21.8 — Meeting heads-up</title>
             <pubDate>Thu, 15 Oct 2026 16:06:44 +0000</pubDate>
             <sparkle:version>0.21.8</sparkle:version>
