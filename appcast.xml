@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.10 — Google Meet in the browser detected again</title>
+            <pubDate>Thu, 15 Oct 2026 21:07:04 +0000</pubDate>
+            <sparkle:version>0.21.10</sparkle:version>
+            <sparkle:shortVersionString>0.21.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera notices Google Meet calls in Chrome, Safari, Dia and other browsers again. On recent macOS it was throwing away every browser check, so a Meet call was never detected and a Meet "Join & record" from the heads-up banner never started recording.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.10/Kera-v0.21.10.dmg"
+                length="10656579"
+                type="application/octet-stream"
+                sparkle:edSignature="3smr2Vn/wwZERcKINm5O7y9xxJ15RJO/9LbH7tfNBn+H5JMoHYVEUkSZZmzKw5fbnZ5xOlLVdxixUTlcaqUTBg==" />
+        </item>
+        <item>
             <title>Version 0.21.9 — Overlapping meetings named right</title>
             <pubDate>Thu, 15 Oct 2026 19:34:05 +0000</pubDate>
             <sparkle:version>0.21.9</sparkle:version>
