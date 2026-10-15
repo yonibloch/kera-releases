@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.11 — Smaller recordings</title>
+            <pubDate>Thu, 15 Oct 2026 21:28:03 +0000</pubDate>
+            <sparkle:version>0.21.11</sparkle:version>
+            <sparkle:shortVersionString>0.21.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>The mixed audio Kera keeps for each meeting is now saved at the same 16-bit quality as the microphone and call tracks: half the size, the same sound. About 110 MB less per hour of meeting.</li>
+<li>Mixes saved before this update are converted once in the background, starting ten minutes after Kera opens. It pauses while you record.</li>
+<li>When Kera trims silence from the start or end of a recording, it keeps an untrimmed copy. That copy is now removed 30 days after the meeting.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.11/Kera-v0.21.11.dmg"
+                length="10669633"
+                type="application/octet-stream"
+                sparkle:edSignature="raErNLAijIxeVFvOOEfZW9lDxWe7zBwLRKjx0TLUke2uaPrlLsoX/VtWKPutNqdjrU5P8JInaSSVIxdNiZHMAA==" />
+        </item>
+        <item>
             <title>Version 0.21.10 — Google Meet in the browser detected again</title>
             <pubDate>Thu, 15 Oct 2026 21:07:04 +0000</pubDate>
             <sparkle:version>0.21.10</sparkle:version>
