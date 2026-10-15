@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.21.8 — Meeting heads-up</title>
+            <pubDate>Thu, 15 Oct 2026 16:06:44 +0000</pubDate>
+            <sparkle:version>0.21.8</sparkle:version>
+            <sparkle:shortVersionString>0.21.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>A minute before a calendar meeting with a Zoom, Google Meet, Teams or Webex link, a small banner at the top of the screen shows the meeting with Join & record. One click opens the meeting (Zoom links go straight to the Zoom app) and Kera records the call as soon as it starts. Nothing is recorded in a waiting room.</li>
+<li>Back-to-back meetings: while Kera is recording, the banner's button is New recording. It saves the current recording as usual and records the next meeting.</li>
+<li>The banner never takes focus from your call, and people you share your screen with don't see it.</li>
+<li>It needs Google Calendar connected in Kera. Turn it off in Settings > Google Calendar > Meeting heads-up.</li>
+<li>A recording started a minute before a meeting, or between back-to-back meetings, now gets that meeting's title.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.21.8/Kera-v0.21.8.dmg"
+                length="10657191"
+                type="application/octet-stream"
+                sparkle:edSignature="sRjZcGwLw02p+vYBeOBKtX0a1fZasUhhBm/knyc2Q+fAi3MQsBlg+jl4x5PqwqWv6LrDDa33WN9tiWguhpRpDQ==" />
+        </item>
+        <item>
             <title>Version 0.21.7 — One-click Stop</title>
             <pubDate>Thu, 15 Oct 2026 15:30:55 +0000</pubDate>
             <sparkle:version>0.21.7</sparkle:version>
