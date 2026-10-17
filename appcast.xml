@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.22.2 — Check library</title>
+            <pubDate>Sat, 17 Oct 2026 15:38:04 +0000</pubDate>
+            <sparkle:version>0.22.2</sparkle:version>
+            <sparkle:shortVersionString>0.22.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>A new Check library sheet in the Speakers Library finds saved people that older versions of Kera left in a muddle, and fixes each one only when you click: a merge that was never finished, an old name that still labels meetings, the same person saved under two spellings, and your own name labeling a voice instead of Me.</li>
+<li>Your name becomes Me only in meetings where this Mac's audio shows the voice was yours. The rest are listed so you can check them yourself.</li>
+<li>Every fix can be undone for 7 seconds, and "Leave as is" keeps a row from coming back.</li>
+<li>The placeholder Kera uses for meetings without speaker names is no longer counted as a person.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.22.2/Kera-v0.22.2.dmg"
+                length="18120404"
+                type="application/octet-stream"
+                sparkle:edSignature="MkYA6NzHVVBvHPbGHs7iGoJ3WQyAFxsBHGf3hmlrT0hB7EiU9XXzg2iNgvOsowtecYMLTyLb9TfXgYGiGms0Aw==" />
+        </item>
+        <item>
             <title>Version 0.22.1 — Speaker edits stay in their meeting</title>
             <pubDate>Sat, 17 Oct 2026 14:31:27 +0000</pubDate>
             <sparkle:version>0.22.1</sparkle:version>
