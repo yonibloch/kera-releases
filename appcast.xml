@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.22.0 — Kera now tells up to 8 people apart</title>
+            <pubDate>Sat, 17 Oct 2026 12:39:56 +0000</pubDate>
+            <sparkle:version>0.22.0</sparkle:version>
+            <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera now tells voices apart with NVIDIA's Nemotron 3 model, on your Mac as before. It handles up to 8 people; the old model stopped at 4. In tests on 13 real meetings it found every speaker in each one, where the old model missed someone in 3.</li>
+<li>Short bits of crosstalk are folded into the people around them, and one person heard as two voices is merged, so there are fewer stray speakers to clean up.</li>
+<li>Saved voices are matched more reliably, because Kera now compares several stretches of each person's speech instead of one.</li>
+<li>Meetings with more than 4 people are titled with four names and "and N more", and each unnamed voice gets its own initials.</li>
+<li>Telling voices apart is much faster: seconds for an hour-long meeting, where it used to take minutes.</li>
+<li>To go back to the earlier speaker labels, choose Sortformer in Settings, under Transcription, Speaker model. If Nemotron 3 can't run for a meeting, Kera uses Sortformer for that meeting by itself.</li>
+<li>After the update, Kera downloads the new speaker model once (about 190 MB). Choosing Sortformer downloads its updated model once (about 240 MB).</li>
+<li>Switching a meeting back to an earlier version now keeps that version's voices, so naming someone afterwards teaches Kera the right voice.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.22.0/Kera-v0.22.0.dmg"
+                length="17952501"
+                type="application/octet-stream"
+                sparkle:edSignature="XWZP3xzkHUb4EXrEtQNcJyEeC6w7vZkWS6X3PT7ndUN//KROPPoDG1HUuUJaMzzkCgIlphHrbQBxkIAuR2a8Bw==" />
+        </item>
+        <item>
             <title>Version 0.21.12 — Your side of the call, heard right</title>
             <pubDate>Fri, 16 Oct 2026 18:13:02 +0000</pubDate>
             <sparkle:version>0.21.12</sparkle:version>
