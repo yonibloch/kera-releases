@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.27.0 — Transcripts in the Kera window, Hebrew right to left</title>
+            <pubDate>Sat, 17 Oct 2026 22:30:05 +0000</pubDate>
+            <sparkle:version>0.27.0</sparkle:version>
+            <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>A transcript now opens inside the Kera window, in place of the meeting list. Meetings (or ⌘[) takes you back to the list just as you left it. To see two meetings side by side, ⌘-click a meeting or use Open in New Window.</li>
+<li>Edit speakers opens over the transcript, from every place that offers it: the meeting list, Name voices, the menu bar and the Transcript ready pop-up.</li>
+<li>Hebrew meetings read right to left: each line follows its own language, with the speaker and time on the right, in the Hebrew version of Kera's typeface. Mixed Hebrew and English lines keep the right word order.</li>
+<li>Transcripts are easier to read, with larger text in a centered column and the player docked at the bottom. Long meetings open faster.</li>
+<li>The speaker editor shows the meeting's real length.</li>
+<li>Fixed: the person picker could name the person under the highlight instead of the top suggestion, and clicking a meeting could scroll the list so a second click hit the next one.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.27.0/Kera-v0.27.0.dmg"
+                length="18543138"
+                type="application/octet-stream"
+                sparkle:edSignature="ewPBC74cqBe1mBeeGndv5mvJoxkhyFC9265ji/oI0Nuq8vyjRDeI81WVe2NvvbKtKi/OykcjrjakRMxDf+QWBA==" />
+        </item>
+        <item>
             <title>Version 0.26.0 — Names from the calendar invite</title>
             <pubDate>Sat, 17 Oct 2026 20:58:40 +0000</pubDate>
             <sparkle:version>0.26.0</sparkle:version>
