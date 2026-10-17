@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.23.0 — Plain words, fewer dead ends</title>
+            <pubDate>Sat, 17 Oct 2026 17:30:13 +0000</pubDate>
+            <sparkle:version>0.23.0</sparkle:version>
+            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Voices Kera hasn't named yet show as "Speaker 1", "Speaker 2" with a dashed ring, instead of codes like SPEAKER_01. Meeting titles read "Call with Tal Zubalsky and 2 unnamed voices".</li>
+<li>Menus use plain words: Redo transcript, Delete audio, keep transcript, Undo split, Delete meeting. Edit speakers and Tag speakers are now one Edit speakers, which starts with the voices that still need a name.</li>
+<li>The Redo transcript window offers Name each person, Me and the others, or No names, with the engine under More.</li>
+<li>The recording pill is narrower: just the red dot and the time until you point at it. Stop is a red button and still takes one click.</li>
+<li>In Settings, Phone and FaceTime detection are one switch, and Phone, FaceTime and WhatsApp are no longer marked Experimental. Slack sits under More apps.</li>
+<li>The Transcript ready pop-up shows the meeting's name and is easy to read in light and dark.</li>
+<li>Removed things that did nothing: the Summarize placeholder in transcripts and the decorative voice fingerprint.</li>
+<li>Fixed: Summarize in a meeting's right-click menu was always greyed out, and the Speakers Library could show two "Earlier" groups.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.23.0/Kera-v0.23.0.dmg"
+                length="18145825"
+                type="application/octet-stream"
+                sparkle:edSignature="FWg33Sr8jiRivm+VCik8xENaYp2vfkcqqyyj3uWPDBb5XYMJNy9sEj/2sHI976/oGZo1a+fLM1i0adbBJbNRAw==" />
+        </item>
+        <item>
             <title>Version 0.22.2 — Check library</title>
             <pubDate>Sat, 17 Oct 2026 15:38:04 +0000</pubDate>
             <sparkle:version>0.22.2</sparkle:version>
