@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.25.0 — One person picker</title>
+            <pubDate>Sat, 17 Oct 2026 20:34:34 +0000</pubDate>
+            <sparkle:version>0.25.0</sparkle:version>
+            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Choosing who spoke now uses one picker everywhere, instead of long menus of every name. With nothing typed it suggests people whose voice sounds alike, people who usually join the others in the meeting, and people you named recently.</li>
+<li>Type a few letters, initials or another name someone goes by. If what you type is close to someone you already have ("Tall Zubalski"), it asks "Did you mean Tal Zubalsky?" before adding a new person, so fewer duplicates get made.</li>
+<li>Keys work throughout: arrows to move, a number to pick, Return to choose, ⌘Return to add a new person, Esc to close.</li>
+<li>The same picker is used to name a voice, rename it in a meeting, merge people in the Speakers Library, and move voice clips.</li>
+<li>Faces now use 12 calm colors instead of greys, with initials that are easy to read, and two people in the same meeting never share a color. Voices that still need a name keep their number while you name the others.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.25.0/Kera-v0.25.0.dmg"
+                length="18281512"
+                type="application/octet-stream"
+                sparkle:edSignature="zG9FyZYqou0QdYnmqa9nQA5F4f4tjU41u/RmPp8xVH5vLcun6vK82IimbHiWrekLgcHK4Ln55Jp+7SNqxDkvDw==" />
+        </item>
+        <item>
             <title>Version 0.24.0 — One Kera window</title>
             <pubDate>Sat, 17 Oct 2026 19:22:45 +0000</pubDate>
             <sparkle:version>0.24.0</sparkle:version>
