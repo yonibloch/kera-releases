@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.28.0 — Smart stop</title>
+            <pubDate>Sat, 17 Oct 2026 23:40:26 +0000</pubDate>
+            <sparkle:version>0.28.0</sparkle:version>
+            <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>When a call ends, Kera says so and stops recording 10 minutes later, unless you click Keep recording. If the same meeting comes back in those minutes (you rejoin, or the connection drops), it keeps recording. If a different meeting starts, it saves this one and starts recording the new one.</li>
+<li>A muted call never counts as ended. For phone, WhatsApp, FaceTime and the Teams app, a call ends only when both your microphone and the call's sound have stopped.</li>
+<li>Back-to-back meetings become separate recordings.</li>
+<li>Recordings with no call to watch, like meetings in a room, never stop on their own. After 20 quiet minutes Kera asks "Still recording?".</li>
+<li>Anything recorded after the call ended is folded away as "After the call (N min)" and left out of the summary. Show opens it, and Remove this part trims it, with Undo. Kera keeps the original for 30 days.</li>
+<li>The call-ended check now works while another Kera pop-up is open, and a meeting can start recording on its own while a pop-up is showing.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.28.0/Kera-v0.28.0.dmg"
+                length="18645105"
+                type="application/octet-stream"
+                sparkle:edSignature="Xh9V3ottIGpvN6zBCW0ZcJpSUdkNiFcUNuJnq+z5xVfQgxOPTIE4mIxAxBRcU5XsSJICdE9kLe9aSTCLg6/aBQ==" />
+        </item>
+        <item>
             <title>Version 0.27.0 — Transcripts in the Kera window, Hebrew right to left</title>
             <pubDate>Sat, 17 Oct 2026 22:30:05 +0000</pubDate>
             <sparkle:version>0.27.0</sparkle:version>
