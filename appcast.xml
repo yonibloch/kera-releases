@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.26.0 — Names from the calendar invite</title>
+            <pubDate>Sat, 17 Oct 2026 20:58:40 +0000</pubDate>
+            <sparkle:version>0.26.0</sparkle:version>
+            <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera now keeps who was invited to each meeting it matches on your Google Calendar.</li>
+<li>When you name a voice, the picker shows the people from the invite first under In the invite, people you already know before new ones. Typing part of someone's email finds them too.</li>
+<li>One-on-one calls name themselves: when the invite has one other person and the call has one voice besides you, Kera names that voice after them. It only does this when that voice came through the call audio, not your microphone, and never in group calls.</li>
+<li>A voice named this way shows "From the invite" in the speaker editor. Renaming it in that meeting works as usual.</li>
+<li>To turn this off, use Name people from calendar invites in Settings, under Google Calendar.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.26.0/Kera-v0.26.0.dmg"
+                length="18339802"
+                type="application/octet-stream"
+                sparkle:edSignature="9ePR8//KBPodeeefcF+lq1tsy3Mn2dloGpDcwZW388eSVzVvwKKw53gLcILC73MmpRj4+SB3P6rXFL6b6stCBA==" />
+        </item>
+        <item>
             <title>Version 0.25.0 — One person picker</title>
             <pubDate>Sat, 17 Oct 2026 20:34:34 +0000</pubDate>
             <sparkle:version>0.25.0</sparkle:version>
