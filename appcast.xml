@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.22.1 — Speaker edits stay in their meeting</title>
+            <pubDate>Sat, 17 Oct 2026 14:31:27 +0000</pubDate>
+            <sparkle:version>0.22.1</sparkle:version>
+            <sparkle:shortVersionString>0.22.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixing a speaker in one meeting now changes only that meeting. Removing someone, marking lines as not speech, merging two speakers or renaming one no longer changes your saved voices or your other meetings. To rename or remove a person everywhere, use the Speakers Library.</li>
+<li>Picking a suggested name while renaming a speaker no longer merges two people into one.</li>
+<li>Tagging an unnamed voice as someone you already know now teaches Kera their voice, so they are recognized next time.</li>
+<li>"Assign to" lists your recent people first, then everyone from A to Z.</li>
+<li>In the speaker editor, unnamed voices show as "Unknown speaker 1", "Unknown speaker 2" instead of codes like SPEAKER_01.</li>
+<li>The Speakers Library's rename and remove warnings now say what really happens: every past meeting changes, and you have 7 seconds to undo.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.22.1/Kera-v0.22.1.dmg"
+                length="17969352"
+                type="application/octet-stream"
+                sparkle:edSignature="RmOvJzm5aS5/h7VHvsBKDpWyJIUfOXE6AJ9rBe1dYexFxNlCjZAz4wKFKNt2+AvW9AU/GGiXLKLfqA3WqxvFCA==" />
+        </item>
+        <item>
             <title>Version 0.22.0 — Kera now tells up to 8 people apart</title>
             <pubDate>Sat, 17 Oct 2026 12:39:56 +0000</pubDate>
             <sparkle:version>0.22.0</sparkle:version>
