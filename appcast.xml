@@ -6,6 +6,29 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.24.0 — One Kera window</title>
+            <pubDate>Sat, 17 Oct 2026 19:22:45 +0000</pubDate>
+            <sparkle:version>0.24.0</sparkle:version>
+            <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Meetings, People and Settings now live in one Kera window with a sidebar. ⌘L opens it on Meetings, ⌘⇧S on People and ⌘, on Settings; inside it, ⌘1, ⌘2 and ⌘3 switch between them.</li>
+<li>Needs a name, under People, shows every meeting with a voice that still needs a name.</li>
+<li>The bottom of the sidebar shows Ready to record or the running recording time, and your next meeting when your calendar has one.</li>
+<li>Kera appears in the Dock while its window is open and goes back to the menu bar when you close it. The window remembers its size, place and section.</li>
+<li>Settings shows its sections as tabs across the top.</li>
+<li>The menu bar menu is shorter and has Open Kera (⌘L).</li>
+<li>Lighter dividers, softer selection and clearer small text in dark mode.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.24.0/Kera-v0.24.0.dmg"
+                length="18161286"
+                type="application/octet-stream"
+                sparkle:edSignature="x7ewA/w7idxx0oM/ubIPlr26r9wX7kUYx9JmneUYUlsE+cz1o0OSaXZpLq5tu8HrpGC+f8MYnBCrS7Gcdr46CQ==" />
+        </item>
+        <item>
             <title>Version 0.23.0 — Plain words, fewer dead ends</title>
             <pubDate>Sat, 17 Oct 2026 17:30:13 +0000</pubDate>
             <sparkle:version>0.23.0</sparkle:version>
