@@ -6,6 +6,33 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.38.1 — Polish and fixes</title>
+            <pubDate>Sun, 18 Oct 2026 12:20:42 +0000</pubDate>
+            <sparkle:version>0.38.1</sparkle:version>
+            <sparkle:shortVersionString>0.38.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Plainer wording across the app: "Me and the others", "On this Mac", "Redo transcript", and no more long dashes.</li>
+<li>New meeting folders show up in Meetings right away, without restarting Kera.</li>
+<li>When a filter or search hides the selected meeting, the preview clears instead of showing it.</li>
+<li>A meeting under a minute shows one time, not "6:30 PM to 6:30 PM", and lengths match everywhere.</li>
+<li>On a Needs a name card, the name field always has the cursor, so a name starting with M, N or S types normally. Press Esc first to use the M, N and S keys.</li>
+<li>In the Speaker Editor, every naming card has the cursor, and Esc leaves the field before it closes the editor.</li>
+<li>The person picker lists names already used in the meeting, and an exact match still wins Return.</li>
+<li>Undo now refuses if anything it would restore changed since, such as a finished summary.</li>
+<li>Fixed: undoing "Remove this part" when the Mac was low on disk space could remove that meeting's audio from iCloud.</li>
+<li>Fixed: the Meetings preview was cut off at the narrowest window, and Undo only worked when you clicked the word itself.</li>
+<li>Focus rings, radio buttons and the clear button now match Kera's colors.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.38.1/Kera-v0.38.1.dmg"
+                length="19392521"
+                type="application/octet-stream"
+                sparkle:edSignature="Ajn4+9OifcmhjkvdM/odlFoWGvBTpvxHvP+vkNFiGqZusXiFm9FiHPYFzPSdjfBWbLRc7SKD9FCYimCrPk3xAg==" />
+        </item>
+        <item>
             <title>Version 0.37.0 — Possible duplicates</title>
             <pubDate>Sun, 18 Oct 2026 07:02:28 +0000</pubDate>
             <sparkle:version>0.37.0</sparkle:version>
