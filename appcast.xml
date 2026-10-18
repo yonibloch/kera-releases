@@ -6,6 +6,30 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.36.0 — Transcript cleanup</title>
+            <pubDate>Sun, 18 Oct 2026 06:41:29 +0000</pubDate>
+            <sparkle:version>0.36.0</sparkle:version>
+            <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>The summary now sits at the top of the transcript: one line in italics, then the main points. With AI summaries set up and no summary yet, a Summarize button takes its place.</li>
+<li>At most one notice shows above the transcript at a time, the most important one first.</li>
+<li>New Speakers panel (⌥⌘0): everyone in the meeting by how long they talked, a Name button for each unnamed voice, and the meeting's details (transcript, audio, which app).</li>
+<li>Each "Speaker 2" line has its own Name button.</li>
+<li>The player sits at the bottom, and its bars show the real sound, colored by who was talking.</li>
+<li>"Delete audio, keep transcript…" now works from the transcript's ⋯ menu.</li>
+<li>An empty transcript says why, and Hebrew titles and summaries read right to left.</li>
+<li>The Meetings detail pane uses plain labels and readable dates, and always shows a summary you already have.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.36.0/Kera-v0.36.0.dmg"
+                length="19243800"
+                type="application/octet-stream"
+                sparkle:edSignature="BSCrVuGqynh4or2itpbFpraW8SfU0iou27XkxcAitgTEwRb6z5c0XAdLlX6w2xu2afWyxAMahBnKFq+txvTXDA==" />
+        </item>
+        <item>
             <title>Version 0.35.0 — People</title>
             <pubDate>Sun, 18 Oct 2026 05:50:59 +0000</pubDate>
             <sparkle:version>0.35.0</sparkle:version>
