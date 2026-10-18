@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.0 — Kera 1.0 beta</title>
+            <pubDate>Sun, 18 Oct 2026 23:34:19 +0000</pubDate>
+            <sparkle:version>0.99.0</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Kera is now 1.0 beta.</li>
+<li>A person's company is now its own field. Add or change it on their page in People. It shows under their name everywhere, and Copy for AI writes "Name (Company)".</li>
+<li>One click moves companies out of names: "Chris Macpherson (Toybox)" becomes Chris Macpherson at Toybox, and the old name is kept as another name. Kera waits until all your Macs run this version, and a Mac you no longer use can be marked as such.</li>
+<li>Full keyboard navigation: with Keyboard navigation on in System Settings, Tab reaches every control in the account sheets, transcripts, Meetings, the Name picker and Merge, each with Kera's focus ring.</li>
+<li>In a transcript, Space on a focused button presses it, and Space plays only when the page itself has focus.</li>
+<li>Fixed: Kera could get stuck after tabbing to a meeting's ⋯ and then clicking Settings.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.0/Kera-v0.99.0.dmg"
+                length="19735704"
+                type="application/octet-stream"
+                sparkle:edSignature="/UOtg6mNZlsFibTzrFdRtGP50JBGZgU3mqG3O7e/EaDyy1S1gaABl1ItumFK+4MzMgMUFcn39I2twi4d9dqpCw==" />
+        </item>
+        <item>
             <title>Version 0.40.0 — Polish 2</title>
             <pubDate>Sun, 18 Oct 2026 18:45:41 +0000</pubDate>
             <sparkle:version>0.40.0</sparkle:version>
