@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.31.0 — Short Settings</title>
+            <pubDate>Sun, 18 Oct 2026 01:45:42 +0000</pubDate>
+            <sparkle:version>0.31.0</sparkle:version>
+            <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Settings opens on one short page: how recording starts, which call apps Kera listens to, the recording pill, the heads-up banner, speaker names, old audio, and your accounts (Soniox, AI titles and summaries, Google Calendar, Plaud, Sync), each with its status and a Change or Connect button.</li>
+<li>Everything else is under Advanced settings.</li>
+<li>Kera now picks the transcription engine and the AI provider from the keys you save. You can still choose your own in Advanced.</li>
+<li>New: "Ask me to name voices", off by default. Kera no longer prompts you to name voices after a meeting; turn this on to bring those prompts back. The "unnamed" counts and the Needs a name list stay.</li>
+<li>"Reset warnings and tips" brings back every "Don't ask again" choice.</li>
+<li>Switches, focus rings and storage sizes are clearer, and the Plaud region is found automatically.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.31.0/Kera-v0.31.0.dmg"
+                length="18833827"
+                type="application/octet-stream"
+                sparkle:edSignature="TRihk4Jm3UWDtVekkv2k5UMYeVrgY2TOZaSNHNFIb1MPvUuazX0jrD1YInuXmL/jMcXc/7gGdgWN7bsH8cAoBw==" />
+        </item>
+        <item>
             <title>Version 0.30.0 — Search inside transcripts</title>
             <pubDate>Sun, 18 Oct 2026 00:44:27 +0000</pubDate>
             <sparkle:version>0.30.0</sparkle:version>
