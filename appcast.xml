@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.37.0 — Possible duplicates</title>
+            <pubDate>Sun, 18 Oct 2026 07:02:28 +0000</pubDate>
+            <sparkle:version>0.37.0</sparkle:version>
+            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>New "Duplicates" under People in the sidebar: pairs of names that look like one person, such as "Andy Beame" and "Andrew Beame", or a typo.</li>
+<li>Each pair says why: a nickname with the same last name, a close spelling, voices that sound alike, never in the same meeting, people they both met.</li>
+<li>Merge keeps one name in every meeting, with 7 seconds to undo. "Use … instead" keeps the other name.</li>
+<li>"Not the same" hides the pair for good on this Mac.</li>
+<li>Your own name next to Me only merges where this Mac's microphone shows it was you.</li>
+<li>Short notices in People now go away on their own, and the merge and rename confirmations are shorter.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.37.0/Kera-v0.37.0.dmg"
+                length="19352867"
+                type="application/octet-stream"
+                sparkle:edSignature="rHQ0mRZPQzj1N9Q17FQcaxgW66TX3wWWY595JsyjQz4x5iU8Nyq2M7b+kYYxW5xVf959oK+ImfsIPE+LoDk9Bw==" />
+        </item>
+        <item>
             <title>Version 0.36.0 — Transcript cleanup</title>
             <pubDate>Sun, 18 Oct 2026 06:41:29 +0000</pubDate>
             <sparkle:version>0.36.0</sparkle:version>
