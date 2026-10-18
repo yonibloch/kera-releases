@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.29.0 — Meetings by month, with filters</title>
+            <pubDate>Sun, 18 Oct 2026 00:27:10 +0000</pubDate>
+            <sparkle:version>0.29.0</sparkle:version>
+            <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Meetings are grouped by month, and older ones by year, instead of piling into one "Earlier" group. The group headers stay in view while you scroll.</li>
+<li>A new filter bar: Person (pick one or more people to see meetings with all of them), App (In person, Zoom, Meet, Teams, Phone & WhatsApp, Imported) and Needs names.</li>
+<li>Each meeting row shows when it happened, the app and length, the faces of who spoke most, and how many voices still need a name.</li>
+<li>Short meetings show their length in seconds ("49 sec"), and the people count includes voices that don't have a name yet.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.29.0/Kera-v0.29.0.dmg"
+                length="18701888"
+                type="application/octet-stream"
+                sparkle:edSignature="trA3h+m0+OplipXmcY4I3oE6i/NJ45GSNAxzPgbuynNmuCe6bU10reYnIPg6Y0A9qBwd2+bEI3kFJpM2E68tAw==" />
+        </item>
+        <item>
             <title>Version 0.28.0 — Smart stop</title>
             <pubDate>Sat, 17 Oct 2026 23:40:26 +0000</pubDate>
             <sparkle:version>0.28.0</sparkle:version>
