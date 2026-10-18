@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.32.1 — Copy for AI and Share</title>
+            <pubDate>Sun, 18 Oct 2026 02:46:41 +0000</pubDate>
+            <sparkle:version>0.32.1</sparkle:version>
+            <sparkle:shortVersionString>0.32.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>New Copy for AI button on every transcript, also ⇧⌘C: one click copies the meeting ready to paste into an AI assistant. It includes the title, date and time, the app, who was there (people invited but not heard are marked "invited"), the summary, and the transcript with each line's time and speaker. Voices without a name show as Speaker 1, Speaker 2, matching what you see in Kera.</li>
+<li>If Kera kept recording after the call ended, that part is left out, with a note saying so.</li>
+<li>Copy for AI is also in each meeting's menu and in the menu bar's recent meetings.</li>
+<li>Share… opens the Mac share sheet with the meeting's transcript, for Mail, Messages, AirDrop or Notes. Nothing is uploaded.</li>
+<li>Copy transcript still copies the transcript exactly as saved.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.32.1/Kera-v0.32.1.dmg"
+                length="18837767"
+                type="application/octet-stream"
+                sparkle:edSignature="uT9tX/utLI4RVbYhXGO/FBK5xaiQlfqHsVj81QFPdMWSDm5g7AnQ8fg6WnXtl0D3CtWyjpaYY3Lu8PMS1odlDw==" />
+        </item>
+        <item>
             <title>Version 0.31.0 — Short Settings</title>
             <pubDate>Sun, 18 Oct 2026 01:45:42 +0000</pubDate>
             <sparkle:version>0.31.0</sparkle:version>
