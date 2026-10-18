@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.33.0 — Fixes from a full code review</title>
+            <pubDate>Sun, 18 Oct 2026 03:18:46 +0000</pubDate>
+            <sparkle:version>0.33.0</sparkle:version>
+            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>A calendar meeting you declined no longer names a recording or suggests its invitees.</li>
+<li>Naming from the invite now only labels the meeting. Kera learns that person's voice once you click Confirm on the "From the invite" row, so a wrong guess never ends up in someone's saved voice.</li>
+<li>When a call ends but people in the room keep talking, Kera keeps recording until the room has been quiet for 10 minutes.</li>
+<li>A call that drops and rejoins near the start of your next calendar meeting is no longer split in two, and after Keep recording the calendar never splits it.</li>
+<li>"Remove this part" is safer: Tidy up no longer deletes its backup, the backup is written before anything changes, and your other Macs now get the trimmed audio (and the full audio back after Undo).</li>
+<li>Search ranks a word in quotes or before an apostrophe as a whole word.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.33.0/Kera-v0.33.0.dmg"
+                length="18896639"
+                type="application/octet-stream"
+                sparkle:edSignature="2Bqny1GokTw2PBphgrkiATj/ZEJHAMD4CyW2Zikw0dxo4z94/W4WgdbZf+M0o7oGTaeYqLSLzktRght/qlRiAg==" />
+        </item>
+        <item>
             <title>Version 0.32.1 — Copy for AI and Share</title>
             <pubDate>Sun, 18 Oct 2026 02:46:41 +0000</pubDate>
             <sparkle:version>0.32.1</sparkle:version>
