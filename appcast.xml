@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.30.0 — Search inside transcripts</title>
+            <pubDate>Sun, 18 Oct 2026 00:44:27 +0000</pubDate>
+            <sparkle:version>0.30.0</sparkle:version>
+            <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>The search box in Meetings now finds words anywhere in your transcripts, not just in titles, people and summaries. It works for Hebrew too.</li>
+<li>A match shows under its meeting as one line: when it was said, who said it, and the line with your word marked. Meetings with several matches say how many, and the meeting's details list the first three.</li>
+<li>Opening a meeting while you search takes you straight to the first match, highlighted.</li>
+<li>The first time Kera opens after this update, it builds the search index in a second or two.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.30.0/Kera-v0.30.0.dmg"
+                length="18760797"
+                type="application/octet-stream"
+                sparkle:edSignature="lJkNaNFvHebQW/l6slARdbf1N0fxVRCl7sRFgp8fcCsDT4hZoE6qmLRbHMbUkvOWfdIsKYr5pw5ehs5QDtN2Bw==" />
+        </item>
+        <item>
             <title>Version 0.29.0 — Meetings by month, with filters</title>
             <pubDate>Sun, 18 Oct 2026 00:27:10 +0000</pubDate>
             <sparkle:version>0.29.0</sparkle:version>
