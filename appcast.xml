@@ -6,6 +6,32 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.40.0 — Polish 2</title>
+            <pubDate>Sun, 18 Oct 2026 18:45:41 +0000</pubDate>
+            <sparkle:version>0.40.0</sparkle:version>
+            <sparkle:shortVersionString>0.40.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: Tab in Settings and Redo transcript jumped back to the start after the first few controls (since v0.38.1). Every control can be reached again.</li>
+<li>In Redo transcript opened from a transcript, Space works the focused control instead of playing the meeting, and after you close it, or the find bar, Space plays again right away.</li>
+<li>Buttons in Settings, the account sheets and the Sync sheet use Kera's focus ring, with no system blue.</li>
+<li>Redo transcript's choices always show their arrow, and the window is a little wider so the labels fit.</li>
+<li>In the Speaker Editor, the "named" notice no longer covers the next voice's buttons.</li>
+<li>The menu bar list says "Yesterday 5:00 PM" and the day for older meetings, and lengths are easier to read.</li>
+<li>A silent meeting says "No words in this meeting" instead of "Everyone named".</li>
+<li>The Meetings preview no longer slides over the list at the narrowest window, and rows keep the "Transcript only" tag.</li>
+<li>The speaker chips fade at any edge where more people are hidden, and the Person filter shows "+1" when two people are chosen.</li>
+<li>Audio that lives on your other Mac says so, instead of "Audio removed to save space", and removed audio says it was removed.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.40.0/Kera-v0.40.0.dmg"
+                length="19486398"
+                type="application/octet-stream"
+                sparkle:edSignature="LxtHP6QaVIzC4DzAD79JtrCud+kXNvUL6mq2nhdKJ2hYv7ZkGgwMYsUX9Dcd9hUMgW/Hw2WNLzYVXT7hvwRGDQ==" />
+        </item>
+        <item>
             <title>Version 0.39.1 — Company under the name</title>
             <pubDate>Sun, 18 Oct 2026 13:05:59 +0000</pubDate>
             <sparkle:version>0.39.1</sparkle:version>
