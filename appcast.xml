@@ -6,6 +6,27 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.39.1 — Company under the name</title>
+            <pubDate>Sun, 18 Oct 2026 13:05:59 +0000</pubDate>
+            <sparkle:version>0.39.1</sparkle:version>
+            <sparkle:shortVersionString>0.39.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>A name saved as "Chris Macpherson (Toybox)" now shows as Chris Macpherson, with Toybox quietly underneath or beside it. This applies in the person picker, transcripts, the Speakers panel, the Speaker Editor, Duplicates and Meetings.</li>
+<li>Saved names don't change. Copy for AI and transcript files still use the full name.</li>
+<li>Search still finds people by company.</li>
+<li>Duplicates now suggests "Chris Mendel" and "Chris Mendel (Brightwell)" as one person.</li>
+<li>In a one-on-one call, a calendar invite for "Chris Macpherson" now names the voice as your saved "Chris Macpherson (Toybox)" instead of adding a new name.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.39.1/Kera-v0.39.1.dmg"
+                length="19439474"
+                type="application/octet-stream"
+                sparkle:edSignature="DZ17nlPTRx3N3I2h6keey/IH6sfDahm06s7LflugvlAwIBYyjbkBniPylNZXAinBuepZ2LonNhuMJgrURJ0vAQ==" />
+        </item>
+        <item>
             <title>Version 0.38.1 — Polish and fixes</title>
             <pubDate>Sun, 18 Oct 2026 12:20:42 +0000</pubDate>
             <sparkle:version>0.38.1</sparkle:version>
