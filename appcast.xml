@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.35.0 — People</title>
+            <pubDate>Sun, 18 Oct 2026 05:50:59 +0000</pubDate>
+            <sparkle:version>0.35.0</sparkle:version>
+            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>People is a new page: everyone on the left, the person you pick on the right.</li>
+<li>Search finds a name, another name they go by, or their company. Sort by Most meetings, Recently heard, or A to Z. You're always first.</li>
+<li>Each row shows the company or how many meetings and when you last heard them. Names without a saved voice say "No saved voice".</li>
+<li>A person's page shows their meetings, hours and the dates you first and last heard them, who they're often with, a chart of meetings by month, and their meetings grouped by month. Click a meeting to open it; Back brings you to the same person.</li>
+<li>Click the name to rename it. Merge… and Stop recognizing voice… work as before, each with Undo.</li>
+<li>The voice clips moved to a Review clips… sheet. For a name with no saved voice, "Learn from their longest meeting" teaches Kera their voice.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.35.0/Kera-v0.35.0.dmg"
+                length="19145322"
+                type="application/octet-stream"
+                sparkle:edSignature="Jyg9Ih3sKHZ4rKlEatv5sHTO9loJGTL/GkbtKI25V+0OIKyfTbX0nrsJRZVPy+HptzailcmNm11QxoGwUXOIAg==" />
+        </item>
+        <item>
             <title>Version 0.34.0 — Needs a name</title>
             <pubDate>Sun, 18 Oct 2026 03:40:16 +0000</pubDate>
             <sparkle:version>0.34.0</sparkle:version>
