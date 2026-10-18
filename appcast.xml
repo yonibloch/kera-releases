@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.34.0 — Needs a name</title>
+            <pubDate>Sun, 18 Oct 2026 03:40:16 +0000</pubDate>
+            <sparkle:version>0.34.0</sparkle:version>
+            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>"Needs a name" in the sidebar now opens a list of cards, one for each unnamed voice across all your meetings, newest first. You no longer have to open meetings one at a time to name people.</li>
+<li>Each card shows the meeting, how long that voice spoke, and two or three short clips you can play. Below them are the people it sounds like and the people from the invite.</li>
+<li>Name the voice, mark it as you or as not a person, or skip it. Each step has an Undo.</li>
+<li>Keys: Space plays a clip, 1 to 3 pick a suggestion, Return names the voice, M is "It's me", N is "Not a person", S is Skip, and ⌘Z undoes.</li>
+<li>When you type a name that isn't saved yet, Return now adds it as a new person. Before, it could pick a different person whose name was only close.</li>
+<li>The sidebar count is now the number of voices that need a name, the same number the list shows.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.34.0/Kera-v0.34.0.dmg"
+                length="19041240"
+                type="application/octet-stream"
+                sparkle:edSignature="Ds5RdXuwHAjPY9Jymf+GcigIEMqQm4/gnpzk+1EvHgzRjwoo8acOndcrAtHDQIW2+0KO5DjuelGqKBVpdZXEBg==" />
+        </item>
+        <item>
             <title>Version 0.33.0 — Fixes from a full code review</title>
             <pubDate>Sun, 18 Oct 2026 03:18:46 +0000</pubDate>
             <sparkle:version>0.33.0</sparkle:version>
