@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.4 — Kera 1.0 beta 4</title>
+            <pubDate>Mon, 19 Oct 2026 14:44:03 +0000</pubDate>
+            <sparkle:version>0.99.4</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>People can rename someone Kera has no saved voice for, and "Move companies out of names" now works for them too. A row that still can't move says why and what to do.</li>
+<li>Moving companies is much faster: Kera reads your meetings once for everyone, not once per person.</li>
+<li>Fixed: Kera could refuse to quit, and so refuse to install an update, while a sheet such as Check library was left open.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.4/Kera-v0.99.4.dmg"
+                length="19801914"
+                type="application/octet-stream"
+                sparkle:edSignature="FCQi+ydYU77+qLclrGUnlKWNnqA9+dnSOdo0p++LIkjK4ND3x8nm0DRkNZoOdlfsRUT7er4NYEdM63JsBYVnCg==" />
+        </item>
+        <item>
             <title>Version 0.99.3 — Kera 1.0 beta 3</title>
             <pubDate>Mon, 19 Oct 2026 12:07:57 +0000</pubDate>
             <sparkle:version>0.99.3</sparkle:version>
