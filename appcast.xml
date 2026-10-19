@@ -6,6 +6,28 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.1 — Kera 1.0 beta 2</title>
+            <pubDate>Mon, 19 Oct 2026 02:39:02 +0000</pubDate>
+            <sparkle:version>0.99.1</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: an empty blurred panel could cover the top of Meetings the first time the window opened. The window now opens with the meeting list ready, so ↑, ↓ and Return work at once, also after Back from a transcript; ⌘F goes to search.</li>
+<li>Esc in the Meetings search box clears it, and a second Esc goes back to the list.</li>
+<li>People works the same way: its list has the keys when it opens, and ↑ and ↓ move through people.</li>
+<li>The Meetings number in the sidebar now matches the list.</li>
+<li>People's ⋯ menu offers "Move companies out of names…" on your first visit.</li>
+<li>The photo's camera button shows Kera's focus ring.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.1/Kera-v0.99.1.dmg"
+                length="19761747"
+                type="application/octet-stream"
+                sparkle:edSignature="lr1cOmQp66tFlZ93KxNeHXqtngl9MF49BFY529uYU01seSDi9SQxslAeTIiyKKDiUu6Tp3I+DL52zkFzdWZIBQ==" />
+        </item>
+        <item>
             <title>Version 0.99.0 — Kera 1.0 beta</title>
             <pubDate>Sun, 18 Oct 2026 23:34:19 +0000</pubDate>
             <sparkle:version>0.99.0</sparkle:version>
