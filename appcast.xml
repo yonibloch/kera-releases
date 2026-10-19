@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.5 — Kera 1.0 beta 5</title>
+            <pubDate>Mon, 19 Oct 2026 15:40:04 +0000</pubDate>
+            <sparkle:version>0.99.5</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: renaming a meeting from the menu bar panel during a call. Clicking the pencil now puts the cursor in the name, so you can type right away instead of hearing a beep until you click the name.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.5/Kera-v0.99.5.dmg"
+                length="19802261"
+                type="application/octet-stream"
+                sparkle:edSignature="O1oSyKzMCwNeOEK/eIbWMNZ6fsjk82nnnq6p5MkRW/RBdchbZIZ/4wFmdzu+P7J6eOPVXSO3DEvxSgYXFw38Cw==" />
+        </item>
+        <item>
             <title>Version 0.99.4 — Kera 1.0 beta 4</title>
             <pubDate>Mon, 19 Oct 2026 14:44:03 +0000</pubDate>
             <sparkle:version>0.99.4</sparkle:version>
