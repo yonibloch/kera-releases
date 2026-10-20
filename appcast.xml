@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.9 — Kera 1.0 beta 6</title>
+            <pubDate>Tue, 20 Oct 2026 15:49:38 +0000</pubDate>
+            <sparkle:version>0.99.9</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: after Join & record on the meeting banner, a second pop-up said the recording started and made Stop the main button. Now the recording pill coming up is the only sign it started, and nothing takes the keyboard from your call.</li>
+<li>When auto-record starts a recording, its "Recording" note no longer takes the keyboard, and Stop no longer looks like the suggested button.</li>
+<li>Fixed: when two Macs picked up a new meeting at the same moment, a speaker could end up listed twice. Both Macs now agree on each speaker.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.9/Kera-v0.99.9.dmg"
+                length="19807771"
+                type="application/octet-stream"
+                sparkle:edSignature="4mFoMrS2J+Vk0dKUqDrN+DyecRs1rc9NqwyoFHz8c6nId1CN2DaNjEoZKpiW/2DjU6zzRpcsBRUowMtw843hAQ==" />
+        </item>
+        <item>
             <title>Version 0.99.5 — Kera 1.0 beta 5</title>
             <pubDate>Mon, 19 Oct 2026 15:40:04 +0000</pubDate>
             <sparkle:version>0.99.5</sparkle:version>
