@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.11 — Kera 1.0 beta 8</title>
+            <pubDate>Tue, 20 Oct 2026 18:33:07 +0000</pubDate>
+            <sparkle:version>0.99.11</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: a voice taken away from someone came back with the next sync. It now stays gone after Undo of a naming, People's Undo of a merge, and Review clips moves ("Move all of X's lines in this meeting to…", "Move this clip to…", "This is actually…").</li>
+<li>Review clips moves now take the meeting's voice out of the person it was moved from, so Kera stops hearing them in that voice.</li>
+<li>Voices other Macs learned are kept. Once every Mac runs beta 8, a removed voice stays gone everywhere.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.11/Kera-v0.99.11.dmg"
+                length="19890865"
+                type="application/octet-stream"
+                sparkle:edSignature="ivyw0XCgFDEmSwZTrT7LxSJa7lGJlj3ITYDxZ0h8pjeiCI3hLHIrmskE5keCJb8xemslIk9SUyHtl7QQ45iABg==" />
+        </item>
+        <item>
             <title>Version 0.99.10 — Kera 1.0 beta 7</title>
             <pubDate>Tue, 20 Oct 2026 17:17:55 +0000</pubDate>
             <sparkle:version>0.99.10</sparkle:version>
