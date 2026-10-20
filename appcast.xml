@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.12 — Kera 1.0 beta 9</title>
+            <pubDate>Tue, 20 Oct 2026 21:30:14 +0000</pubDate>
+            <sparkle:version>0.99.12</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<ul>
+<li>Fixed: importing from Voice Memos or Plaud right after Kera opened could fail with "The recordings library is busy". The import now waits for sync to finish and then lands.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.12/Kera-v0.99.12.dmg"
+                length="19889480"
+                type="application/octet-stream"
+                sparkle:edSignature="uZS6epzVBUuBBhzylWGyXQ+gAwMFrtWyMgDDIRguLfIpILslv90orQ65bhDNO23VnU58hi0JKWYBbkpmthSbBg==" />
+        </item>
+        <item>
             <title>Version 0.99.11 — Kera 1.0 beta 8</title>
             <pubDate>Tue, 20 Oct 2026 18:33:07 +0000</pubDate>
             <sparkle:version>0.99.11</sparkle:version>
