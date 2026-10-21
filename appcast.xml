@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.13</title>
+            <pubDate>Wed, 21 Oct 2026 00:36:27 +0000</pubDate>
+            <sparkle:version>0.99.13</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 10</p>
+<p>Fixing a speaker's name now fixes what Kera learned from that meeting when its original voice analysis is on this Mac. Change a whole voice to an existing person, and that saved voice leaves the wrong person and joins the right one. Other meetings and the rest of each person's saved voice stay unchanged. Undo reverses the correction, including after sync.</p>
+<p>A borderline automatic name match no longer teaches Kera that person's voice. Automatic naming keeps its existing threshold; automatic learning now requires a stronger match.</p>
+<p>When a recording hears several people only through the microphone, a silent call-audio track no longer makes the first voice "Me". Kera uses saved voice matching instead.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.13/Kera-v0.99.13.dmg"
+                length="19956976"
+                type="application/octet-stream"
+                sparkle:edSignature="4Z33tC9R1VfG/yNX1DkmhrfSR8EOL7VNnbt2tKx6TZRs6Qf4wUoHxifm0Y6wcfgLcjdKJ6GXDqjQNk2VuPzKDg==" />
+        </item>
+        <item>
             <title>Version 0.99.12 — Kera 1.0 beta 9</title>
             <pubDate>Tue, 20 Oct 2026 21:30:14 +0000</pubDate>
             <sparkle:version>0.99.12</sparkle:version>
