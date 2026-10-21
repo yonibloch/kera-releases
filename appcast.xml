@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.17</title>
+            <pubDate>Wed, 21 Oct 2026 19:32:23 +0000</pubDate>
+            <sparkle:version>0.99.17</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 12</p>
+<p>Meetings that move to a Zoom Room.</p>
+<p>When an office Zoom Room joins a call you started on your laptop, Zoom turns the laptop's mic and speaker off. From then on everyone, in the room or out of its speakers, reaches Kera through your mic. Kera now finds those stretches after the meeting, and voices heard only there can no longer become you. You are found from the voices measured while the call audio still ran, or from your saved voice.</p>
+<p>A voice with only a moment of speech can no longer become you either.</p>
+<p>In a meeting with room audio, lines no voice claims never default to you, and Kera learns no voices from the room part. Naming by hand works as before.</p>
+<p>Me and the others now names each person when the call audio recorded nothing. A meeting room on the invite never counts as a person.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.17/Kera-v0.99.17.dmg"
+                length="20021769"
+                type="application/octet-stream"
+                sparkle:edSignature="dEbSXCOxffMzYlkGccd+06oxEgpjfATirkT5EnMpgXyDjyRZdzinhevooy2GqikNaFy0yWQIdm7yOM5xg1ZbBA==" />
+        </item>
+        <item>
             <title>Version 0.99.15</title>
             <pubDate>Wed, 21 Oct 2026 18:49:17 +0000</pubDate>
             <sparkle:version>0.99.15</sparkle:version>
