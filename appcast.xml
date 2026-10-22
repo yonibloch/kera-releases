@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.18</title>
+            <pubDate>Thu, 22 Oct 2026 05:45:06 +0000</pubDate>
+            <sparkle:version>0.99.18</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 13</p>
+<p>Protected people: a guarded way to bring back someone who was merged into another person by mistake.</p>
+<p>A recovered person gets back their own name, history and meetings, and no Mac can merge them away again by replaying old changes. Protection switches on only through an approved local recovery plan, and only once every active Mac runs this version. A library without one syncs exactly as before.</p>
+<p>Meetings where the recovered person spoke show their name again. The synced meeting records keep their original contents, and relabeling one of those speakers yourself still wins.</p>
+<p>Renames, merges and deletes of a protected person sync through their own protected record. Everyone else's changes sync as before.</p>
+<p>Each Mac now reports that it supports protected people. Please keep every Mac on this version or newer.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.18/Kera-v0.99.18.dmg"
+                length="20691536"
+                type="application/octet-stream"
+                sparkle:edSignature="iArfsNVpujFF2pxw/UVkW28Dg/7RJj3XD09WKh548zZpsdMA1rwzyQRP5156RWskyaBJgU8JcXVO3Yjoga/gAg==" />
+        </item>
+        <item>
             <title>Version 0.99.17</title>
             <pubDate>Wed, 21 Oct 2026 19:32:23 +0000</pubDate>
             <sparkle:version>0.99.17</sparkle:version>
