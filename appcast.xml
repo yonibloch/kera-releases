@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.20</title>
+            <pubDate>Fri, 23 Oct 2026 15:04:37 +0000</pubDate>
+            <sparkle:version>0.99.20</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 15</p>
+<p>Hear a voice before you name it.</p>
+<p>In a transcript's Speakers panel, click an unnamed voice ("Speaker 1") to hear a few seconds of it, the same clip the Name picker plays. Its number turns into a speaker while it plays, and the same click stops it. Then press Name and pick the person, right there.</p>
+<p>The meeting pauses while the clip plays, and playing the meeting again stops the clip. When the meeting's audio is on another Mac, Kera gets it from iCloud first.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.20/Kera-v0.99.20.dmg"
+                length="20877627"
+                type="application/octet-stream"
+                sparkle:edSignature="anPFnamHdpwhKIAbvkuaXQbhf/QUuV7ifB16NSzwvJDns03ZIPresfGq0/WiopcFMYv/FFdOUbZ4coFmrPpHCQ==" />
+        </item>
+        <item>
             <title>Version 0.99.19</title>
             <pubDate>Thu, 22 Oct 2026 13:04:38 +0000</pubDate>
             <sparkle:version>0.99.19</sparkle:version>
