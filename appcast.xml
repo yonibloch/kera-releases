@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.23</title>
+            <pubDate>Fri, 30 Oct 2026 18:15:21 +0000</pubDate>
+            <sparkle:version>0.99.23</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 17</p>
+<p>The Sync sheet shows what is really waiting.</p>
+<p>Between full sync rounds, iCloud sends and fetches changes on its own. The Sync sheet only counted again at the end of a round, so it could say "1 change will upload when iCloud is available" and show an old "Last synced" time while everything had already gone through, which looked like sync was stuck. Now every successful send or fetch updates both.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.23/Kera-v0.99.23.dmg"
+                length="21135445"
+                type="application/octet-stream"
+                sparkle:edSignature="jTdWzMJHTnk5vQOU8hwN6OBvnF9fZB6BjPwrZ/E3Fo+5tAb76jqFLEDSUdFq8lC/yAtjsDr+kdxw4C88FMo1CQ==" />
+        </item>
+        <item>
             <title>Version 0.99.22</title>
             <pubDate>Fri, 30 Oct 2026 16:22:09 +0000</pubDate>
             <sparkle:version>0.99.22</sparkle:version>
