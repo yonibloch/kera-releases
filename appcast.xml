@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.22</title>
+            <pubDate>Fri, 30 Oct 2026 16:22:09 +0000</pubDate>
+            <sparkle:version>0.99.22</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 16</p>
+<p>Kera Sync keeps going when your Mac locks.</p>
+<p>If a sync step needed your Mac's keychain while the screen was locked, Kera showed "Kera is waiting for the login keychain. Unlock this Mac; sync will continue automatically." and then never tried again, so sync stayed stopped until you pressed Try again. Now Kera really does wait: it tries again every 30 seconds and carries on by itself once it can read the key.</p>
+<p>Kera can also start syncing on a Mac that opened Kera while locked, as long as the Mac has been unlocked once since it started up. The sync key still never leaves the Mac. A key from an earlier Kera switches over the first time Kera reads it while the Mac is unlocked.</p>
+<p>This release also carries the right name, 1.0 beta 16, for the Earshot changes in the last one.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.22/Kera-v0.99.22.dmg"
+                length="21135822"
+                type="application/octet-stream"
+                sparkle:edSignature="xhueDWlganh7bUK94nNklMuq9WzYcI76mhK8J1Nqd9PaMkj3/Y22XLgN4dxiQVWasicH8BPD9FueTPV2ZBRZDg==" />
+        </item>
+        <item>
             <title>Version 0.99.21</title>
             <pubDate>Fri, 30 Oct 2026 13:40:43 +0000</pubDate>
             <sparkle:version>0.99.21</sparkle:version>
