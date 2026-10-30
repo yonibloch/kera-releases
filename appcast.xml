@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.21</title>
+            <pubDate>Fri, 30 Oct 2026 13:40:43 +0000</pubDate>
+            <sparkle:version>0.99.21</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 16</p>
+<p>Earshot conversations come in as meetings.</p>
+<p>When the Earshot processor on this Mac sends a conversation from the watch, Kera adds it to your library by itself, with the time it really happened, and gives it the usual treatment: words, who spoke, names from your saved voices, a title and a summary. Sending the same conversation again adds nothing. Kera never imports while it is recording.</p>
+<p>Transcripts now ask Soniox for its newest model by name.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.21/Kera-v0.99.21.dmg"
+                length="21134530"
+                type="application/octet-stream"
+                sparkle:edSignature="oA1vO3ohPqFgMF6ahJbJXI64rKKGuNYw/U6sbEwqYn87U6tKlZAaXRwVpVv+np7NB8ofQ0aOT09s5gV5DGdcDA==" />
+        </item>
+        <item>
             <title>Version 0.99.20</title>
             <pubDate>Fri, 23 Oct 2026 15:04:37 +0000</pubDate>
             <sparkle:version>0.99.20</sparkle:version>
