@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.26</title>
+            <pubDate>Tue, 03 Nov 2026 23:44:48 +0000</pubDate>
+            <sparkle:version>0.99.26</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 20</p>
+<p>Every automatic sync counts.</p>
+<p>"Last synced" now moves each time Kera checks iCloud on its own, not only after a full sync. Before, a Mac could show a time more than an hour old while it kept syncing, and Earshot, which waits until Kera has synced past a conversation, held its sends until you synced by hand.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.26/Kera-v0.99.26.dmg"
+                length="21191507"
+                type="application/octet-stream"
+                sparkle:edSignature="VQg413Pa96UMN9XkZXRNtdIzxG7++NuocvAC1JKpL1v6awdwb2YjbDvZY1+5jZdRY2e9jdBiVdf/PDrQtKqkBg==" />
+        </item>
+        <item>
             <title>Version 0.99.25</title>
             <pubDate>Tue, 03 Nov 2026 18:19:39 +0000</pubDate>
             <sparkle:version>0.99.25</sparkle:version>
