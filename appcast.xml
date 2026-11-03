@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.25</title>
+            <pubDate>Tue, 03 Nov 2026 18:19:39 +0000</pubDate>
+            <sparkle:version>0.99.25</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 19</p>
+<p>A voice's sample is that voice.</p>
+<p>When you name a new voice, "Play sample" could play someone else, often you. The sample was the voice's longest line, and a line is often long because someone talked over it. Now samples come only from moments where that voice talks and nobody else does, and each one stops before the next person speaks. The same goes for "Try another sample" and for clicking an unnamed voice in the Speakers panel.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.25/Kera-v0.99.25.dmg"
+                length="21190224"
+                type="application/octet-stream"
+                sparkle:edSignature="dxkbrEjqDtzcAcC0Ac4nBQE0gCXDPCeaMqpIAgN3TBL+XwtnlyraahoKrlfq60Rm0w60twclnVXuYoYlieNzBA==" />
+        </item>
+        <item>
             <title>Version 0.99.24</title>
             <pubDate>Sat, 31 Oct 2026 10:10:02 +0000</pubDate>
             <sparkle:version>0.99.24</sparkle:version>
