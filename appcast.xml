@@ -6,6 +6,25 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.29</title>
+            <pubDate>Thu, 05 Nov 2026 19:25:00 +0000</pubDate>
+            <sparkle:version>0.99.29</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 23</p>
+<p>Stop and Quit always finish.</p>
+<p>If macOS's audio got stuck during a recording, Stop and Quit could wait on it forever, with every click doing nothing. Now Stop shows Saving… right away and finishes in moments even with the audio stuck, and Quit never waits more than 30 seconds. If something stays stuck, Kera offers a restart once nothing is recording.</p>
+<p>A lost mic no longer goes unnoticed. If your mic stops during a call, Kera tells you within seconds, keeps recording the call, and keeps trying to get your mic back. Your words stay in the right place in the transcript when it returns.</p>
+<p>Force-quit recordings come back whole. After a force quit or a crash, Process now recovers the entire recording. It used to find the recording and then have nothing it could read.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.29/Kera-v0.99.29.dmg"
+                length="21225487"
+                type="application/octet-stream"
+                sparkle:edSignature="oht9a3ctDidvZKHVasxE/YmCNEmMeadHr3CIRCA9wp0ntPQr6ahDrHh5CssZPRb46n3Ui/EYGsx6pootUNqCDQ==" />
+        </item>
+        <item>
             <title>Version 0.99.28</title>
             <pubDate>Wed, 04 Nov 2026 01:51:55 +0000</pubDate>
             <sparkle:version>0.99.28</sparkle:version>
