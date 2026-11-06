@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.32</title>
+            <pubDate>Fri, 06 Nov 2026 18:30:54 +0000</pubDate>
+            <sparkle:version>0.99.32</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 26</p>
+<p>This beta only touches the Zoom reader, which is off unless you've switched it on.</p>
+<p>Names carry on while you share your screen. Zoom moves its video tiles to a floating window during a share, and the reader used to lose them until the share ended.</p>
+<p>The reader now also notes Zoom's layout, such as which windows are open and whether you're sharing. It takes no pictures, and the note stays on this Mac.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.32/Kera-v0.99.32.dmg"
+                length="21352003"
+                type="application/octet-stream"
+                sparkle:edSignature="FpubCQ86KpDtYP4zGjrey/zsx4HYnyArL/MJzJmL7clcRlWLrMuxgPZGmNqBWw7SeuOY0aoDhUGF9tt56gZ9AA==" />
+        </item>
+        <item>
             <title>Version 0.99.31</title>
             <pubDate>Fri, 06 Nov 2026 14:51:51 +0000</pubDate>
             <sparkle:version>0.99.31</sparkle:version>
