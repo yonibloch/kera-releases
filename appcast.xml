@@ -6,6 +6,26 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.31</title>
+            <pubDate>Fri, 06 Nov 2026 14:51:51 +0000</pubDate>
+            <sparkle:version>0.99.31</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 25</p>
+<p>Skipping Meet in setup isn't final. If you skipped "Find Meet in your browser", Meet & Teams in a browser in Settings now reads off, and turning it on brings up macOS's question. Before, that switch read on and did nothing.</p>
+<p>The setup card says what's really true about your browser. It reads On only when Kera has everything it needs, and it notices when you allow Kera in System Settings.</p>
+<p>The mic check stays out of the way. Pressing Stop while a recording waits for the check now works, and the check can no longer look like a call to Kera. If you quit just as it closes, its temporary file still goes.</p>
+<p>A Soniox key that can't be saved says so. The card stays open and the speech model doesn't start downloading.</p>
+<p>The screenshot shortcut works sooner after you allow Screen Recording, with no restart in the middle of a call.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.31/Kera-v0.99.31.dmg"
+                length="21335427"
+                type="application/octet-stream"
+                sparkle:edSignature="5nz3crMg8klfyBcKUqgv8zpp+wc0mVR+9TmzT2a9BvwEUXrSatv0Df5JgqpBzOMQ7qJu8x1D8tPgi1NyXXSKCg==" />
+        </item>
+        <item>
             <title>Version 0.99.30</title>
             <pubDate>Fri, 06 Nov 2026 00:24:51 +0000</pubDate>
             <sparkle:version>0.99.30</sparkle:version>
