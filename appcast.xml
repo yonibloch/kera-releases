@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.34</title>
+            <pubDate>Fri, 13 Nov 2026 17:22:40 +0000</pubDate>
+            <sparkle:version>0.99.34</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 28</p>
+<p>A transcription you stop now has a way back. Until now, pressing Cancel while a meeting was transcribing hid that meeting for good, even though its audio was safe.</p>
+<p>Meetings now shows a notice for any meeting you stopped in the last 7 days, with a Transcribe button. And Cancel stops only the meeting being transcribed: the ones waiting carry on.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.34/Kera-v0.99.34.dmg"
+                length="21378262"
+                type="application/octet-stream"
+                sparkle:edSignature="0BbMOj3h742vSgc9xZFZiZ0TjBp6M8S4DiSttHwlwZs3V8QpneiJRAE8Fa3PpeLEGIgmR6jpzzU10ZKLwhBNBQ==" />
+        </item>
+        <item>
             <title>Version 0.99.33</title>
             <pubDate>Fri, 06 Nov 2026 19:56:07 +0000</pubDate>
             <sparkle:version>0.99.33</sparkle:version>
