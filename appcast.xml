@@ -6,6 +6,24 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.35</title>
+            <pubDate>Mon, 16 Nov 2026 16:12:46 +0000</pubDate>
+            <sparkle:version>0.99.35</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 29</p>
+<p>Snapshots of a shared screen catch more. They're still off unless you've switched them on.</p>
+<p>In real calls people shared live apps and pages they scrolled, not slides, and Kera kept only one or two pictures of each share. It now looks every 2 seconds, lets small movement such as a clock or a spinner pass as holding still, and keeps pictures at least 15 seconds apart.</p>
+<p>Kera also notes, on your Mac only, how many looks it kept and why it skipped the rest, so the next betas can tune this from real calls.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.35/Kera-v0.99.35.dmg"
+                length="21383305"
+                type="application/octet-stream"
+                sparkle:edSignature="vMfH+Xsxd3Sg3rdD1fQb9Z++r58DAIfIawuKwlIVPI5II2ivr/kCnVi9hyIQJ829PvhKfvEyt2erol0xWggUAA==" />
+        </item>
+        <item>
             <title>Version 0.99.34</title>
             <pubDate>Fri, 13 Nov 2026 17:22:40 +0000</pubDate>
             <sparkle:version>0.99.34</sparkle:version>
