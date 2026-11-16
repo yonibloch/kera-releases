@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.36</title>
+            <pubDate>Mon, 16 Nov 2026 21:17:49 +0000</pubDate>
+            <sparkle:version>0.99.36</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 30</p>
+<p>Cancel now says which meeting it stops. While Kera transcribes, the line at the bottom of the menu-bar window names the meeting: when it started and how long it is, or its title, and how many more are waiting. Before, it only said how many were pending, so Cancel could stop a long call when you meant a short one.</p>
+<p>Hover over Cancel to read exactly what it will stop. The meetings waiting carry on, and a stopped one can be transcribed again from Meetings.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.36/Kera-v0.99.36.dmg"
+                length="21392194"
+                type="application/octet-stream"
+                sparkle:edSignature="GPLxTmHarykGEwM3J84PVc9+b9GU4pGLOa2nOl1M/lIJ67AY091CjGcdcceHREINYMl0kW5ljc+1GwF+fJQ9DA==" />
+        </item>
+        <item>
             <title>Version 0.99.35</title>
             <pubDate>Mon, 16 Nov 2026 16:12:46 +0000</pubDate>
             <sparkle:version>0.99.35</sparkle:version>
