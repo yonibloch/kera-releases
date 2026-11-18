@@ -6,6 +6,23 @@
         <description>Most recent updates to Kera.</description>
         <language>en</language>
         <item>
+            <title>Version 0.99.38</title>
+            <pubDate>Wed, 18 Nov 2026 21:34:34 +0000</pubDate>
+            <sparkle:version>0.99.38</sparkle:version>
+            <sparkle:shortVersionString>1.0 beta 32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<p>Kera 1.0 beta 32</p>
+<p>Names from Zoom now work with the newer Zoom app. Zoom 7.2.5 stopped marking who is talking the way older versions did, so beta 31 couldn't name anyone there. Kera now sees who is talking from how Zoom arranges its video tiles, and after the call names the voices it didn't recognize, the same way as before: the row says "From Zoom", and you press Confirm if it's right.</p>
+<p>It needs three or more people on the call. Voices in your room never get a name from Zoom.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/kera-releases/releases/download/v0.99.38/Kera-v0.99.38.dmg"
+                length="21450946"
+                type="application/octet-stream"
+                sparkle:edSignature="1WF6h0XwFMUEWWL5BkfVrXW2tWYqbfvE4g8GnNC1ErzVqu3+shUmmd8QJajXunxjHJBdlOLtYMC2M5Kmj7u1Cw==" />
+        </item>
+        <item>
             <title>Version 0.99.37</title>
             <pubDate>Tue, 17 Nov 2026 19:20:50 +0000</pubDate>
             <sparkle:version>0.99.37</sparkle:version>
